@@ -39,31 +39,131 @@ NumPy for numerical operations
 
 🗺️ A Tour of the Code
 If you're diving into the files, here's where everything lives:
-├── backend/
-│   ├── cpp/                   👉 C++ Rule Engine (compiles to binary)
-│   │   ├── src/              
-│   │   ├── include/          
-│   │   └── CMakeLists.txt    
-│   └── python/                👉 ML Model & API Gateway
-│       ├── app.py            
-│       ├── ml_engine.py      
-│       └── requirements.txt  
-│
-├── frontend/
-│   ├── index.html             👉 Main dashboard UI
-│   ├── styles/
-│   │   └── main.css           👉 All the styling magic
-│   └── scripts/
-│       └── dashboard.js       👉 Real-time updates & API calls
-│
-├── scripts/                   👉 Tools we used to create fake data
-│   └── generate_data.py      
-│
-├── notebooks/                 👉 Our digital scratchpad
-│   └── model_experiments.ipynb 👉 Where we tested ML models
-│
-├── models/                    👉 (Git ignored) Trained models live here
-└── data/                      👉 (Git ignored) CSVs and training data
+upi-fraud-detector/
+├── .gitignore
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── CMakeLists.txt
+├── data/
+│   └── sample_txns.csv
+├── cpp/
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── csv_reader.h
+│   │   ├── csv_reader.cpp
+│   │   ├── rules.h
+│   │   ├── rules.cpp
+│   │   ├── detector.h
+│   │   └── detector.cpp
+│   └── build/         # created by CMake (should be in .gitignore)
+├── app/
+│   └── upi_ui.py
+├── models/
+│   └── model.joblib   # optional (add to .gitignore unless small)
+├── scripts/
+│   ├── generate_dataset.py
+│   └── train_model.py
+├── notebooks/
+│   └── train.ipynb    # optional EDA/training notebook
+└── .streamlit/
+    └── secrets.toml.example
+
+
+
+
+Top-level
+
+.gitignore — (already provided). Ignore virtualenvs, model files, data, .streamlit/secrets.toml, build/, etc. Must commit.
+
+README.md — (already provided). Project overview, run instructions, demo steps, etc. Must commit.
+
+LICENSE — pick MIT or your favorite license. Must commit.
+
+requirements.txt — (already provided). E.g. streamlit pandas scikit-learn joblib supabase-py python-Levenshtein sendgrid (keep minimal). Must commit.
+
+CMakeLists.txt — (already provided). For building the C++ binary. Must commit.
+
+data/
+
+sample_txns.csv — (already provided). Small synthetic dataset you can run immediately. Must commit for demo reproducibility.
+
+Contains headers: txn_id,timestamp,from_vpa,to_vpa,amount,message,is_new_payee[,severity,why].
+
+Note: any large datasets should go outside the repo or be stored in cloud (Supabase storage / Google Drive).
+
+cpp/
+
+cpp/src/main.cpp — C++ main program (provided). Reads CSV and outputs flagged txns. Must commit.
+
+cpp/src/csv_reader.h / csv_reader.cpp — simple CSV reader (provided). Must commit.
+
+cpp/src/rules.h / rules.cpp — rule definitions (provided). Must commit.
+
+cpp/src/detector.h / detector.cpp — detector and z-score logic (provided). Must commit.
+
+cpp/build/ — build output (do not commit; add to .gitignore).
+
+This C++ code is your engineering core to demo local high-performance detection.
+
+app/
+
+app/upi_ui.py — Streamlit UI (provided).
+
+Handles CSV upload, displays metrics, filtered table with color-coded severity, chart summaries, transaction detail expander, and email-send button.
+
+Reads model (models/model.joblib) if present; or uses rule + z-score fallback.
+
+Uses st.secrets for email/Supabase keys.
+
+Must commit.
+
+models/
+
+models/model.joblib — trained IsolationForest model (optional).
+
+Do not commit large models. If small (<5–10 MB) you may commit for convenience; otherwise add to .gitignore and upload to Supabase Storage or GitHub Release.
+
+If you include the model in repo, mention it in README.
+
+scripts/
+
+scripts/generate_dataset.py — generator to create synthetic CSV with injected scams (I can provide code if you want). Must commit (helps reproducibility).
+
+scripts/train_model.py — training script to generate features and train IsolationForest and save models/model.joblib. Must commit (or include in notebooks/).
+
+notebooks/
+
+notebooks/train.ipynb — optional Jupyter notebook showing data generation, training, evaluation, and visualizations. Optional but helpful.
+
+.streamlit/
+
+.streamlit/secrets.toml.example — template file (do NOT commit .streamlit/secrets.toml with real credentials). In your repo include secrets.toml.example with placeholders:
+
+[email]
+host = "smtp.gmail.com"
+port = "587"
+username = "your.email@gmail.com"
+password = "APP_PASSWORD_HERE"
+
+[sendgrid]
+api_key = "SG.xxxxx"
+from_email = "alerts@example.com"
+
+[supabase]
+url = "https://xyz.supabase.co"
+key = "public-anon-key-or-service-role-key"
+
+
+Instruct collaborators to copy to .streamlit/secrets.toml locally or add secrets to Streamlit Cloud UI before deploy.
+
+Extra helpful files (optional)
+
+.github/ (optional): GitHub Actions workflow to run linters/tests. Not required for hackathon.
+
+docs/: screenshots, demo flows.
+
+deploy/: deployment notes/scripts (optional).
 
 
 
