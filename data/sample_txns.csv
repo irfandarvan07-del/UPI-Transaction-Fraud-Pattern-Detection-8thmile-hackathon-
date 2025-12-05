@@ -1,1003 +1,1001 @@
-
-
-txn_id,timestamp,from_vpa,to_vpa,amount,message,is_new_payee
-T0001,20-06-2024 04:39,rahul@okhdfc,riya@okkotak,23707.11,Recharge,FALSE
-T0002,31-10-2024 01:42,farhan@oksbi,neha@okkotak,16297.8,Groceries,FALSE
-T0003,27-12-2024 20:57,vijay@okyesbank,ramesh@okaxis,36463.74,Shopping,FALSE
-T0004,21-09-2024 13:55,sita@okupi,deepak@oksbi,16959.2,Food order,TRUE
-T0005,26-08-2024 13:07,karan@oksbi,karan@okupi,4864.53,Payment,FALSE
-T0006,27-02-2024 09:52,vijay@okaxis,rahul@okyesbank,39272.88,Groceries,TRUE
-T0007,16-02-2024 16:48,riya@oksbi,neha@okhdfc,1461.15,Transfer,TRUE
-T0008,08-05-2024 19:35,rohan@oksbi,riya@okyesbank,31704.21,Groceries,FALSE
-T0009,16-08-2024 12:11,kiran@okupi,sana@okhdfc,41732.15,Groceries,FALSE
-T0010,07-08-2024 09:44,meena@okhdfc,kiran@okhdfc,18616.65,Bill payment,FALSE
-T0011,16-02-2024 15:19,jatin@okaxis,karan@okaxis,48142.77,Groceries,TRUE
-T0012,03-12-2024 06:37,dev@okaxis,vijay@oksbi,27377.42,Shopping,TRUE
-T0013,14-05-2024 22:02,jatin@okicici,yash@okhdfc,28396.19,Recharge,FALSE
-T0014,21-04-2024 20:03,sita@okaxis,amit@okyesbank,30859.01,Loan repayment,FALSE
-T0015,12-02-2024 11:25,neha@okupi,karan@okhdfc,12931.63,Misc,FALSE
-T0016,05-03-2024 07:42,tina@okupi,vijay@oksbi,14090.94,Loan repayment,TRUE
-T0017,11-06-2024 03:38,dev@okhdfc,tina@okyesbank,9385.01,Misc,FALSE
-T0018,23-04-2024 15:09,deepak@okaxis,arun@okupi,46994.01,Recharge,FALSE
-T0019,11-08-2024 22:18,rohan@okupi,arun@okhdfc,49578.53,Transfer,FALSE
-T0020,04-06-2024 15:52,sita@okkotak,jatin@okyesbank,11218.42,Misc,FALSE
-T0021,24-11-2024 14:07,rohan@okupi,kiran@okyesbank,46170.87,Loan repayment,TRUE
-T0022,01-11-2024 10:39,rahul@okupi,sana@oksbi,17662.88,Food order,TRUE
-T0023,06-02-2024 08:08,vijay@okhdfc,amit@okkotak,37756.49,Groceries,FALSE
-T0024,14-09-2024 15:02,riya@okkotak,meena@okaxis,13959.29,Transfer,FALSE
-T0025,31-07-2024 13:20,rohan@okaxis,jatin@okaxis,41964.86,Bill payment,FALSE
-T0026,26-02-2024 18:10,rahul@okaxis,vijay@okyesbank,37464.52,Transfer,TRUE
-T0027,03-05-2024 14:35,amit@okhdfc,yash@okkotak,49400.09,Food order,FALSE
-T0028,27-02-2024 02:57,neha@okaxis,arun@okicici,41681.05,Groceries,TRUE
-T0029,11-02-2024 19:09,karan@oksbi,rahul@okupi,22684.23,Loan repayment,TRUE
-T0030,17-12-2024 23:17,amit@okaxis,mohan@okicici,13134.8,Shopping,FALSE
-T0031,19-09-2024 07:47,mohan@okkotak,sana@okyesbank,44358.55,Groceries,TRUE
-T0032,05-04-2024 02:36,deepak@okyesbank,meena@okupi,15912.6,Shopping,FALSE
-T0033,31-08-2024 20:00,ramesh@okicici,dev@oksbi,15773.92,Shopping,TRUE
-T0034,09-02-2024 12:29,sana@okaxis,meena@okyesbank,26259.52,Misc,FALSE
-T0035,20-02-2024 23:11,yash@okaxis,rohan@okyesbank,29918.15,Food order,FALSE
-T0036,27-07-2024 07:24,rohan@okicici,farhan@okicici,26660.23,Groceries,TRUE
-T0037,02-08-2024 03:13,karan@okaxis,yash@okyesbank,37697.41,Recharge,FALSE
-T0038,19-10-2024 01:25,vijay@okhdfc,jatin@okicici,17210.64,Shopping,FALSE
-T0039,01-10-2024 07:02,neha@oksbi,deepak@okkotak,40877.44,Shopping,TRUE
-T0040,23-03-2024 15:52,amit@okkotak,vijay@okhdfc,11126.94,Misc,TRUE
-T0041,27-05-2024 11:50,sana@oksbi,kiran@okupi,10404.02,Cashback,FALSE
-T0042,13-07-2024 12:28,karan@okyesbank,farhan@okaxis,44098.44,Transfer,TRUE
-T0043,22-07-2024 13:39,deepak@okyesbank,vijay@okyesbank,20869.57,Cashback,FALSE
-T0044,09-09-2024 01:39,ramesh@okaxis,mohan@okhdfc,10209.55,Recharge,TRUE
-T0045,15-10-2024 07:51,meena@okkotak,rohan@okaxis,3688.54,Transfer,FALSE
-T0046,24-06-2024 15:00,mohan@okkotak,riya@okupi,8550.45,Shopping,FALSE
-T0047,26-06-2024 12:14,karan@okupi,karan@okaxis,1742.36,Groceries,TRUE
-T0048,25-10-2024 04:21,rohan@okhdfc,yash@okhdfc,40071.96,Food order,TRUE
-T0049,20-01-2024 16:31,yash@okkotak,dev@okyesbank,7222.82,Shopping,FALSE
-T0050,12-12-2024 17:12,deepak@okupi,kiran@okaxis,37881.71,Misc,TRUE
-T0051,21-03-2024 20:18,meena@okhdfc,rohan@oksbi,24886.51,Food order,TRUE
-T0052,09-12-2024 20:03,amit@okupi,rahul@okyesbank,18981.76,Transfer,FALSE
-T0053,13-03-2024 22:14,karan@okupi,yash@okkotak,613.84,Bill payment,FALSE
-T0054,01-08-2024 13:12,sana@okyesbank,tina@okyesbank,34499.51,Groceries,FALSE
-T0055,22-07-2024 02:42,karan@okaxis,tina@okupi,23155.75,Food order,TRUE
-T0056,09-06-2024 17:46,mohan@okyesbank,deepak@okhdfc,45589.17,Shopping,TRUE
-T0057,02-10-2024 04:22,deepak@okhdfc,farhan@oksbi,12820.08,Shopping,FALSE
-T0058,17-12-2024 17:39,ramesh@okaxis,neha@okupi,45676.64,Food order,FALSE
-T0059,14-08-2024 03:35,kiran@okyesbank,rohan@okhdfc,19110.14,Groceries,FALSE
-T0060,30-10-2024 13:13,rohan@okyesbank,mohan@okkotak,7824.33,Payment,TRUE
-T0061,15-08-2024 23:38,riya@okupi,kiran@oksbi,9295.13,Payment,TRUE
-T0062,09-12-2024 18:17,amit@okhdfc,dev@okupi,19499.83,Loan repayment,FALSE
-T0063,26-09-2024 02:39,meena@okupi,sita@okupi,33032.63,Cashback,FALSE
-T0064,13-12-2024 10:14,farhan@okicici,meena@okyesbank,2512.65,Transfer,TRUE
-T0065,04-05-2024 06:36,rahul@okicici,mohan@oksbi,46709.06,Groceries,TRUE
-T0066,12-07-2024 00:02,dev@okkotak,dev@okkotak,49071.43,Recharge,FALSE
-T0067,21-12-2024 10:46,amit@okkotak,karan@okkotak,13050.83,Bill payment,TRUE
-T0068,01-07-2024 21:41,deepak@okaxis,vijay@okyesbank,21328.8,Payment,TRUE
-T0069,24-01-2024 11:16,vijay@okicici,jatin@okyesbank,26500.63,Loan repayment,FALSE
-T0070,05-11-2024 13:18,amit@oksbi,kiran@okupi,5457.5,Bill payment,FALSE
-T0071,04-05-2024 16:56,meena@okkotak,sana@okaxis,32735.39,Cashback,FALSE
-T0072,14-02-2024 19:14,arun@okaxis,deepak@oksbi,24886.39,Loan repayment,TRUE
-T0073,08-01-2024 09:24,farhan@okaxis,jatin@okupi,38464.28,Payment,FALSE
-T0074,08-01-2024 16:18,dev@oksbi,ramesh@okupi,10081.3,Groceries,FALSE
-T0075,27-07-2024 19:10,ramesh@oksbi,farhan@oksbi,8926.24,Food order,FALSE
-T0076,07-06-2024 02:55,sana@okyesbank,dev@oksbi,38761.78,Cashback,FALSE
-T0077,16-11-2024 00:44,farhan@okkotak,riya@okyesbank,30334.12,Payment,FALSE
-T0078,24-01-2024 21:07,sana@okhdfc,karan@oksbi,6288.56,Bill payment,TRUE
-T0079,28-08-2024 20:37,dev@okaxis,tina@oksbi,32855.77,Loan repayment,TRUE
-T0080,31-01-2024 03:08,meena@okupi,sana@okyesbank,15174.39,Groceries,FALSE
-T0081,30-04-2024 10:31,amit@okhdfc,riya@okhdfc,25299.87,Shopping,FALSE
-T0082,02-02-2024 21:33,meena@okyesbank,meena@okaxis,37641.43,Transfer,FALSE
-T0083,18-03-2024 03:56,neha@oksbi,meena@okupi,49807.91,Bill payment,FALSE
-T0084,27-01-2024 04:57,ramesh@okhdfc,deepak@okkotak,41060.36,Transfer,TRUE
-T0085,17-08-2024 18:18,dev@okupi,dev@oksbi,44643.83,Cashback,FALSE
-T0086,08-07-2024 20:53,sana@oksbi,sita@oksbi,6697.08,Food order,TRUE
-T0087,14-09-2024 17:10,arun@okkotak,rahul@okhdfc,42922.96,Shopping,FALSE
-T0088,28-06-2024 13:58,meena@oksbi,kiran@okaxis,33719.81,Payment,TRUE
-T0089,24-07-2024 13:44,farhan@okaxis,deepak@okaxis,35922.79,Loan repayment,TRUE
-T0090,16-07-2024 12:14,rahul@okaxis,neha@okyesbank,12296.07,Cashback,FALSE
-T0091,16-02-2024 19:15,kiran@okupi,rahul@oksbi,10700.93,Food order,TRUE
-T0092,21-08-2024 00:33,arun@oksbi,riya@okyesbank,15901.21,Recharge,TRUE
-T0093,14-12-2024 01:21,deepak@okkotak,yash@okaxis,45471.52,Misc,FALSE
-T0094,13-08-2024 07:47,farhan@okicici,jatin@okyesbank,37179.32,Shopping,TRUE
-T0095,15-05-2024 17:38,tina@okicici,kiran@okyesbank,45476.41,Groceries,TRUE
-T0096,09-09-2024 03:32,neha@okkotak,rohan@okaxis,41670.96,Bill payment,FALSE
-T0097,03-05-2024 07:10,farhan@oksbi,deepak@okicici,19653.1,Food order,FALSE
-T0098,22-06-2024 17:32,rahul@okkotak,dev@oksbi,4246.66,Misc,FALSE
-T0099,06-11-2024 10:13,deepak@oksbi,arun@okupi,38806.81,Transfer,FALSE
-T0100,24-10-2024 19:54,neha@okhdfc,meena@okkotak,8025.82,Bill payment,TRUE
-T0101,29-07-2024 12:55,sana@okupi,tina@okkotak,37817.84,Food order,FALSE
-T0102,07-07-2024 01:49,meena@okicici,arun@okkotak,16285.43,Shopping,TRUE
-T0103,15-10-2024 06:14,arun@okupi,jatin@okkotak,35024.04,Loan repayment,TRUE
-T0104,06-10-2024 17:15,rahul@okhdfc,ramesh@okhdfc,21339.73,Loan repayment,FALSE
-T0105,16-12-2024 01:41,rahul@oksbi,meena@oksbi,28017.14,Food order,FALSE
-T0106,04-10-2024 20:31,rahul@okicici,ramesh@okicici,31593.41,Cashback,FALSE
-T0107,16-08-2024 04:16,riya@okaxis,sana@okkotak,8936.8,Food order,FALSE
-T0108,26-03-2024 18:51,jatin@oksbi,rahul@okhdfc,38406.88,Cashback,FALSE
-T0109,16-08-2024 16:22,sita@okaxis,yash@okyesbank,12113.54,Bill payment,FALSE
-T0110,27-01-2024 19:30,kiran@okyesbank,vijay@okaxis,38011.31,Shopping,TRUE
-T0111,04-11-2024 06:32,sita@okupi,kiran@okyesbank,1317,Payment,FALSE
-T0112,16-02-2024 05:14,ramesh@okaxis,jatin@okicici,36062.6,Loan repayment,FALSE
-T0113,28-02-2024 17:45,amit@okaxis,tina@okhdfc,21671.66,Payment,TRUE
-T0114,19-06-2024 20:30,tina@okaxis,amit@okupi,17366.84,Groceries,FALSE
-T0115,07-07-2024 18:18,ramesh@okicici,riya@okkotak,45560.75,Food order,FALSE
-T0116,22-08-2024 03:04,arun@okicici,tina@okhdfc,6564.8,Food order,TRUE
-T0117,02-03-2024 13:51,jatin@okhdfc,sita@okkotak,47108.16,Cashback,FALSE
-T0118,16-06-2024 11:50,jatin@okicici,neha@okhdfc,24068.88,Misc,TRUE
-T0119,29-02-2024 08:48,ramesh@okhdfc,rahul@okicici,14295.34,Cashback,FALSE
-T0120,02-12-2024 10:52,riya@okaxis,vijay@oksbi,8483.32,Transfer,FALSE
-T0121,02-11-2024 09:45,karan@okupi,riya@okkotak,42142.92,Loan repayment,FALSE
-T0122,10-03-2024 00:20,meena@okupi,karan@okkotak,33046.43,Cashback,FALSE
-T0123,11-06-2024 20:41,karan@okaxis,farhan@okkotak,26791.08,Shopping,FALSE
-T0124,22-02-2024 01:59,yash@okkotak,yash@okkotak,30287.13,Loan repayment,FALSE
-T0125,19-05-2024 22:26,amit@oksbi,deepak@oksbi,39984.85,Bill payment,TRUE
-T0126,23-02-2024 22:28,dev@okaxis,rohan@oksbi,20360.74,Bill payment,FALSE
-T0127,15-11-2024 11:06,neha@oksbi,deepak@okaxis,33972.2,Groceries,TRUE
-T0128,12-12-2024 05:44,jatin@oksbi,jatin@okkotak,27484.14,Transfer,TRUE
-T0129,02-03-2024 20:38,vijay@okaxis,rahul@okupi,15881.91,Loan repayment,TRUE
-T0130,15-06-2024 02:00,vijay@oksbi,rohan@okkotak,44842.86,Recharge,FALSE
-T0131,14-12-2024 00:32,arun@okyesbank,riya@okkotak,42327.12,Food order,FALSE
-T0132,02-03-2024 15:26,karan@okupi,rohan@okyesbank,17030.86,Recharge,TRUE
-T0133,18-06-2024 19:36,riya@okhdfc,neha@okupi,5212.86,Loan repayment,FALSE
-T0134,11-04-2024 10:07,rohan@oksbi,mohan@okhdfc,39770.03,Food order,TRUE
-T0135,14-02-2024 10:44,karan@oksbi,rohan@okicici,24049.5,Transfer,TRUE
-T0136,01-09-2024 12:37,vijay@okhdfc,tina@okkotak,38781.25,Food order,TRUE
-T0137,05-10-2024 23:36,rahul@okupi,sana@okaxis,17031.3,Shopping,FALSE
-T0138,11-10-2024 16:26,karan@okupi,ramesh@okyesbank,25983.82,Groceries,TRUE
-T0139,30-06-2024 01:23,sita@okhdfc,yash@okaxis,42281.47,Misc,FALSE
-T0140,27-01-2024 11:00,neha@okicici,neha@okupi,40206.84,Cashback,FALSE
-T0141,20-04-2024 11:08,riya@okupi,yash@okkotak,42617.25,Cashback,FALSE
-T0142,04-06-2024 15:49,sana@okyesbank,meena@okkotak,18981.75,Bill payment,TRUE
-T0143,11-06-2024 10:17,vijay@oksbi,tina@okaxis,49838.38,Recharge,TRUE
-T0144,02-04-2024 00:50,amit@okupi,arun@okkotak,45578.02,Payment,TRUE
-T0145,04-03-2024 08:26,jatin@okupi,mohan@okyesbank,7300.55,Payment,FALSE
-T0146,16-01-2024 03:36,arun@oksbi,jatin@okhdfc,1058.16,Groceries,FALSE
-T0147,03-05-2024 12:21,jatin@okkotak,rohan@okupi,49116.3,Cashback,FALSE
-T0148,11-08-2024 15:04,dev@okkotak,mohan@okaxis,14576.7,Recharge,FALSE
-T0149,13-01-2024 18:10,sita@okaxis,yash@okkotak,47919.03,Payment,TRUE
-T0150,01-11-2024 10:30,meena@okhdfc,rohan@okaxis,20270.54,Groceries,FALSE
-T0151,19-10-2024 06:19,mohan@okaxis,rohan@okyesbank,3833.61,Shopping,TRUE
-T0152,28-10-2024 06:12,karan@okupi,arun@okhdfc,15074.47,Payment,TRUE
-T0153,14-03-2024 06:05,rahul@oksbi,dev@okaxis,24515.94,Cashback,TRUE
-T0154,20-06-2024 20:31,farhan@okupi,neha@okupi,49154.44,Loan repayment,FALSE
-T0155,11-03-2024 22:31,rahul@okhdfc,neha@okkotak,5037.59,Shopping,TRUE
-T0156,10-06-2024 17:55,deepak@okhdfc,farhan@okaxis,45690.72,Transfer,FALSE
-T0157,28-11-2024 01:15,tina@okkotak,rahul@okkotak,33341.81,Food order,TRUE
-T0158,23-07-2024 04:46,deepak@okyesbank,tina@oksbi,4639.07,Groceries,TRUE
-T0159,21-09-2024 19:39,meena@okaxis,riya@okkotak,19263.72,Misc,TRUE
-T0160,26-06-2024 16:20,jatin@oksbi,tina@okupi,11596.78,Recharge,TRUE
-T0161,28-02-2024 10:30,farhan@okaxis,amit@okaxis,41256.97,Cashback,FALSE
-T0162,08-08-2024 20:55,yash@oksbi,neha@okkotak,32807.21,Recharge,FALSE
-T0163,17-12-2024 21:22,karan@okyesbank,amit@okhdfc,8180.81,Recharge,FALSE
-T0164,04-06-2024 21:56,kiran@okyesbank,vijay@okaxis,26349.15,Recharge,TRUE
-T0165,06-03-2024 04:22,jatin@okicici,rahul@okupi,37992.73,Shopping,FALSE
-T0166,07-10-2024 10:57,kiran@okyesbank,kiran@okyesbank,11927.06,Bill payment,FALSE
-T0167,17-10-2024 02:03,amit@okhdfc,yash@okupi,14107.92,Loan repayment,FALSE
-T0168,25-02-2024 23:31,sana@okicici,neha@okhdfc,8034.75,Bill payment,TRUE
-T0169,05-12-2024 02:49,vijay@okyesbank,rohan@okupi,25391.03,Bill payment,FALSE
-T0170,04-05-2024 07:51,rahul@okkotak,jatin@okaxis,13275.57,Recharge,FALSE
-T0171,23-04-2024 19:13,riya@okupi,yash@okyesbank,6386.51,Loan repayment,TRUE
-T0172,24-11-2024 06:40,neha@okkotak,karan@oksbi,19470.36,Recharge,FALSE
-T0173,22-12-2024 09:26,dev@okaxis,neha@okkotak,921.44,Misc,TRUE
-T0174,10-06-2024 15:41,arun@okaxis,neha@okhdfc,10320.02,Food order,TRUE
-T0175,12-07-2024 22:51,ramesh@okhdfc,arun@okaxis,15249.39,Misc,FALSE
-T0176,27-11-2024 21:58,jatin@okyesbank,dev@okkotak,25989.78,Loan repayment,FALSE
-T0177,15-12-2024 14:08,rohan@okhdfc,ramesh@okaxis,29656.43,Payment,TRUE
-T0178,18-05-2024 09:08,vijay@okicici,karan@okkotak,44009.68,Food order,TRUE
-T0179,27-04-2024 10:31,kiran@okhdfc,mohan@oksbi,24107.73,Recharge,FALSE
-T0180,24-10-2024 03:05,tina@okupi,neha@okupi,42673.87,Bill payment,FALSE
-T0181,31-01-2024 15:14,sita@okaxis,riya@okyesbank,42783.54,Loan repayment,FALSE
-T0182,05-09-2024 07:12,riya@okicici,sana@oksbi,19735.91,Bill payment,TRUE
-T0183,11-08-2024 01:26,karan@okaxis,arun@okyesbank,28372.32,Loan repayment,FALSE
-T0184,01-04-2024 13:43,sita@okaxis,amit@oksbi,18001.33,Loan repayment,FALSE
-T0185,22-03-2024 08:45,kiran@okicici,mohan@okupi,40071.56,Transfer,TRUE
-T0186,24-01-2024 18:02,sana@okhdfc,kiran@okhdfc,15973.89,Groceries,TRUE
-T0187,27-11-2024 01:35,rahul@oksbi,dev@okaxis,26311.16,Shopping,FALSE
-T0188,23-09-2024 12:13,amit@okyesbank,amit@okaxis,24800.16,Loan repayment,TRUE
-T0189,08-08-2024 07:40,ramesh@okupi,kiran@okkotak,31738.72,Shopping,FALSE
-T0190,26-09-2024 02:50,sita@oksbi,neha@oksbi,27166.56,Bill payment,TRUE
-T0191,17-04-2024 02:07,meena@oksbi,farhan@okhdfc,2338.18,Payment,FALSE
-T0192,26-10-2024 07:38,ramesh@okaxis,meena@okkotak,28933.36,Payment,TRUE
-T0193,01-06-2024 22:26,karan@okupi,rohan@okhdfc,44839.74,Cashback,FALSE
-T0194,25-02-2024 14:09,sana@okicici,karan@okicici,34329.69,Food order,TRUE
-T0195,29-05-2024 07:42,ramesh@okaxis,farhan@okupi,25050.8,Groceries,TRUE
-T0196,15-07-2024 02:27,amit@okaxis,arun@okicici,47428.95,Loan repayment,FALSE
-T0197,13-03-2024 16:18,deepak@okkotak,amit@okhdfc,47613.99,Food order,TRUE
-T0198,08-07-2024 21:38,tina@okyesbank,meena@okupi,10571.32,Payment,TRUE
-T0199,04-06-2024 00:46,rohan@okicici,arun@okhdfc,31531.79,Cashback,FALSE
-T0200,02-01-2024 20:13,arun@okhdfc,yash@okicici,23259,Groceries,TRUE
-T0201,09-12-2024 18:35,deepak@okupi,meena@okicici,40030.73,Transfer,TRUE
-T0202,22-03-2024 03:34,riya@okaxis,tina@oksbi,48120.39,Groceries,TRUE
-T0203,27-01-2024 15:29,rohan@okhdfc,ramesh@okhdfc,17325.38,Recharge,TRUE
-T0204,16-05-2024 09:58,rahul@okkotak,dev@okaxis,20894.07,Transfer,FALSE
-T0205,21-03-2024 09:52,meena@okaxis,jatin@okicici,31404.35,Recharge,FALSE
-T0206,14-01-2024 19:15,ramesh@okhdfc,farhan@okkotak,23009.4,Payment,FALSE
-T0207,17-06-2024 12:03,mohan@okicici,vijay@oksbi,44182.8,Cashback,FALSE
-T0208,02-09-2024 16:42,deepak@okicici,karan@okyesbank,37703.84,Cashback,TRUE
-T0209,29-07-2024 09:03,yash@okyesbank,rohan@okupi,11651.57,Bill payment,FALSE
-T0210,14-06-2024 11:54,sita@okkotak,karan@okaxis,20715.84,Food order,TRUE
-T0211,31-05-2024 02:53,deepak@okicici,deepak@okhdfc,919.93,Loan repayment,TRUE
-T0212,18-01-2024 04:28,yash@oksbi,rahul@okaxis,16822.06,Recharge,TRUE
-T0213,17-12-2024 11:48,tina@okicici,jatin@okaxis,37754.04,Payment,TRUE
-T0214,16-04-2024 07:12,rohan@okaxis,vijay@okicici,23709.8,Cashback,FALSE
-T0215,14-08-2024 04:50,riya@okyesbank,arun@okaxis,41269.11,Transfer,TRUE
-T0216,16-07-2024 20:41,sana@okhdfc,sita@oksbi,8087.94,Payment,TRUE
-T0217,20-02-2024 22:13,jatin@okkotak,sana@okaxis,21855.96,Payment,TRUE
-T0218,05-06-2024 16:38,yash@okyesbank,neha@oksbi,47998.91,Bill payment,FALSE
-T0219,29-11-2024 16:44,rahul@okaxis,rahul@okhdfc,23827.22,Food order,TRUE
-T0220,21-02-2024 07:12,rohan@okyesbank,ramesh@okupi,6198.65,Cashback,FALSE
-T0221,26-10-2024 12:25,farhan@okkotak,ramesh@okaxis,19472.66,Transfer,FALSE
-T0222,14-03-2024 11:43,farhan@okkotak,yash@okkotak,27337.15,Loan repayment,FALSE
-T0223,31-10-2024 14:27,meena@okkotak,vijay@okicici,21609.82,Recharge,TRUE
-T0224,02-10-2024 19:10,sana@okkotak,deepak@okkotak,28344.2,Payment,FALSE
-T0225,09-12-2024 00:34,meena@okicici,arun@okupi,23467.3,Loan repayment,TRUE
-T0226,17-02-2024 14:23,dev@okicici,rohan@okicici,4858.56,Food order,TRUE
-T0227,28-02-2024 23:56,jatin@okhdfc,amit@okupi,18466.35,Transfer,FALSE
-T0228,19-02-2024 23:56,ramesh@okupi,meena@okupi,9089.44,Loan repayment,FALSE
-T0229,17-08-2024 15:18,deepak@oksbi,vijay@okupi,38489.69,Recharge,FALSE
-T0230,17-07-2024 00:50,deepak@okkotak,sana@okicici,6439.67,Shopping,TRUE
-T0231,10-12-2024 14:47,tina@okkotak,amit@okhdfc,9888.09,Food order,TRUE
-T0232,05-12-2024 20:25,rohan@okicici,rahul@okicici,43487.99,Recharge,FALSE
-T0233,13-11-2024 11:31,amit@okaxis,mohan@okaxis,48225.7,Food order,TRUE
-T0234,03-07-2024 11:34,karan@oksbi,farhan@okupi,20511.13,Loan repayment,TRUE
-T0235,17-10-2024 03:49,rahul@okicici,kiran@okaxis,41730.63,Payment,FALSE
-T0236,22-11-2024 14:11,deepak@okicici,arun@okupi,41147.76,Misc,TRUE
-T0237,20-07-2024 21:00,amit@okaxis,sana@okyesbank,24191.78,Recharge,FALSE
-T0238,21-06-2024 14:12,farhan@okyesbank,rohan@okaxis,2142.65,Bill payment,TRUE
-T0239,13-09-2024 10:19,dev@okaxis,sana@oksbi,6174.96,Food order,FALSE
-T0240,13-10-2024 12:33,meena@okaxis,karan@okkotak,43977.32,Recharge,FALSE
-T0241,31-01-2024 16:33,rahul@okaxis,deepak@okupi,38021.4,Misc,FALSE
-T0242,05-01-2024 14:20,rahul@oksbi,farhan@okupi,47691.95,Payment,TRUE
-T0243,28-06-2024 02:47,farhan@okicici,neha@okyesbank,20360.54,Payment,TRUE
-T0244,24-12-2024 03:22,farhan@okicici,kiran@okyesbank,18960.97,Cashback,TRUE
-T0245,19-01-2024 17:22,jatin@okyesbank,karan@okaxis,1335.5,Misc,TRUE
-T0246,30-12-2024 22:09,yash@okaxis,meena@okyesbank,10947.63,Transfer,TRUE
-T0247,02-11-2024 08:37,sita@okhdfc,rahul@okyesbank,11841.4,Misc,FALSE
-T0248,30-03-2024 19:31,ramesh@okupi,kiran@oksbi,32254.1,Shopping,TRUE
-T0249,31-05-2024 22:18,tina@okicici,sita@okhdfc,13032.2,Transfer,TRUE
-T0250,31-03-2024 23:49,arun@okhdfc,neha@okicici,33725.49,Payment,FALSE
-T0251,01-10-2024 19:56,mohan@oksbi,arun@okyesbank,42884.13,Cashback,FALSE
-T0252,12-01-2024 21:51,meena@okupi,deepak@okyesbank,43826.59,Misc,FALSE
-T0253,23-06-2024 23:34,karan@okaxis,sita@okyesbank,8885.26,Cashback,TRUE
-T0254,29-12-2024 02:35,yash@okhdfc,deepak@oksbi,25107.36,Bill payment,FALSE
-T0255,15-09-2024 13:55,sita@okaxis,farhan@okyesbank,9147.96,Transfer,TRUE
-T0256,19-10-2024 17:40,sana@oksbi,yash@okyesbank,20825.13,Loan repayment,FALSE
-T0257,24-10-2024 19:55,dev@oksbi,neha@okupi,5839.26,Cashback,FALSE
-T0258,19-10-2024 16:44,deepak@oksbi,arun@okhdfc,1813.95,Groceries,FALSE
-T0259,18-10-2024 01:51,neha@okhdfc,rahul@okhdfc,2992.32,Loan repayment,FALSE
-T0260,11-03-2024 12:16,kiran@oksbi,ramesh@okicici,38343.77,Groceries,TRUE
-T0261,20-09-2024 03:19,rohan@okaxis,deepak@okhdfc,29908.76,Payment,TRUE
-T0262,02-09-2024 10:59,meena@okyesbank,rahul@okupi,12470.49,Cashback,TRUE
-T0263,06-11-2024 14:32,sita@okhdfc,farhan@okhdfc,17036.5,Bill payment,FALSE
-T0264,20-08-2024 04:06,amit@okhdfc,neha@okkotak,30336.52,Loan repayment,TRUE
-T0265,26-04-2024 04:50,jatin@okaxis,rahul@okyesbank,29747.88,Transfer,FALSE
-T0266,19-11-2024 12:11,neha@okkotak,ramesh@okaxis,11997.62,Recharge,FALSE
-T0267,11-05-2024 14:48,neha@okhdfc,jatin@okkotak,12817.94,Payment,TRUE
-T0268,02-04-2024 01:56,vijay@okkotak,tina@okupi,35012.01,Misc,FALSE
-T0269,27-04-2024 14:00,yash@okyesbank,riya@okupi,29185.97,Transfer,FALSE
-T0270,20-04-2024 03:10,karan@okhdfc,sita@okyesbank,9077.25,Groceries,FALSE
-T0271,15-04-2024 12:15,jatin@okyesbank,mohan@okkotak,20845.61,Food order,FALSE
-T0272,06-05-2024 22:02,ramesh@okhdfc,tina@oksbi,46629.77,Cashback,FALSE
-T0273,02-03-2024 14:04,farhan@okhdfc,farhan@okupi,28907.1,Payment,FALSE
-T0274,09-04-2024 02:12,jatin@okhdfc,vijay@okicici,5795.77,Loan repayment,TRUE
-T0275,03-12-2024 19:51,rahul@okhdfc,rahul@okaxis,44226.37,Misc,FALSE
-T0276,24-03-2024 06:58,tina@okaxis,rahul@oksbi,30551.6,Transfer,FALSE
-T0277,02-04-2024 07:20,sita@okyesbank,neha@okyesbank,2520.6,Food order,TRUE
-T0278,04-03-2024 05:27,riya@okicici,deepak@okicici,32444.13,Food order,FALSE
-T0279,27-02-2024 02:16,meena@okhdfc,rahul@oksbi,40529.03,Food order,FALSE
-T0280,30-10-2024 03:46,sana@okaxis,sana@okupi,34536.62,Loan repayment,TRUE
-T0281,05-09-2024 18:19,farhan@oksbi,neha@okupi,44034.13,Recharge,FALSE
-T0282,19-06-2024 23:13,deepak@okupi,yash@oksbi,9974.96,Cashback,FALSE
-T0283,05-05-2024 12:47,dev@okicici,vijay@okupi,4959.1,Groceries,TRUE
-T0284,02-07-2024 07:35,dev@okkotak,mohan@okyesbank,43630.83,Loan repayment,TRUE
-T0285,28-12-2024 05:25,mohan@okupi,vijay@oksbi,40972.85,Shopping,FALSE
-T0286,09-10-2024 22:21,jatin@okhdfc,sana@okaxis,37171.37,Loan repayment,TRUE
-T0287,02-10-2024 06:32,deepak@okaxis,rahul@okyesbank,38734.62,Bill payment,FALSE
-T0288,12-07-2024 06:36,karan@okhdfc,sana@okkotak,7310.64,Shopping,FALSE
-T0289,08-11-2024 10:31,mohan@okkotak,sita@okicici,11747.57,Loan repayment,FALSE
-T0290,28-10-2024 11:26,kiran@okaxis,dev@okhdfc,25579.69,Groceries,TRUE
-T0291,29-04-2024 12:25,neha@okyesbank,sita@okaxis,27830.8,Bill payment,FALSE
-T0292,05-04-2024 00:10,dev@okupi,vijay@okupi,41627.9,Cashback,TRUE
-T0293,26-08-2024 02:07,farhan@okyesbank,ramesh@okkotak,158.15,Groceries,FALSE
-T0294,25-07-2024 12:41,mohan@okicici,rahul@okupi,39436.48,Misc,FALSE
-T0295,01-04-2024 11:05,jatin@oksbi,sana@okkotak,44848.68,Loan repayment,FALSE
-T0296,23-04-2024 23:03,dev@okaxis,neha@okicici,23645.43,Cashback,FALSE
-T0297,23-01-2024 04:39,kiran@okkotak,tina@okupi,9797.41,Bill payment,TRUE
-T0298,16-10-2024 07:17,jatin@okkotak,yash@okkotak,24622.17,Groceries,TRUE
-T0299,26-06-2024 03:26,farhan@okkotak,amit@okupi,26527.85,Misc,TRUE
-T0300,11-11-2024 14:08,riya@okyesbank,riya@okyesbank,42497.16,Transfer,FALSE
-T0301,10-12-2024 22:05,yash@okaxis,rahul@okkotak,49742.35,Cashback,TRUE
-T0302,13-06-2024 18:57,sita@okhdfc,farhan@okyesbank,30294.41,Payment,FALSE
-T0303,20-11-2024 10:02,ramesh@oksbi,kiran@okupi,22153.92,Bill payment,TRUE
-T0304,18-01-2024 19:04,arun@okicici,jatin@okyesbank,13408.91,Groceries,TRUE
-T0305,14-06-2024 20:30,farhan@oksbi,rohan@okyesbank,9255.13,Payment,FALSE
-T0306,11-04-2024 19:01,meena@oksbi,sita@okyesbank,11174.69,Payment,TRUE
-T0307,07-04-2024 03:35,jatin@okupi,rahul@oksbi,10135.35,Groceries,FALSE
-T0308,29-04-2024 09:19,rohan@oksbi,rohan@okicici,10074.25,Transfer,FALSE
-T0309,30-07-2024 18:19,kiran@okyesbank,farhan@okhdfc,31715.42,Recharge,FALSE
-T0310,28-12-2024 01:20,rahul@okaxis,meena@okyesbank,14598.14,Groceries,TRUE
-T0311,29-06-2024 12:08,deepak@okupi,rohan@okaxis,22597.68,Misc,TRUE
-T0312,01-12-2024 08:51,jatin@okyesbank,kiran@okyesbank,41494.41,Cashback,TRUE
-T0313,03-11-2024 12:51,sita@oksbi,kiran@okupi,7986.83,Cashback,TRUE
-T0314,01-03-2024 16:30,tina@oksbi,meena@oksbi,35585.98,Recharge,TRUE
-T0315,26-01-2024 01:37,dev@okkotak,karan@okkotak,18969.34,Bill payment,FALSE
-T0316,26-03-2024 02:17,sita@okaxis,kiran@oksbi,4350.34,Cashback,TRUE
-T0317,25-07-2024 13:15,amit@okyesbank,kiran@okaxis,23101.48,Transfer,FALSE
-T0318,22-04-2024 09:24,meena@okkotak,meena@okupi,40008.75,Misc,TRUE
-T0319,24-11-2024 12:59,yash@okyesbank,rohan@okaxis,46769.78,Shopping,TRUE
-T0320,04-10-2024 18:04,meena@okkotak,dev@okicici,37340.21,Loan repayment,TRUE
-T0321,03-03-2024 08:55,amit@okkotak,kiran@okicici,10173.41,Cashback,TRUE
-T0322,27-03-2024 00:07,sita@oksbi,sita@okkotak,40519.36,Recharge,TRUE
-T0323,10-06-2024 19:32,mohan@okhdfc,neha@okupi,41862.01,Cashback,TRUE
-T0324,18-08-2024 09:28,ramesh@okaxis,dev@okaxis,15472.84,Loan repayment,FALSE
-T0325,24-06-2024 07:34,deepak@okicici,rahul@okupi,37342.03,Groceries,TRUE
-T0326,01-04-2024 14:46,mohan@okupi,karan@okicici,32320.95,Transfer,FALSE
-T0327,04-05-2024 09:15,tina@okupi,farhan@okupi,42010.64,Groceries,FALSE
-T0328,19-09-2024 21:25,riya@okicici,amit@okkotak,21265.58,Bill payment,FALSE
-T0329,19-07-2024 02:42,kiran@okaxis,meena@oksbi,24361.9,Payment,FALSE
-T0330,11-05-2024 11:14,tina@okupi,neha@oksbi,32518.01,Shopping,FALSE
-T0331,17-07-2024 14:37,meena@oksbi,meena@okaxis,13923.36,Recharge,TRUE
-T0332,18-07-2024 16:11,mohan@okhdfc,mohan@okkotak,35015.1,Transfer,FALSE
-T0333,04-02-2024 06:14,mohan@okhdfc,arun@okaxis,1395.7,Payment,FALSE
-T0334,13-07-2024 22:46,arun@oksbi,yash@okhdfc,16316.29,Misc,FALSE
-T0335,12-02-2024 18:16,jatin@okyesbank,karan@okaxis,12187.67,Groceries,TRUE
-T0336,19-03-2024 23:15,rahul@okyesbank,jatin@okupi,22237.38,Shopping,FALSE
-T0337,26-01-2024 03:54,vijay@okupi,farhan@okupi,41778.99,Payment,FALSE
-T0338,13-02-2024 19:28,kiran@oksbi,tina@okupi,23445.87,Misc,FALSE
-T0339,13-02-2024 15:45,ramesh@oksbi,farhan@okicici,8513.4,Groceries,TRUE
-T0340,21-10-2024 06:05,arun@oksbi,mohan@okupi,821.67,Loan repayment,TRUE
-T0341,24-07-2024 02:29,amit@oksbi,amit@okupi,8320.14,Groceries,FALSE
-T0342,15-01-2024 06:30,amit@okhdfc,deepak@okkotak,12144.79,Misc,TRUE
-T0343,04-03-2024 18:30,jatin@okicici,yash@okhdfc,11654.26,Loan repayment,FALSE
-T0344,11-09-2024 23:19,tina@okupi,kiran@okicici,28448.56,Recharge,FALSE
-T0345,19-08-2024 02:40,arun@okyesbank,karan@okicici,2845.81,Payment,TRUE
-T0346,12-01-2024 10:02,meena@okyesbank,ramesh@okyesbank,5099.69,Misc,FALSE
-T0347,27-11-2024 13:51,mohan@okyesbank,neha@okicici,47665.54,Groceries,TRUE
-T0348,02-04-2024 10:08,sita@okkotak,deepak@okkotak,49915.15,Loan repayment,FALSE
-T0349,26-11-2024 09:46,mohan@okhdfc,riya@okaxis,26818.93,Payment,TRUE
-T0350,01-03-2024 05:52,tina@okicici,sana@oksbi,43856.33,Cashback,FALSE
-T0351,04-07-2024 12:35,kiran@okupi,farhan@okyesbank,20395.48,Groceries,FALSE
-T0352,01-04-2024 16:08,rohan@okkotak,rohan@okaxis,38149.81,Misc,FALSE
-T0353,19-04-2024 17:45,karan@okaxis,vijay@okicici,1232.72,Loan repayment,TRUE
-T0354,25-12-2024 23:57,neha@okaxis,sana@okkotak,35731.89,Cashback,TRUE
-T0355,12-10-2024 16:04,arun@okaxis,rohan@okyesbank,31172.72,Groceries,FALSE
-T0356,08-01-2024 13:08,karan@oksbi,mohan@oksbi,695.55,Cashback,FALSE
-T0357,24-10-2024 20:12,kiran@okaxis,ramesh@okicici,927.37,Shopping,FALSE
-T0358,31-05-2024 02:19,rohan@okicici,ramesh@okkotak,8602.39,Groceries,FALSE
-T0359,02-08-2024 09:32,farhan@okyesbank,vijay@okicici,17662.57,Shopping,FALSE
-T0360,06-09-2024 00:05,deepak@okicici,dev@okicici,5767.75,Food order,FALSE
-T0361,24-03-2024 18:57,kiran@okkotak,deepak@okaxis,41693.14,Transfer,TRUE
-T0362,01-08-2024 03:38,jatin@okupi,kiran@okupi,43100.44,Cashback,TRUE
-T0363,30-08-2024 02:10,rohan@okyesbank,dev@oksbi,22128.99,Groceries,FALSE
-T0364,14-02-2024 02:24,sana@okyesbank,amit@okkotak,33708.97,Loan repayment,TRUE
-T0365,08-06-2024 13:46,jatin@oksbi,sana@okupi,16603.34,Groceries,TRUE
-T0366,10-03-2024 15:49,sana@okupi,meena@okupi,46062.54,Shopping,TRUE
-T0367,06-07-2024 07:22,meena@okyesbank,arun@okupi,20910.56,Transfer,TRUE
-T0368,07-11-2024 07:06,farhan@okkotak,kiran@oksbi,44809.53,Bill payment,TRUE
-T0369,04-03-2024 00:26,rohan@okupi,jatin@okkotak,37721.09,Cashback,TRUE
-T0370,24-02-2024 12:58,yash@okicici,rahul@okyesbank,22353.1,Loan repayment,FALSE
-T0371,13-09-2024 13:40,dev@okupi,neha@okupi,49951.05,Loan repayment,TRUE
-T0372,09-11-2024 18:56,kiran@okaxis,sana@okupi,11023.17,Food order,TRUE
-T0373,26-02-2024 08:15,tina@oksbi,karan@okkotak,19606.57,Transfer,FALSE
-T0374,31-10-2024 10:45,sana@okaxis,amit@okicici,11386.83,Recharge,TRUE
-T0375,23-02-2024 07:43,amit@okaxis,rahul@okyesbank,15465.36,Recharge,FALSE
-T0376,27-03-2024 01:52,rohan@okyesbank,kiran@okkotak,14935.15,Misc,FALSE
-T0377,04-06-2024 06:39,vijay@okkotak,tina@okkotak,47609.43,Payment,FALSE
-T0378,25-02-2024 02:39,farhan@oksbi,mohan@okicici,31845.65,Food order,TRUE
-T0379,22-09-2024 21:42,dev@okyesbank,yash@oksbi,32514.01,Cashback,FALSE
-T0380,26-06-2024 06:14,dev@okupi,karan@okkotak,713.91,Payment,TRUE
-T0381,26-02-2024 00:15,riya@okkotak,sita@okkotak,4540.23,Payment,TRUE
-T0382,19-07-2024 02:09,vijay@okkotak,mohan@okupi,11173,Food order,TRUE
-T0383,25-08-2024 14:59,mohan@okhdfc,rahul@okyesbank,33745.82,Payment,FALSE
-T0384,07-03-2024 00:58,tina@okyesbank,neha@oksbi,1045.1,Recharge,FALSE
-T0385,12-11-2024 01:30,rahul@oksbi,mohan@oksbi,21812.27,Transfer,TRUE
-T0386,16-08-2024 22:25,mohan@okkotak,dev@oksbi,8307.72,Payment,FALSE
-T0387,15-03-2024 16:56,riya@okhdfc,vijay@okicici,31075.69,Loan repayment,FALSE
-T0388,26-06-2024 00:21,rahul@okicici,neha@okupi,22900.6,Cashback,TRUE
-T0389,08-09-2024 21:27,kiran@okupi,tina@okaxis,1789.46,Recharge,FALSE
-T0390,28-12-2024 05:31,rohan@oksbi,farhan@okicici,24743.35,Shopping,TRUE
-T0391,20-09-2024 19:33,mohan@oksbi,deepak@okupi,22263.1,Food order,FALSE
-T0392,15-10-2024 06:09,yash@okicici,arun@okhdfc,34628.78,Misc,FALSE
-T0393,23-05-2024 06:43,neha@oksbi,amit@okkotak,7474.31,Cashback,FALSE
-T0394,02-07-2024 08:09,arun@okhdfc,rohan@okyesbank,38869.09,Shopping,TRUE
-T0395,05-03-2024 01:01,arun@okhdfc,riya@okicici,46028.45,Shopping,TRUE
-T0396,22-07-2024 10:50,meena@okupi,kiran@okicici,17418.44,Misc,TRUE
-T0397,25-10-2024 00:24,karan@okkotak,karan@okhdfc,16476.72,Recharge,TRUE
-T0398,10-02-2024 17:04,deepak@okupi,mohan@okyesbank,44788.16,Food order,TRUE
-T0399,04-02-2024 02:14,sita@okupi,dev@oksbi,42578.72,Recharge,FALSE
-T0400,03-11-2024 14:13,yash@okyesbank,sana@okyesbank,9493.23,Payment,FALSE
-T0401,08-04-2024 06:56,sana@okyesbank,arun@okupi,13650.92,Shopping,TRUE
-T0402,12-06-2024 06:18,neha@okhdfc,rahul@okyesbank,30940.29,Bill payment,FALSE
-T0403,28-02-2024 21:16,rahul@okaxis,amit@okkotak,24423.44,Payment,FALSE
-T0404,18-03-2024 13:26,neha@okhdfc,meena@okaxis,22086.18,Cashback,FALSE
-T0405,29-01-2024 19:47,tina@okhdfc,deepak@okaxis,38060.19,Shopping,TRUE
-T0406,04-07-2024 16:11,mohan@okaxis,dev@okaxis,914,Loan repayment,TRUE
-T0407,26-05-2024 02:37,mohan@okicici,sita@oksbi,25269.88,Shopping,FALSE
-T0408,04-10-2024 11:59,sita@okkotak,farhan@okupi,43116.51,Misc,FALSE
-T0409,06-01-2024 07:14,farhan@okyesbank,farhan@okicici,33747.43,Recharge,FALSE
-T0410,07-03-2024 05:11,ramesh@okkotak,vijay@okyesbank,6179.22,Cashback,TRUE
-T0411,25-08-2024 05:21,riya@okicici,meena@okaxis,49551.94,Cashback,FALSE
-T0412,04-09-2024 15:05,rahul@okhdfc,kiran@oksbi,14093.97,Groceries,TRUE
-T0413,08-02-2024 06:32,deepak@okkotak,rohan@okkotak,20394.38,Misc,TRUE
-T0414,17-09-2024 11:47,amit@oksbi,farhan@okhdfc,48289.83,Cashback,TRUE
-T0415,04-09-2024 22:45,sita@oksbi,sana@okupi,21557.51,Payment,FALSE
-T0416,07-08-2024 07:32,karan@oksbi,amit@okicici,34519.47,Recharge,FALSE
-T0417,24-12-2024 01:28,tina@okyesbank,mohan@okyesbank,39274.03,Cashback,FALSE
-T0418,26-07-2024 07:26,farhan@okkotak,rahul@okhdfc,18642.24,Loan repayment,TRUE
-T0419,20-08-2024 14:57,karan@okkotak,sana@okkotak,7541.47,Transfer,FALSE
-T0420,23-03-2024 21:45,kiran@okicici,sana@okupi,30525.8,Food order,TRUE
-T0421,15-05-2024 14:48,mohan@okicici,amit@okhdfc,36625.14,Payment,TRUE
-T0422,20-11-2024 05:29,mohan@okupi,deepak@okaxis,4669.72,Transfer,TRUE
-T0423,12-09-2024 08:23,sana@okhdfc,dev@oksbi,18011.11,Misc,TRUE
-T0424,16-03-2024 23:56,sana@okyesbank,yash@okyesbank,21938.28,Cashback,TRUE
-T0425,03-04-2024 19:16,sita@okaxis,sana@okaxis,13429.32,Groceries,TRUE
-T0426,10-10-2024 03:49,kiran@oksbi,jatin@okyesbank,42295.75,Cashback,TRUE
-T0427,08-11-2024 08:51,vijay@okhdfc,sana@okupi,8355.3,Groceries,TRUE
-T0428,16-01-2024 10:26,sita@okicici,jatin@okkotak,3861.93,Payment,FALSE
-T0429,06-11-2024 12:49,sita@okicici,yash@okupi,5956.01,Misc,FALSE
-T0430,03-10-2024 07:57,arun@okyesbank,amit@okhdfc,18535.52,Groceries,FALSE
-T0431,04-05-2024 03:21,riya@oksbi,yash@okkotak,1086.39,Food order,FALSE
-T0432,25-11-2024 23:51,sita@okicici,rahul@okicici,33634.81,Bill payment,FALSE
-T0433,29-11-2024 08:32,mohan@oksbi,neha@oksbi,19457.43,Bill payment,TRUE
-T0434,05-05-2024 21:33,karan@okhdfc,yash@okyesbank,46060.18,Cashback,TRUE
-T0435,18-11-2024 18:57,farhan@oksbi,mohan@okicici,34043.92,Misc,TRUE
-T0436,09-10-2024 13:57,dev@okaxis,arun@okkotak,33486.5,Recharge,TRUE
-T0437,29-12-2024 20:47,meena@okicici,riya@okhdfc,35838.36,Recharge,FALSE
-T0438,16-10-2024 02:50,dev@oksbi,kiran@okhdfc,33954.13,Recharge,FALSE
-T0439,19-03-2024 17:04,sana@okupi,neha@okaxis,1172.71,Loan repayment,FALSE
-T0440,10-07-2024 08:08,amit@okupi,tina@okhdfc,44464.85,Transfer,FALSE
-T0441,03-06-2024 23:12,arun@okaxis,arun@okicici,6366.79,Shopping,FALSE
-T0442,20-01-2024 17:13,dev@okaxis,mohan@okyesbank,36889.12,Misc,TRUE
-T0443,01-10-2024 02:10,meena@okaxis,dev@oksbi,21142.49,Transfer,FALSE
-T0444,25-01-2024 16:26,mohan@okyesbank,vijay@oksbi,14736.53,Payment,TRUE
-T0445,23-01-2024 22:40,amit@okupi,meena@oksbi,43373.72,Transfer,TRUE
-T0446,04-03-2024 17:18,rahul@okupi,sita@okicici,7754.26,Groceries,TRUE
-T0447,25-02-2024 07:13,meena@okicici,vijay@okicici,43175.56,Transfer,TRUE
-T0448,01-05-2024 04:01,dev@okaxis,vijay@okaxis,21577.33,Transfer,FALSE
-T0449,01-08-2024 00:24,jatin@okkotak,tina@okhdfc,31357.78,Shopping,TRUE
-T0450,15-03-2024 15:31,mohan@okaxis,vijay@okaxis,28915.98,Cashback,TRUE
-T0451,16-06-2024 06:33,dev@okyesbank,meena@okaxis,48599.64,Recharge,FALSE
-T0452,15-06-2024 09:23,ramesh@okicici,karan@okicici,801.9,Payment,TRUE
-T0453,29-10-2024 15:25,tina@okaxis,rohan@okupi,13759,Misc,FALSE
-T0454,28-07-2024 20:05,amit@okkotak,deepak@okyesbank,12389.17,Payment,FALSE
-T0455,30-09-2024 10:40,amit@oksbi,amit@okkotak,46780.8,Cashback,TRUE
-T0456,04-02-2024 19:03,neha@okupi,rahul@okaxis,43650.71,Shopping,TRUE
-T0457,12-10-2024 19:14,amit@okkotak,yash@okupi,1280.52,Misc,FALSE
-T0458,12-12-2024 23:03,yash@okyesbank,ramesh@okupi,12264.95,Shopping,TRUE
-T0459,28-03-2024 09:03,karan@oksbi,sita@okupi,42189.31,Food order,FALSE
-T0460,05-10-2024 09:41,yash@oksbi,deepak@okkotak,47721.26,Recharge,FALSE
-T0461,15-04-2024 03:55,sita@okicici,dev@okicici,6497.12,Cashback,FALSE
-T0462,18-11-2024 01:03,tina@okaxis,ramesh@okupi,17970.57,Payment,TRUE
-T0463,25-09-2024 02:13,riya@okaxis,tina@okkotak,22896.99,Misc,TRUE
-T0464,17-03-2024 22:56,farhan@oksbi,meena@okkotak,45402.82,Transfer,FALSE
-T0465,09-11-2024 07:12,vijay@okkotak,mohan@okicici,43737.59,Cashback,FALSE
-T0466,21-03-2024 19:50,jatin@okicici,ramesh@okkotak,44120.56,Groceries,FALSE
-T0467,08-07-2024 14:40,arun@okaxis,mohan@okyesbank,49591.85,Food order,TRUE
-T0468,16-04-2024 15:58,farhan@okaxis,sita@okkotak,7072.26,Food order,FALSE
-T0469,14-01-2024 18:18,amit@okkotak,dev@okkotak,1985.43,Cashback,TRUE
-T0470,13-02-2024 00:51,arun@okupi,ramesh@okyesbank,21544.65,Food order,FALSE
-T0471,19-08-2024 11:12,neha@okhdfc,mohan@okyesbank,23095.47,Loan repayment,FALSE
-T0472,27-01-2024 11:44,farhan@okyesbank,farhan@okkotak,21360.48,Payment,FALSE
-T0473,29-05-2024 02:31,kiran@okyesbank,deepak@oksbi,25757.92,Loan repayment,FALSE
-T0474,12-06-2024 13:49,dev@okkotak,kiran@okaxis,26834.11,Cashback,TRUE
-T0475,12-01-2024 08:59,mohan@okaxis,yash@okupi,3466.24,Cashback,FALSE
-T0476,10-05-2024 04:44,arun@okaxis,karan@oksbi,6417.94,Recharge,TRUE
-T0477,28-02-2024 17:21,deepak@okkotak,deepak@okhdfc,29227.06,Transfer,TRUE
-T0478,13-05-2024 00:40,deepak@okyesbank,sita@okhdfc,33485.98,Recharge,FALSE
-T0479,23-09-2024 22:40,karan@okaxis,vijay@okkotak,32147.88,Transfer,TRUE
-T0480,20-09-2024 15:55,rahul@okaxis,sana@okyesbank,11568.28,Cashback,TRUE
-T0481,26-02-2024 10:18,kiran@okhdfc,rahul@okicici,24558.8,Misc,TRUE
-T0482,11-06-2024 20:26,riya@okicici,neha@okyesbank,20006.9,Groceries,TRUE
-T0483,27-05-2024 19:44,rahul@okkotak,arun@okicici,37281.94,Food order,FALSE
-T0484,01-12-2024 08:11,deepak@okupi,ramesh@oksbi,16291.04,Food order,TRUE
-T0485,31-08-2024 21:34,rohan@okkotak,rohan@oksbi,16996.57,Food order,TRUE
-T0486,21-12-2024 02:09,rahul@okicici,sana@okhdfc,4473.39,Loan repayment,TRUE
-T0487,09-05-2024 10:27,karan@okicici,sita@oksbi,6858.81,Payment,TRUE
-T0488,06-10-2024 16:42,farhan@okicici,arun@oksbi,14417.87,Misc,TRUE
-T0489,26-08-2024 00:34,amit@okicici,arun@okicici,14522.12,Misc,TRUE
-T0490,24-06-2024 12:43,yash@okkotak,sita@okyesbank,29587.06,Loan repayment,FALSE
-T0491,12-12-2024 11:47,farhan@okupi,sana@okicici,21816.36,Loan repayment,FALSE
-T0492,05-09-2024 22:02,amit@okaxis,rohan@okkotak,9235.27,Groceries,FALSE
-T0493,13-07-2024 06:51,karan@okkotak,ramesh@oksbi,5645.86,Groceries,TRUE
-T0494,31-10-2024 02:16,yash@okkotak,karan@okicici,29083.14,Shopping,FALSE
-T0495,03-07-2024 17:04,rohan@okupi,tina@okupi,8430.73,Groceries,TRUE
-T0496,07-09-2024 08:35,arun@okhdfc,meena@okhdfc,38000.82,Groceries,TRUE
-T0497,16-04-2024 23:56,mohan@okkotak,deepak@okicici,13506.17,Shopping,TRUE
-T0498,28-05-2024 17:05,kiran@okaxis,meena@okhdfc,38299.49,Bill payment,FALSE
-T0499,21-12-2024 18:28,arun@okkotak,riya@okkotak,13814.84,Transfer,FALSE
-T0500,21-09-2024 03:24,rohan@oksbi,rohan@okupi,32026.13,Groceries,FALSE
-T0501,14-06-2024 20:12,amit@okkotak,jatin@okaxis,485.29,Shopping,TRUE
-T0502,24-06-2024 14:13,jatin@okhdfc,arun@okicici,16698.31,Food order,FALSE
-T0503,27-02-2024 12:05,yash@oksbi,sana@okicici,38315.3,Recharge,TRUE
-T0504,26-12-2024 20:59,kiran@oksbi,meena@okaxis,38150.79,Bill payment,TRUE
-T0505,15-11-2024 08:01,jatin@okkotak,sita@okhdfc,36884.35,Shopping,FALSE
-T0506,05-09-2024 19:19,neha@okyesbank,neha@okhdfc,11131.78,Shopping,TRUE
-T0507,23-02-2024 07:16,arun@okyesbank,karan@okyesbank,29727.56,Groceries,FALSE
-T0508,12-12-2024 05:41,vijay@okupi,rahul@okhdfc,14639.31,Shopping,TRUE
-T0509,21-09-2024 04:39,amit@okkotak,amit@okhdfc,13181.09,Misc,TRUE
-T0510,15-09-2024 02:40,yash@okicici,dev@okyesbank,26797.46,Loan repayment,FALSE
-T0511,14-03-2024 02:13,arun@okkotak,yash@oksbi,24080.17,Groceries,TRUE
-T0512,27-06-2024 18:02,sita@okupi,sita@okupi,140.62,Cashback,TRUE
-T0513,08-12-2024 15:35,yash@okyesbank,riya@okicici,10025.04,Cashback,FALSE
-T0514,03-02-2024 04:04,rahul@oksbi,mohan@okicici,46382.49,Recharge,TRUE
-T0515,04-10-2024 14:54,rahul@okyesbank,karan@oksbi,42094.68,Groceries,FALSE
-T0516,06-10-2024 17:07,yash@oksbi,dev@okupi,39407.78,Transfer,FALSE
-T0517,10-02-2024 12:15,farhan@okicici,sana@okaxis,33522.79,Shopping,FALSE
-T0518,12-05-2024 14:26,kiran@okupi,karan@okkotak,14793.49,Loan repayment,TRUE
-T0519,09-07-2024 02:34,rahul@oksbi,yash@oksbi,186.43,Food order,TRUE
-T0520,13-01-2024 17:30,farhan@okicici,neha@okyesbank,31030.8,Recharge,FALSE
-T0521,27-07-2024 05:49,jatin@okaxis,jatin@oksbi,16731.98,Cashback,FALSE
-T0522,14-05-2024 18:45,meena@oksbi,karan@okhdfc,35832.08,Transfer,TRUE
-T0523,14-02-2024 00:17,vijay@okhdfc,sana@okaxis,9105.28,Misc,FALSE
-T0524,04-09-2024 00:46,rahul@okkotak,riya@okaxis,28873.67,Payment,FALSE
-T0525,09-03-2024 08:36,riya@okyesbank,sana@okaxis,11130.51,Food order,TRUE
-T0526,25-03-2024 22:38,ramesh@okhdfc,jatin@oksbi,45510.4,Transfer,TRUE
-T0527,22-08-2024 03:34,tina@okyesbank,jatin@okkotak,29465.51,Food order,FALSE
-T0528,22-01-2024 23:58,rahul@okaxis,rohan@okhdfc,48485.59,Shopping,TRUE
-T0529,13-04-2024 06:37,karan@okupi,karan@okicici,1318.68,Food order,TRUE
-T0530,08-04-2024 07:30,meena@oksbi,tina@okkotak,28799.57,Payment,FALSE
-T0531,16-09-2024 21:25,arun@okyesbank,mohan@okupi,18463.44,Payment,TRUE
-T0532,28-04-2024 10:06,tina@okyesbank,meena@okhdfc,17963.5,Food order,FALSE
-T0533,02-02-2024 19:07,rahul@okaxis,vijay@oksbi,38520.99,Bill payment,TRUE
-T0534,28-08-2024 03:31,meena@okupi,riya@okhdfc,32707.97,Misc,FALSE
-T0535,16-02-2024 22:47,karan@okaxis,vijay@okhdfc,25737.65,Shopping,FALSE
-T0536,11-03-2024 22:51,neha@okaxis,karan@okaxis,22674.16,Misc,FALSE
-T0537,20-08-2024 01:01,neha@okkotak,rohan@okhdfc,32297.43,Bill payment,FALSE
-T0538,16-09-2024 04:18,rohan@oksbi,amit@oksbi,26741.32,Transfer,TRUE
-T0539,18-03-2024 20:43,deepak@okicici,rahul@okkotak,3524.81,Recharge,TRUE
-T0540,15-04-2024 09:25,mohan@okicici,neha@okaxis,45694.5,Cashback,TRUE
-T0541,30-01-2024 10:18,mohan@okyesbank,farhan@okaxis,41357.7,Misc,FALSE
-T0542,04-06-2024 13:24,riya@oksbi,deepak@okicici,40056.44,Payment,FALSE
-T0543,13-04-2024 18:56,yash@okaxis,meena@oksbi,14928.56,Recharge,FALSE
-T0544,19-05-2024 10:35,sita@okyesbank,yash@okyesbank,1956.84,Food order,FALSE
-T0545,30-06-2024 23:54,kiran@okhdfc,riya@okhdfc,24214.38,Bill payment,TRUE
-T0546,23-01-2024 02:44,sita@okyesbank,amit@okaxis,30956.76,Misc,TRUE
-T0547,13-07-2024 15:15,rahul@okyesbank,dev@oksbi,33260.4,Bill payment,FALSE
-T0548,01-07-2024 16:49,rohan@okhdfc,arun@okicici,1144.54,Cashback,TRUE
-T0549,13-06-2024 07:49,rohan@okkotak,dev@oksbi,42373.68,Misc,TRUE
-T0550,22-04-2024 19:53,sana@okkotak,rohan@okicici,13255.8,Loan repayment,TRUE
-T0551,26-12-2024 16:52,neha@okaxis,ramesh@okaxis,716.52,Transfer,FALSE
-T0552,18-09-2024 15:05,rahul@okicici,farhan@okyesbank,24216.99,Recharge,FALSE
-T0553,12-07-2024 18:54,jatin@okupi,yash@okupi,34161.3,Groceries,TRUE
-T0554,04-04-2024 06:05,arun@oksbi,rahul@okyesbank,38900.99,Bill payment,TRUE
-T0555,24-07-2024 06:57,neha@okupi,jatin@oksbi,29526.89,Misc,TRUE
-T0556,08-05-2024 18:08,karan@okupi,rahul@oksbi,12134.96,Bill payment,TRUE
-T0557,14-07-2024 19:56,rohan@okicici,riya@okyesbank,33146.5,Shopping,TRUE
-T0558,23-03-2024 10:21,kiran@okhdfc,kiran@oksbi,3480.58,Payment,TRUE
-T0559,04-12-2024 03:56,yash@oksbi,mohan@okkotak,12709.26,Cashback,TRUE
-T0560,07-02-2024 21:28,jatin@okkotak,meena@okupi,12587.05,Misc,FALSE
-T0561,14-07-2024 05:18,neha@okhdfc,dev@okupi,41124.28,Bill payment,FALSE
-T0562,20-02-2024 03:46,deepak@okaxis,farhan@okicici,5379.04,Groceries,FALSE
-T0563,04-02-2024 19:43,kiran@okhdfc,tina@okkotak,37662.18,Transfer,FALSE
-T0564,14-11-2024 01:29,riya@okicici,dev@okupi,44435.02,Recharge,TRUE
-T0565,22-09-2024 15:13,neha@okkotak,riya@oksbi,24234.93,Shopping,FALSE
-T0566,02-08-2024 22:54,farhan@okkotak,amit@okhdfc,43152.79,Cashback,TRUE
-T0567,19-05-2024 12:02,yash@oksbi,vijay@okupi,47223.85,Bill payment,FALSE
-T0568,30-05-2024 08:23,karan@okupi,yash@okupi,42578.17,Misc,FALSE
-T0569,14-07-2024 13:23,tina@okaxis,rahul@okyesbank,15371.25,Payment,TRUE
-T0570,04-07-2024 01:04,dev@okupi,ramesh@okaxis,28662.84,Food order,FALSE
-T0571,24-04-2024 01:21,yash@okicici,tina@okaxis,1838.77,Loan repayment,TRUE
-T0572,17-02-2024 00:16,riya@okicici,jatin@okupi,33541.11,Recharge,FALSE
-T0573,09-06-2024 10:39,farhan@okupi,rahul@okupi,4250.55,Food order,FALSE
-T0574,30-11-2024 13:56,kiran@oksbi,meena@oksbi,34458.83,Shopping,TRUE
-T0575,03-11-2024 14:47,mohan@okaxis,deepak@okyesbank,39915.8,Food order,TRUE
-T0576,17-01-2024 02:17,tina@okhdfc,vijay@okaxis,20775.51,Bill payment,TRUE
-T0577,16-07-2024 19:23,riya@oksbi,deepak@okkotak,6940.79,Bill payment,FALSE
-T0578,06-11-2024 17:55,deepak@okicici,yash@oksbi,7015.76,Recharge,FALSE
-T0579,17-11-2024 08:04,riya@okkotak,rohan@oksbi,32270.73,Food order,TRUE
-T0580,21-08-2024 07:00,farhan@okicici,sita@okicici,18529.15,Loan repayment,TRUE
-T0581,04-06-2024 19:48,mohan@okyesbank,meena@okicici,10865.17,Payment,FALSE
-T0582,28-06-2024 16:38,jatin@okyesbank,meena@okicici,1634.41,Cashback,FALSE
-T0583,13-12-2024 22:31,neha@okaxis,rohan@okyesbank,49711.06,Loan repayment,TRUE
-T0584,29-11-2024 07:46,jatin@okaxis,yash@okyesbank,456.54,Cashback,TRUE
-T0585,10-03-2024 18:53,arun@okicici,farhan@okyesbank,28522.81,Shopping,FALSE
-T0586,04-03-2024 07:04,farhan@okaxis,rohan@okkotak,29600.54,Shopping,FALSE
-T0587,08-09-2024 12:05,neha@oksbi,meena@okyesbank,15106.9,Transfer,FALSE
-T0588,07-11-2024 14:01,kiran@oksbi,arun@okaxis,34504.74,Bill payment,FALSE
-T0589,02-03-2024 12:30,dev@okkotak,amit@okhdfc,31970.86,Payment,TRUE
-T0590,10-11-2024 18:26,vijay@okkotak,ramesh@okhdfc,36704.2,Loan repayment,FALSE
-T0591,02-11-2024 19:51,mohan@okhdfc,yash@okkotak,2253.11,Bill payment,TRUE
-T0592,25-11-2024 00:26,amit@okicici,neha@okyesbank,13971.3,Shopping,FALSE
-T0593,08-08-2024 03:53,neha@okyesbank,neha@okyesbank,39389.23,Payment,TRUE
-T0594,12-02-2024 01:23,mohan@okupi,meena@okkotak,49335.69,Payment,TRUE
-T0595,08-01-2024 23:02,rohan@okkotak,neha@okyesbank,37444.78,Payment,TRUE
-T0596,22-01-2024 18:37,sana@oksbi,arun@okaxis,4886.99,Cashback,TRUE
-T0597,02-06-2024 11:55,neha@okkotak,yash@okhdfc,3953.53,Food order,TRUE
-T0598,05-08-2024 12:02,tina@okicici,tina@okyesbank,1155.38,Recharge,TRUE
-T0599,27-04-2024 13:00,rohan@okaxis,sita@okyesbank,22348.42,Shopping,TRUE
-T0600,30-09-2024 16:46,vijay@okhdfc,farhan@oksbi,15886.64,Groceries,TRUE
-T0601,14-09-2024 05:05,farhan@okicici,rahul@okyesbank,34606.28,Groceries,TRUE
-T0602,22-01-2024 19:06,tina@okaxis,amit@oksbi,4781.21,Transfer,FALSE
-T0603,28-02-2024 07:03,deepak@okhdfc,mohan@okicici,46696.56,Cashback,TRUE
-T0604,18-10-2024 08:09,karan@okupi,vijay@okyesbank,40664.98,Misc,TRUE
-T0605,22-03-2024 11:55,farhan@okupi,farhan@okupi,16852.17,Loan repayment,TRUE
-T0606,25-04-2024 03:18,jatin@okaxis,amit@okkotak,41841.95,Bill payment,TRUE
-T0607,09-10-2024 13:35,rohan@okyesbank,vijay@oksbi,14391.16,Misc,TRUE
-T0608,02-10-2024 06:54,karan@okicici,deepak@okyesbank,28031.45,Cashback,TRUE
-T0609,19-03-2024 11:58,kiran@okyesbank,neha@okkotak,1099.86,Recharge,TRUE
-T0610,29-04-2024 09:05,dev@okaxis,ramesh@okaxis,38183.96,Cashback,FALSE
-T0611,14-12-2024 18:02,sita@okhdfc,ramesh@oksbi,26625.58,Transfer,FALSE
-T0612,22-10-2024 10:46,rohan@okaxis,tina@oksbi,24316.76,Recharge,TRUE
-T0613,17-07-2024 15:59,deepak@okyesbank,riya@oksbi,32326.78,Shopping,TRUE
-T0614,18-03-2024 08:42,yash@okicici,arun@okaxis,47414.56,Payment,TRUE
-T0615,20-04-2024 05:04,sana@okupi,karan@okicici,17214.9,Misc,FALSE
-T0616,05-07-2024 23:28,kiran@okyesbank,sita@okicici,44830.28,Groceries,FALSE
-T0617,19-08-2024 15:25,kiran@okaxis,amit@okupi,44284.38,Bill payment,FALSE
-T0618,12-04-2024 06:17,rahul@okaxis,arun@okicici,39946.74,Recharge,FALSE
-T0619,12-12-2024 20:40,rahul@okaxis,vijay@okicici,15938.33,Recharge,FALSE
-T0620,17-10-2024 17:14,riya@okyesbank,dev@okaxis,20168.58,Cashback,FALSE
-T0621,26-06-2024 06:36,dev@okhdfc,vijay@oksbi,34435.21,Recharge,TRUE
-T0622,20-06-2024 05:11,vijay@okaxis,tina@okyesbank,21106.12,Transfer,TRUE
-T0623,18-12-2024 22:01,karan@okhdfc,rohan@oksbi,44539.13,Cashback,TRUE
-T0624,30-03-2024 10:53,sita@okicici,meena@oksbi,44692.31,Payment,FALSE
-T0625,16-04-2024 03:28,riya@okicici,meena@okkotak,49709.69,Transfer,TRUE
-T0626,20-03-2024 00:47,farhan@okupi,kiran@okupi,42177.3,Groceries,FALSE
-T0627,03-08-2024 09:57,riya@okyesbank,kiran@okyesbank,4485,Food order,TRUE
-T0628,22-05-2024 07:27,rahul@okyesbank,arun@okyesbank,34079.07,Payment,TRUE
-T0629,06-08-2024 13:56,dev@okupi,karan@okyesbank,23677.98,Cashback,TRUE
-T0630,13-12-2024 20:23,farhan@okaxis,farhan@okhdfc,24120.01,Loan repayment,TRUE
-T0631,24-08-2024 02:29,tina@okyesbank,sana@oksbi,42710.61,Recharge,TRUE
-T0632,01-03-2024 03:56,sana@oksbi,rohan@okupi,6945.48,Payment,TRUE
-T0633,16-01-2024 01:05,dev@okicici,vijay@okyesbank,11647.71,Cashback,FALSE
-T0634,21-07-2024 19:26,deepak@okyesbank,deepak@okhdfc,27770.73,Cashback,TRUE
-T0635,06-08-2024 10:41,neha@okicici,dev@okicici,12842.51,Bill payment,TRUE
-T0636,08-04-2024 10:54,arun@okkotak,dev@okupi,12173,Food order,TRUE
-T0637,13-12-2024 11:44,rahul@okkotak,farhan@okupi,36498.96,Bill payment,FALSE
-T0638,20-06-2024 11:19,arun@okkotak,vijay@oksbi,44276.83,Payment,FALSE
-T0639,22-09-2024 01:07,karan@okupi,yash@okicici,13882.38,Misc,TRUE
-T0640,30-05-2024 15:48,yash@okyesbank,karan@oksbi,2604.16,Loan repayment,TRUE
-T0641,17-04-2024 01:39,karan@okupi,tina@okupi,17374.6,Recharge,TRUE
-T0642,19-12-2024 15:21,farhan@okhdfc,meena@okicici,7225.52,Payment,TRUE
-T0643,05-01-2024 12:57,neha@okhdfc,deepak@okupi,30296.24,Payment,TRUE
-T0644,23-07-2024 04:07,vijay@okhdfc,mohan@okupi,26304.28,Cashback,TRUE
-T0645,06-07-2024 13:04,mohan@okhdfc,dev@oksbi,1702,Groceries,FALSE
-T0646,07-03-2024 13:14,meena@okkotak,yash@okkotak,44245.01,Food order,FALSE
-T0647,05-09-2024 21:04,karan@okaxis,neha@okkotak,6102.26,Shopping,TRUE
-T0648,05-05-2024 19:14,dev@okkotak,karan@okkotak,925.99,Transfer,TRUE
-T0649,23-11-2024 17:08,farhan@okaxis,yash@okkotak,38426.35,Recharge,TRUE
-T0650,18-03-2024 10:01,karan@okyesbank,deepak@okyesbank,22723.14,Food order,FALSE
-T0651,01-06-2024 10:12,karan@okyesbank,tina@okkotak,24586.86,Cashback,TRUE
-T0652,20-12-2024 04:15,yash@okyesbank,rohan@okupi,1621.23,Bill payment,FALSE
-T0653,15-06-2024 06:21,yash@okkotak,rohan@okicici,41053.05,Transfer,TRUE
-T0654,28-10-2024 13:08,rohan@okyesbank,amit@okaxis,41969.08,Bill payment,FALSE
-T0655,05-03-2024 07:48,tina@okaxis,kiran@okkotak,22788.77,Loan repayment,TRUE
-T0656,16-12-2024 12:56,karan@okicici,ramesh@oksbi,23375.17,Food order,FALSE
-T0657,09-05-2024 19:23,jatin@okkotak,yash@okyesbank,35820.11,Recharge,TRUE
-T0658,08-09-2024 15:01,meena@oksbi,sana@okaxis,23715.35,Loan repayment,FALSE
-T0659,27-10-2024 20:37,ramesh@okupi,yash@oksbi,20562.37,Groceries,FALSE
-T0660,07-09-2024 20:10,ramesh@okaxis,neha@okyesbank,43970.79,Shopping,TRUE
-T0661,18-05-2024 12:01,deepak@okupi,arun@okkotak,33158.82,Transfer,FALSE
-T0662,18-12-2024 14:12,meena@okicici,mohan@okicici,20314.38,Recharge,TRUE
-T0663,26-07-2024 21:21,vijay@okaxis,ramesh@okicici,33047.08,Transfer,FALSE
-T0664,15-09-2024 08:39,deepak@oksbi,neha@okhdfc,15546.12,Loan repayment,FALSE
-T0665,08-02-2024 06:42,karan@okyesbank,amit@okyesbank,13183.49,Food order,TRUE
-T0666,24-06-2024 06:59,tina@okyesbank,meena@okkotak,26531.75,Recharge,FALSE
-T0667,14-09-2024 00:22,farhan@okkotak,mohan@okhdfc,14940.19,Transfer,TRUE
-T0668,09-04-2024 03:29,sita@okhdfc,rohan@oksbi,35184.56,Misc,TRUE
-T0669,26-08-2024 06:35,rohan@okaxis,meena@oksbi,9741.53,Food order,TRUE
-T0670,12-06-2024 01:43,meena@okhdfc,sita@okicici,22441.35,Cashback,TRUE
-T0671,20-06-2024 09:01,deepak@okkotak,jatin@okhdfc,33455.45,Groceries,TRUE
-T0672,23-03-2024 20:53,mohan@okupi,yash@okupi,42698.78,Bill payment,FALSE
-T0673,10-07-2024 05:50,tina@okicici,neha@okhdfc,18292.43,Food order,TRUE
-T0674,23-05-2024 08:18,ramesh@okyesbank,meena@okyesbank,20575.19,Loan repayment,FALSE
-T0675,23-01-2024 10:41,vijay@okupi,tina@okhdfc,33813.55,Transfer,TRUE
-T0676,05-07-2024 12:16,ramesh@okicici,amit@okkotak,6896.05,Misc,TRUE
-T0677,16-04-2024 13:06,vijay@okaxis,dev@okyesbank,36547.45,Transfer,FALSE
-T0678,26-01-2024 09:30,arun@oksbi,rahul@oksbi,42943.29,Shopping,TRUE
-T0679,13-05-2024 22:48,jatin@okupi,neha@okhdfc,16639.84,Loan repayment,TRUE
-T0680,07-01-2024 19:29,rahul@okupi,mohan@okyesbank,19616.24,Recharge,TRUE
-T0681,14-02-2024 12:18,dev@okhdfc,yash@okyesbank,47343.99,Loan repayment,FALSE
-T0682,20-10-2024 22:26,kiran@okupi,dev@okicici,35552.84,Shopping,TRUE
-T0683,07-12-2024 05:26,riya@okicici,sana@oksbi,19149.64,Loan repayment,TRUE
-T0684,07-09-2024 20:09,sana@okkotak,karan@okyesbank,2409.38,Recharge,FALSE
-T0685,04-09-2024 01:27,riya@okaxis,amit@okhdfc,20788.49,Transfer,TRUE
-T0686,03-06-2024 01:40,sana@okaxis,sita@okaxis,15290.54,Cashback,FALSE
-T0687,10-05-2024 02:40,jatin@okyesbank,yash@okyesbank,49802.67,Food order,FALSE
-T0688,26-12-2024 01:57,sita@okkotak,neha@okhdfc,12798.97,Shopping,TRUE
-T0689,27-08-2024 07:40,vijay@okyesbank,jatin@okaxis,38167.19,Recharge,FALSE
-T0690,20-04-2024 11:51,riya@okaxis,riya@okaxis,32085.17,Payment,FALSE
-T0691,05-12-2024 07:03,karan@okkotak,ramesh@okyesbank,13380.68,Groceries,TRUE
-T0692,04-05-2024 23:05,arun@okicici,sita@okkotak,40266.26,Cashback,FALSE
-T0693,07-12-2024 13:38,farhan@oksbi,rohan@oksbi,8636.7,Bill payment,TRUE
-T0694,13-01-2024 00:42,vijay@okaxis,mohan@okhdfc,22166.03,Shopping,FALSE
-T0695,08-07-2024 05:08,amit@okicici,amit@okupi,42033.56,Payment,TRUE
-T0696,25-05-2024 00:28,jatin@okyesbank,amit@okupi,31275.82,Bill payment,FALSE
-T0697,27-12-2024 06:24,arun@okyesbank,sita@okyesbank,32181.16,Shopping,TRUE
-T0698,02-12-2024 01:52,karan@okkotak,mohan@okyesbank,25938.68,Food order,TRUE
-T0699,11-09-2024 00:55,yash@okkotak,ramesh@okyesbank,24279.8,Bill payment,TRUE
-T0700,24-04-2024 07:34,meena@okaxis,jatin@okhdfc,30738.5,Cashback,TRUE
-T0701,11-11-2024 04:06,farhan@okaxis,dev@okupi,9010.54,Misc,TRUE
-T0702,28-04-2024 07:53,sita@okkotak,ramesh@okupi,7200.19,Loan repayment,FALSE
-T0703,07-04-2024 01:18,rohan@oksbi,riya@oksbi,20186.38,Groceries,TRUE
-T0704,17-07-2024 10:10,riya@okupi,vijay@okyesbank,29747.59,Loan repayment,TRUE
-T0705,06-02-2024 11:03,mohan@okicici,rohan@okhdfc,47997.27,Payment,FALSE
-T0706,23-12-2024 15:56,neha@okhdfc,tina@okhdfc,8678.31,Payment,TRUE
-T0707,15-03-2024 21:44,kiran@okhdfc,farhan@okhdfc,21911.03,Misc,TRUE
-T0708,10-03-2024 16:15,neha@okhdfc,yash@okyesbank,32164.84,Bill payment,TRUE
-T0709,29-04-2024 11:06,amit@oksbi,kiran@okkotak,35603.03,Misc,TRUE
-T0710,02-07-2024 08:54,sita@okicici,kiran@okyesbank,8219.87,Transfer,TRUE
-T0711,30-11-2024 04:30,sana@okhdfc,sana@oksbi,38383.19,Payment,FALSE
-T0712,21-07-2024 03:59,rahul@okyesbank,ramesh@okhdfc,9014.13,Shopping,TRUE
-T0713,22-01-2024 15:43,meena@okicici,deepak@okyesbank,23351.03,Groceries,FALSE
-T0714,25-11-2024 07:22,vijay@okaxis,farhan@okaxis,9675.74,Recharge,TRUE
-T0715,27-04-2024 09:03,jatin@oksbi,ramesh@okkotak,19206.13,Cashback,TRUE
-T0716,01-07-2024 20:01,farhan@okkotak,arun@okhdfc,41551.03,Groceries,FALSE
-T0717,05-04-2024 11:52,amit@okaxis,jatin@okicici,44802.5,Transfer,TRUE
-T0718,01-05-2024 07:44,kiran@okupi,sana@okkotak,48240.67,Shopping,TRUE
-T0719,05-10-2024 10:17,sana@okupi,riya@okupi,848.29,Misc,FALSE
-T0720,30-06-2024 17:46,riya@okyesbank,rohan@okhdfc,23788.2,Loan repayment,TRUE
-T0721,17-12-2024 12:34,deepak@okupi,arun@okhdfc,8956.14,Loan repayment,TRUE
-T0722,07-04-2024 20:12,meena@okyesbank,dev@okaxis,39218.22,Loan repayment,FALSE
-T0723,01-09-2024 13:46,sita@okhdfc,karan@okkotak,22563.3,Payment,FALSE
-T0724,27-08-2024 19:45,kiran@oksbi,tina@okupi,1172.25,Groceries,TRUE
-T0725,16-01-2024 00:25,yash@okhdfc,amit@okaxis,37086.15,Food order,TRUE
-T0726,23-07-2024 18:03,farhan@oksbi,rahul@oksbi,38710.68,Misc,TRUE
-T0727,29-09-2024 20:36,rahul@okicici,sana@okkotak,45232.45,Recharge,TRUE
-T0728,17-08-2024 21:11,deepak@okkotak,farhan@okaxis,3716.99,Bill payment,FALSE
-T0729,27-09-2024 20:47,tina@okaxis,mohan@oksbi,11900.66,Cashback,FALSE
-T0730,25-04-2024 00:24,arun@okaxis,rahul@okyesbank,7060.49,Cashback,TRUE
-T0731,03-10-2024 00:44,sana@okupi,meena@okaxis,37220.6,Recharge,TRUE
-T0732,18-10-2024 16:31,sana@okupi,dev@okkotak,1874.24,Cashback,FALSE
-T0733,24-05-2024 10:52,arun@oksbi,karan@okkotak,2064.46,Bill payment,FALSE
-T0734,08-06-2024 08:14,rohan@okkotak,neha@okkotak,38652.04,Recharge,TRUE
-T0735,13-09-2024 02:20,dev@okhdfc,yash@okhdfc,26684.97,Bill payment,FALSE
-T0736,17-07-2024 11:22,arun@okyesbank,farhan@okkotak,5878.62,Groceries,FALSE
-T0737,04-11-2024 20:32,yash@okicici,neha@okicici,898.36,Food order,TRUE
-T0738,14-07-2024 21:31,yash@okkotak,arun@okaxis,19185.51,Cashback,FALSE
-T0739,07-11-2024 15:12,tina@okyesbank,tina@okaxis,41387.49,Loan repayment,FALSE
-T0740,27-06-2024 01:44,farhan@okaxis,sita@okkotak,44180.23,Loan repayment,TRUE
-T0741,03-02-2024 03:32,mohan@okkotak,arun@okhdfc,49095.57,Shopping,TRUE
-T0742,30-03-2024 11:24,kiran@okhdfc,sita@oksbi,32855.51,Recharge,FALSE
-T0743,01-10-2024 05:19,amit@okyesbank,dev@okkotak,31761.12,Shopping,TRUE
-T0744,05-12-2024 01:46,sita@okupi,neha@okicici,24252.79,Loan repayment,FALSE
-T0745,08-12-2024 05:32,neha@oksbi,mohan@oksbi,7621.44,Bill payment,TRUE
-T0746,05-08-2024 15:52,amit@okaxis,rohan@okicici,12974.65,Misc,TRUE
-T0747,18-05-2024 03:53,rohan@oksbi,karan@okhdfc,17999.98,Bill payment,FALSE
-T0748,09-11-2024 10:58,vijay@oksbi,yash@oksbi,30992.52,Loan repayment,FALSE
-T0749,30-12-2024 13:18,tina@okupi,kiran@oksbi,2773.86,Bill payment,FALSE
-T0750,17-11-2024 13:12,amit@okkotak,sita@okyesbank,49895.91,Transfer,FALSE
-T0751,17-02-2024 17:49,ramesh@okhdfc,neha@okicici,13413.19,Shopping,TRUE
-T0752,23-02-2024 05:39,karan@okhdfc,dev@okhdfc,28132.83,Loan repayment,TRUE
-T0753,23-12-2024 14:38,riya@oksbi,vijay@okhdfc,6930.67,Transfer,FALSE
-T0754,29-12-2024 03:59,jatin@oksbi,rahul@okicici,5796.27,Bill payment,FALSE
-T0755,28-06-2024 14:56,tina@okaxis,tina@okhdfc,17497.53,Shopping,FALSE
-T0756,13-04-2024 20:33,neha@okhdfc,deepak@okicici,34318.43,Loan repayment,TRUE
-T0757,15-03-2024 14:32,arun@okyesbank,deepak@okyesbank,36835.96,Food order,FALSE
-T0758,27-08-2024 12:06,amit@okupi,amit@okyesbank,4597.13,Cashback,TRUE
-T0759,10-05-2024 05:03,farhan@okaxis,riya@okhdfc,31171.61,Transfer,TRUE
-T0760,31-05-2024 13:50,karan@okyesbank,vijay@okyesbank,14281.82,Loan repayment,FALSE
-T0761,14-01-2024 21:52,kiran@okhdfc,vijay@okyesbank,34424.44,Recharge,FALSE
-T0762,27-12-2024 14:52,jatin@okupi,meena@okkotak,18615.31,Food order,FALSE
-T0763,14-01-2024 17:27,karan@okkotak,karan@okaxis,44722.32,Food order,TRUE
-T0764,12-02-2024 14:21,rohan@okkotak,amit@okhdfc,9950.7,Groceries,FALSE
-T0765,15-05-2024 00:28,yash@okhdfc,mohan@okicici,37000.68,Recharge,TRUE
-T0766,07-04-2024 07:46,kiran@okkotak,yash@okaxis,43301.22,Cashback,TRUE
-T0767,30-11-2024 01:11,rohan@okkotak,neha@okaxis,37986.35,Bill payment,TRUE
-T0768,23-12-2024 03:19,karan@okhdfc,amit@okaxis,11331.51,Groceries,FALSE
-T0769,09-04-2024 12:43,mohan@okicici,vijay@okhdfc,977.43,Cashback,TRUE
-T0770,06-11-2024 21:13,neha@okhdfc,farhan@okkotak,18358.18,Recharge,FALSE
-T0771,13-01-2024 10:58,meena@okkotak,meena@okkotak,15501.93,Groceries,FALSE
-T0772,07-08-2024 00:09,rohan@okhdfc,neha@okkotak,22030.26,Shopping,FALSE
-T0773,05-06-2024 01:44,sita@okicici,mohan@oksbi,6280.92,Groceries,FALSE
-T0774,13-02-2024 18:05,deepak@okkotak,mohan@oksbi,3945.47,Groceries,FALSE
-T0775,18-07-2024 20:22,ramesh@okaxis,arun@oksbi,3642.16,Recharge,FALSE
-T0776,19-09-2024 03:19,tina@okaxis,karan@okaxis,16262.31,Shopping,FALSE
-T0777,14-12-2024 05:23,karan@okyesbank,rahul@okyesbank,5039.95,Groceries,TRUE
-T0778,24-02-2024 22:41,yash@okkotak,karan@okupi,30895.34,Groceries,FALSE
-T0779,27-08-2024 21:15,karan@okkotak,arun@okkotak,8429.15,Groceries,TRUE
-T0780,09-03-2024 10:16,jatin@okicici,amit@okupi,15218.6,Transfer,FALSE
-T0781,30-08-2024 07:53,farhan@okyesbank,neha@okicici,19402.16,Transfer,TRUE
-T0782,16-05-2024 05:12,kiran@okaxis,jatin@okyesbank,23565.92,Transfer,TRUE
-T0783,02-05-2024 13:18,kiran@okupi,sita@okaxis,34333.37,Transfer,TRUE
-T0784,30-10-2024 17:31,jatin@oksbi,deepak@oksbi,33255.65,Groceries,FALSE
-T0785,26-06-2024 02:19,sita@oksbi,riya@okaxis,25831.63,Shopping,TRUE
-T0786,27-03-2024 13:15,arun@okyesbank,rohan@okicici,8013.96,Misc,TRUE
-T0787,07-11-2024 07:05,riya@okkotak,rahul@okupi,32350.51,Bill payment,FALSE
-T0788,04-06-2024 14:25,kiran@okupi,kiran@oksbi,17885.58,Bill payment,TRUE
-T0789,30-01-2024 05:40,neha@okicici,tina@okyesbank,26926.19,Recharge,TRUE
-T0790,11-09-2024 18:27,amit@okaxis,sana@oksbi,13611.56,Groceries,FALSE
-T0791,28-08-2024 03:54,meena@okaxis,deepak@okkotak,38584.13,Loan repayment,FALSE
-T0792,18-08-2024 12:21,ramesh@okyesbank,kiran@oksbi,38229.06,Payment,FALSE
-T0793,24-09-2024 21:15,sita@okaxis,karan@okupi,46628.51,Misc,TRUE
-T0794,18-01-2024 08:45,kiran@okicici,amit@okupi,44378.69,Shopping,FALSE
-T0795,15-04-2024 04:49,farhan@okhdfc,jatin@okupi,4675.32,Shopping,FALSE
-T0796,07-06-2024 16:34,riya@okkotak,rohan@okupi,37432.36,Loan repayment,FALSE
-T0797,21-08-2024 00:25,mohan@okkotak,rohan@okicici,14560.09,Bill payment,FALSE
-T0798,15-08-2024 10:38,sana@okhdfc,yash@okhdfc,38240.89,Cashback,FALSE
-T0799,20-10-2024 07:26,karan@okaxis,riya@okupi,6947.48,Misc,TRUE
-T0800,21-08-2024 21:30,neha@okicici,meena@oksbi,26602.95,Groceries,TRUE
-T0801,11-07-2024 11:28,arun@okaxis,dev@okkotak,33282.74,Groceries,TRUE
-T0802,07-04-2024 12:48,tina@okupi,ramesh@okupi,8676.43,Misc,FALSE
-T0803,17-09-2024 10:36,rohan@okicici,vijay@okaxis,39577.47,Loan repayment,FALSE
-T0804,27-03-2024 19:21,rohan@okhdfc,ramesh@okicici,2444.66,Cashback,FALSE
-T0805,07-05-2024 18:17,mohan@okyesbank,riya@okyesbank,31583.71,Bill payment,FALSE
-T0806,20-11-2024 02:29,deepak@okhdfc,vijay@okicici,47052.32,Transfer,FALSE
-T0807,26-04-2024 07:53,yash@okyesbank,sita@okhdfc,26252.75,Shopping,FALSE
-T0808,29-03-2024 21:56,neha@okkotak,dev@oksbi,4658.25,Loan repayment,FALSE
-T0809,02-11-2024 04:12,jatin@okhdfc,karan@okhdfc,20155.63,Recharge,FALSE
-T0810,22-01-2024 10:06,vijay@okyesbank,deepak@okicici,17125.75,Bill payment,FALSE
-T0811,28-09-2024 06:57,tina@okkotak,yash@oksbi,18274.43,Bill payment,TRUE
-T0812,24-02-2024 22:21,sana@okkotak,riya@okupi,44441.39,Groceries,TRUE
-T0813,01-03-2024 10:28,yash@okkotak,kiran@okupi,10292.85,Food order,FALSE
-T0814,23-12-2024 20:45,kiran@okkotak,sana@okaxis,19300.22,Food order,FALSE
-T0815,14-09-2024 01:33,jatin@okaxis,rahul@okhdfc,43145.46,Food order,TRUE
-T0816,08-08-2024 11:44,kiran@okhdfc,ramesh@okupi,12725.67,Loan repayment,TRUE
-T0817,07-04-2024 13:03,riya@okhdfc,rahul@okhdfc,39010.92,Payment,FALSE
-T0818,08-05-2024 22:48,kiran@okupi,tina@okupi,10653.57,Bill payment,TRUE
-T0819,03-03-2024 10:20,ramesh@okyesbank,yash@okupi,34379.49,Shopping,FALSE
-T0820,19-03-2024 14:49,deepak@okaxis,rohan@okkotak,33611.62,Groceries,FALSE
-T0821,24-08-2024 16:53,dev@okupi,vijay@okyesbank,34848.85,Transfer,FALSE
-T0822,11-12-2024 02:47,arun@okhdfc,kiran@okicici,21732.05,Payment,FALSE
-T0823,22-05-2024 20:12,mohan@okupi,jatin@okkotak,40285.92,Transfer,FALSE
-T0824,28-12-2024 07:37,ramesh@okaxis,rahul@okyesbank,14063.32,Loan repayment,TRUE
-T0825,11-12-2024 22:35,sita@okupi,rohan@oksbi,31943.5,Shopping,TRUE
-T0826,04-09-2024 13:28,riya@okkotak,sana@okhdfc,13179.48,Transfer,FALSE
-T0827,02-03-2024 05:31,riya@okaxis,rohan@okupi,31453.68,Shopping,FALSE
-T0828,19-05-2024 21:42,ramesh@okyesbank,kiran@okaxis,45552.68,Groceries,FALSE
-T0829,30-05-2024 15:49,farhan@okupi,mohan@okaxis,31691.27,Misc,FALSE
-T0830,07-05-2024 21:38,yash@okyesbank,ramesh@okkotak,38326.26,Cashback,TRUE
-T0831,15-12-2024 20:27,kiran@okhdfc,farhan@okaxis,29434.87,Shopping,TRUE
-T0832,20-12-2024 06:21,rohan@okicici,neha@okyesbank,49011.86,Recharge,TRUE
-T0833,02-12-2024 01:57,arun@okhdfc,farhan@okupi,26690.97,Misc,TRUE
-T0834,20-08-2024 18:09,dev@okupi,neha@okaxis,21154.44,Food order,FALSE
-T0835,18-10-2024 18:28,kiran@okhdfc,riya@okaxis,28067.24,Bill payment,FALSE
-T0836,11-12-2024 10:18,jatin@okkotak,riya@okicici,31034.1,Cashback,FALSE
-T0837,08-01-2024 04:52,farhan@okhdfc,rahul@okyesbank,11818.19,Cashback,FALSE
-T0838,09-06-2024 16:02,rohan@okkotak,arun@oksbi,369.25,Recharge,FALSE
-T0839,25-07-2024 22:56,arun@okicici,kiran@okupi,735.2,Transfer,TRUE
-T0840,02-01-2024 17:02,sana@okicici,neha@okaxis,4456.2,Shopping,TRUE
-T0841,30-12-2024 11:49,vijay@okupi,sana@okicici,49982.63,Loan repayment,TRUE
-T0842,29-05-2024 19:58,riya@okyesbank,arun@okyesbank,45772.24,Transfer,TRUE
-T0843,04-11-2024 14:27,amit@oksbi,sana@okyesbank,31252.87,Groceries,FALSE
-T0844,27-02-2024 13:39,kiran@okicici,rohan@okyesbank,9404.92,Groceries,TRUE
-T0845,01-05-2024 23:58,kiran@okkotak,mohan@okaxis,21805.71,Transfer,FALSE
-T0846,31-07-2024 07:57,vijay@okicici,arun@okhdfc,18079.04,Shopping,FALSE
-T0847,10-01-2024 10:22,neha@okyesbank,kiran@okyesbank,20710.12,Bill payment,TRUE
-T0848,22-04-2024 01:57,rohan@okupi,farhan@okyesbank,21496.64,Loan repayment,TRUE
-T0849,16-06-2024 11:13,tina@oksbi,sita@okhdfc,29549.63,Groceries,FALSE
-T0850,26-02-2024 08:26,sana@okupi,mohan@okkotak,39293.77,Food order,TRUE
-T0851,03-09-2024 03:28,sita@oksbi,sita@okicici,24208.57,Loan repayment,FALSE
-T0852,19-07-2024 17:11,rahul@okupi,sita@oksbi,39450.64,Transfer,FALSE
-T0853,06-10-2024 02:53,neha@okupi,deepak@okhdfc,22462.49,Misc,TRUE
-T0854,26-05-2024 07:23,deepak@okyesbank,sita@okkotak,39501.14,Cashback,FALSE
-T0855,02-10-2024 23:57,riya@okupi,rohan@okhdfc,40100.19,Misc,FALSE
-T0856,27-09-2024 19:27,yash@okicici,amit@okupi,40992.74,Recharge,TRUE
-T0857,08-11-2024 18:54,neha@oksbi,rohan@oksbi,19064.39,Food order,FALSE
-T0858,21-05-2024 09:53,ramesh@oksbi,sana@okupi,49846.69,Recharge,FALSE
-T0859,29-10-2024 22:58,arun@okupi,rahul@okicici,41985.56,Food order,FALSE
-T0860,08-10-2024 15:31,neha@okaxis,tina@okicici,1557.32,Bill payment,FALSE
-T0861,05-04-2024 06:31,sana@okhdfc,neha@okaxis,34650.58,Recharge,FALSE
-T0862,12-08-2024 16:16,arun@okupi,deepak@okkotak,14247.77,Payment,TRUE
-T0863,23-03-2024 17:54,tina@okkotak,rohan@okupi,10421.04,Cashback,TRUE
-T0864,06-09-2024 10:06,farhan@okaxis,neha@okyesbank,27191.69,Shopping,FALSE
-T0865,28-10-2024 08:37,arun@okupi,mohan@okkotak,33010.51,Bill payment,FALSE
-T0866,29-03-2024 05:10,ramesh@okupi,kiran@oksbi,48695.99,Misc,FALSE
-T0867,08-09-2024 01:52,dev@okyesbank,deepak@okaxis,45941.59,Groceries,FALSE
-T0868,18-05-2024 00:47,deepak@okaxis,rahul@okupi,20152.82,Misc,FALSE
-T0869,28-09-2024 17:25,sita@okhdfc,yash@oksbi,15261.35,Groceries,TRUE
-T0870,15-03-2024 20:07,amit@okicici,rahul@okhdfc,27012.03,Misc,FALSE
-T0871,23-03-2024 12:30,sita@okkotak,rahul@okaxis,34831.25,Transfer,TRUE
-T0872,18-05-2024 15:40,sita@okicici,amit@okkotak,38504.72,Payment,FALSE
-T0873,16-08-2024 18:58,vijay@oksbi,kiran@okaxis,12966.18,Groceries,TRUE
-T0874,22-02-2024 08:09,vijay@okkotak,karan@okicici,12440.36,Groceries,FALSE
-T0875,14-11-2024 05:39,dev@okicici,sana@okaxis,47028.68,Cashback,FALSE
-T0876,21-10-2024 20:55,jatin@oksbi,vijay@okicici,48138.11,Groceries,TRUE
-T0877,12-01-2024 04:27,yash@okkotak,yash@okaxis,32792.39,Bill payment,TRUE
-T0878,14-06-2024 13:08,riya@okyesbank,vijay@oksbi,42797.96,Bill payment,TRUE
-T0879,04-08-2024 00:09,yash@oksbi,sana@okhdfc,13260.13,Misc,FALSE
-T0880,24-03-2024 00:05,meena@okicici,riya@okupi,48564.58,Payment,TRUE
-T0881,26-12-2024 07:23,tina@okkotak,riya@okicici,20485.42,Groceries,FALSE
-T0882,20-11-2024 13:05,meena@okyesbank,karan@okkotak,39405.18,Food order,TRUE
-T0883,16-06-2024 11:57,ramesh@okkotak,amit@okicici,4309.13,Transfer,FALSE
-T0884,25-05-2024 01:25,jatin@okicici,dev@okicici,31007.31,Bill payment,FALSE
-T0885,07-02-2024 05:48,deepak@okkotak,sana@oksbi,16087.25,Shopping,TRUE
-T0886,10-12-2024 07:41,jatin@okhdfc,riya@okicici,21140.72,Transfer,TRUE
-T0887,09-11-2024 11:04,rohan@okhdfc,rahul@oksbi,30453.17,Food order,TRUE
-T0888,27-03-2024 06:38,farhan@okaxis,ramesh@okhdfc,46492.25,Food order,FALSE
-T0889,03-10-2024 16:01,rahul@okkotak,rohan@okaxis,2707.41,Groceries,FALSE
-T0890,28-10-2024 00:29,dev@oksbi,yash@okhdfc,7998.87,Misc,TRUE
-T0891,31-03-2024 07:35,rahul@okkotak,kiran@okyesbank,7425.93,Transfer,FALSE
-T0892,05-08-2024 03:35,neha@okyesbank,amit@okhdfc,12544.92,Payment,TRUE
-T0893,03-05-2024 04:07,jatin@okicici,dev@okhdfc,35456.1,Shopping,FALSE
-T0894,23-02-2024 21:32,ramesh@oksbi,riya@okhdfc,14681.14,Loan repayment,TRUE
-T0895,11-04-2024 06:40,deepak@okaxis,jatin@okicici,3820.14,Bill payment,TRUE
-T0896,08-01-2024 15:34,jatin@okicici,ramesh@okaxis,21826.12,Shopping,TRUE
-T0897,23-02-2024 08:13,arun@okkotak,ramesh@okicici,36235.89,Shopping,FALSE
-T0898,28-09-2024 05:10,sana@okaxis,arun@okkotak,2987.86,Loan repayment,TRUE
-T0899,19-08-2024 05:41,deepak@okyesbank,mohan@oksbi,17659.36,Cashback,TRUE
-T0900,22-09-2024 15:37,neha@okkotak,deepak@oksbi,27402.82,Misc,FALSE
-T0901,09-10-2024 00:46,jatin@okkotak,riya@okupi,39570.35,Misc,TRUE
-T0902,21-07-2024 18:52,riya@okaxis,rahul@oksbi,105.72,Groceries,TRUE
-T0903,06-08-2024 07:02,neha@okyesbank,yash@okhdfc,19685.58,Groceries,TRUE
-T0904,15-11-2024 09:54,tina@okicici,kiran@okicici,44581.5,Food order,TRUE
-T0905,24-10-2024 21:39,rohan@oksbi,sana@okicici,34849.03,Misc,FALSE
-T0906,01-02-2024 21:53,neha@okhdfc,neha@oksbi,35748.54,Recharge,TRUE
-T0907,09-10-2024 03:07,mohan@okkotak,deepak@okicici,12799.31,Cashback,TRUE
-T0908,12-12-2024 14:45,farhan@okyesbank,arun@okicici,10083.89,Recharge,TRUE
-T0909,10-09-2024 16:28,rohan@okhdfc,mohan@okyesbank,3421.32,Cashback,FALSE
-T0910,08-08-2024 18:09,amit@okupi,rohan@okyesbank,21362.16,Shopping,TRUE
-T0911,17-09-2024 10:28,mohan@okyesbank,jatin@okupi,22303.48,Transfer,TRUE
-T0912,16-08-2024 23:18,sana@oksbi,kiran@okicici,17034.03,Loan repayment,FALSE
-T0913,15-11-2024 23:40,arun@oksbi,arun@okicici,37965.26,Transfer,FALSE
-T0914,28-01-2024 20:16,farhan@oksbi,vijay@okaxis,21483.02,Transfer,TRUE
-T0915,27-03-2024 09:38,arun@okyesbank,deepak@okicici,18840.7,Recharge,FALSE
-T0916,16-10-2024 01:30,sana@okkotak,jatin@okhdfc,18859.4,Recharge,FALSE
-T0917,21-01-2024 12:37,amit@okkotak,yash@oksbi,48255.75,Misc,FALSE
-T0918,05-10-2024 10:20,amit@okkotak,vijay@okicici,46567.36,Misc,FALSE
-T0919,25-07-2024 04:05,rahul@okkotak,kiran@okkotak,39164.28,Payment,TRUE
-T0920,05-07-2024 18:44,sana@okupi,ramesh@oksbi,38437.9,Recharge,TRUE
-T0921,09-08-2024 18:44,neha@okkotak,rohan@okicici,20662.45,Misc,TRUE
-T0922,15-11-2024 12:04,rohan@okyesbank,ramesh@okyesbank,21042.44,Payment,TRUE
-T0923,22-04-2024 16:11,meena@okupi,dev@okhdfc,39114.29,Transfer,TRUE
-T0924,01-04-2024 20:26,vijay@oksbi,dev@okhdfc,26361.15,Cashback,TRUE
-T0925,19-08-2024 22:24,rohan@okaxis,farhan@okhdfc,22576.68,Loan repayment,FALSE
-T0926,07-09-2024 13:06,deepak@okkotak,deepak@okupi,32872.9,Misc,TRUE
-T0927,21-01-2024 23:40,farhan@okicici,yash@okhdfc,14990.06,Shopping,TRUE
-T0928,18-10-2024 19:26,mohan@okkotak,meena@oksbi,45815.85,Shopping,TRUE
-T0929,17-06-2024 10:12,farhan@okupi,meena@okupi,19008.07,Payment,TRUE
-T0930,23-03-2024 07:13,kiran@okupi,sana@okaxis,13433.23,Food order,FALSE
-T0931,08-06-2024 05:45,vijay@oksbi,amit@okyesbank,31875.01,Food order,TRUE
-T0932,16-08-2024 06:28,arun@okicici,vijay@okkotak,38866.77,Food order,FALSE
-T0933,15-06-2024 21:24,jatin@okupi,mohan@okkotak,42641.32,Shopping,FALSE
-T0934,29-11-2024 04:52,rohan@okhdfc,sana@oksbi,28079.61,Loan repayment,TRUE
-T0935,07-03-2024 23:17,sana@okaxis,yash@okkotak,23785.25,Food order,FALSE
-T0936,19-11-2024 19:10,amit@okicici,mohan@okhdfc,34241.94,Food order,TRUE
-T0937,03-12-2024 11:29,ramesh@oksbi,arun@okicici,22796.95,Payment,TRUE
-T0938,10-09-2024 00:02,vijay@oksbi,mohan@oksbi,19126.49,Bill payment,TRUE
-T0939,11-05-2024 00:01,karan@okaxis,arun@okyesbank,38049.14,Food order,FALSE
-T0940,17-02-2024 21:17,farhan@okyesbank,rahul@okkotak,39061.73,Loan repayment,TRUE
-T0941,25-11-2024 16:36,arun@okaxis,riya@okkotak,24704.18,Transfer,TRUE
-T0942,17-12-2024 17:48,neha@okyesbank,neha@okkotak,29069.11,Bill payment,TRUE
-T0943,14-11-2024 00:17,ramesh@okaxis,sita@okaxis,10926.89,Food order,FALSE
-T0944,28-05-2024 21:07,meena@okkotak,amit@okaxis,29463.22,Payment,TRUE
-T0945,21-12-2024 04:44,ramesh@okyesbank,amit@okicici,15392.92,Food order,FALSE
-T0946,19-05-2024 00:04,neha@okkotak,rahul@okupi,31037.01,Misc,TRUE
-T0947,14-02-2024 14:52,deepak@okupi,rohan@okyesbank,10989.88,Misc,FALSE
-T0948,18-05-2024 18:38,arun@okicici,mohan@okyesbank,12280.78,Payment,FALSE
-T0949,08-01-2024 13:36,tina@okupi,kiran@okkotak,18968.4,Food order,FALSE
-T0950,06-08-2024 01:01,jatin@okaxis,rohan@okyesbank,26340.72,Shopping,FALSE
-T0951,10-05-2024 13:06,arun@okhdfc,deepak@okupi,28385.76,Cashback,FALSE
-T0952,23-11-2024 05:36,arun@okaxis,farhan@okupi,25630.89,Shopping,TRUE
-T0953,17-08-2024 11:19,farhan@okhdfc,tina@okicici,26706.37,Shopping,FALSE
-T0954,26-06-2024 17:56,vijay@okyesbank,karan@okyesbank,14395.95,Recharge,TRUE
-T0955,31-07-2024 15:18,dev@okupi,karan@okaxis,39984.77,Cashback,TRUE
-T0956,29-11-2024 17:53,rahul@okyesbank,jatin@okyesbank,23591.92,Shopping,FALSE
-T0957,30-09-2024 15:39,yash@okkotak,jatin@okyesbank,20085.97,Bill payment,FALSE
-T0958,16-02-2024 21:03,karan@okaxis,farhan@okyesbank,2739.24,Cashback,TRUE
-T0959,29-05-2024 14:19,rahul@okhdfc,rohan@okupi,33982.41,Shopping,TRUE
-T0960,06-11-2024 02:20,vijay@okupi,karan@okupi,39624.09,Payment,FALSE
-T0961,02-06-2024 15:38,karan@okyesbank,mohan@okaxis,3223.64,Transfer,FALSE
-T0962,03-12-2024 18:57,meena@okicici,tina@okupi,37789.95,Shopping,TRUE
-T0963,23-06-2024 08:29,kiran@okkotak,farhan@okhdfc,22799.46,Transfer,FALSE
-T0964,25-09-2024 10:01,ramesh@oksbi,jatin@okyesbank,33937.99,Food order,FALSE
-T0965,27-08-2024 04:51,amit@oksbi,arun@okyesbank,9241.9,Misc,FALSE
-T0966,08-01-2024 08:15,meena@okyesbank,riya@okupi,20631.64,Transfer,TRUE
-T0967,07-10-2024 02:10,amit@okyesbank,farhan@oksbi,49230.21,Misc,TRUE
-T0968,22-02-2024 08:54,rahul@oksbi,arun@okkotak,24629.45,Groceries,FALSE
-T0969,31-01-2024 18:25,sana@okkotak,yash@okkotak,48318.82,Bill payment,FALSE
-T0970,20-01-2024 05:22,amit@oksbi,amit@okyesbank,42262.45,Misc,TRUE
-T0971,28-08-2024 23:03,yash@oksbi,tina@oksbi,17691.18,Misc,FALSE
-T0972,15-10-2024 12:08,kiran@okaxis,jatin@okkotak,34461.48,Shopping,TRUE
-T0973,25-02-2024 20:55,ramesh@okicici,riya@oksbi,12193.8,Payment,TRUE
-T0974,14-08-2024 03:45,karan@okhdfc,dev@okicici,8858.65,Misc,TRUE
-T0975,10-03-2024 09:54,mohan@oksbi,amit@okicici,45726.4,Bill payment,FALSE
-T0976,06-08-2024 01:03,jatin@okyesbank,riya@okupi,30754.58,Misc,TRUE
-T0977,03-12-2024 23:58,deepak@okaxis,tina@okicici,9605.23,Loan repayment,TRUE
-T0978,08-11-2024 10:42,meena@okyesbank,sana@okicici,44814.23,Groceries,FALSE
-T0979,21-01-2024 13:41,meena@okhdfc,deepak@okupi,43199.33,Groceries,TRUE
-T0980,20-11-2024 03:27,dev@okyesbank,riya@okyesbank,7229.26,Recharge,FALSE
-T0981,18-06-2024 20:39,sita@okupi,neha@okupi,8066.05,Cashback,TRUE
-T0982,07-07-2024 03:32,meena@okyesbank,karan@okupi,43081.23,Shopping,TRUE
-T0983,25-05-2024 20:18,rahul@okicici,mohan@okicici,6356.78,Payment,TRUE
-T0984,01-10-2024 09:52,ramesh@okupi,tina@okyesbank,24646.65,Shopping,TRUE
-T0985,28-02-2024 09:38,arun@okupi,tina@okhdfc,31405.16,Payment,FALSE
-T0986,31-05-2024 08:18,karan@oksbi,rohan@okkotak,9822.39,Recharge,TRUE
-T0987,12-04-2024 18:59,dev@okyesbank,riya@okicici,43209.41,Misc,TRUE
-T0988,26-08-2024 01:51,amit@okyesbank,ramesh@okhdfc,33902.87,Payment,TRUE
-T0989,25-12-2024 15:50,rahul@okaxis,rohan@okaxis,17447.58,Groceries,TRUE
-T0990,14-07-2024 16:13,dev@okkotak,farhan@oksbi,25238.71,Food order,FALSE
-T0991,16-11-2024 06:55,jatin@oksbi,sana@oksbi,23238.51,Recharge,TRUE
-T0992,22-08-2024 02:27,rohan@okyesbank,jatin@okicici,10384.54,Bill payment,TRUE
-T0993,30-09-2024 12:09,karan@okicici,neha@okhdfc,41840.91,Cashback,TRUE
-T0994,12-01-2024 01:08,rahul@oksbi,ramesh@okaxis,14896.85,Recharge,FALSE
-T0995,20-05-2024 03:24,ramesh@okkotak,dev@okaxis,42777.6,Recharge,FALSE
-T0996,25-09-2024 00:23,mohan@okyesbank,jatin@okupi,42818.63,Groceries,TRUE
-T0997,22-03-2024 20:56,jatin@okaxis,dev@okupi,24264.84,Loan repayment,TRUE
-T0998,07-02-2024 05:55,ramesh@okaxis,yash@okupi,46809.94,Recharge,FALSE
-T0999,20-01-2024 05:23,deepak@okupi,jatin@okhdfc,27702.82,Bill payment,TRUE
-T1000,07-12-2024 20:58,deepak@okhdfc,rohan@okupi,41881.23,Transfer,TRUE
+txn_id	timestamp	from_vpa	to_vpa	amount	message	is_new_payee	severity	why
+T0001	20-06-2024 04:39	rahul@okhdfc	riya@okkotak	23707.11	Recharge	FALSE	1	Abnormal frequency
+T0002	31-10-2024 01:42	farhan@oksbi	neha@okkotak	16297.8	Groceries	FALSE		
+T0003	27-12-2024 20:57	vijay@okyesbank	ramesh@okaxis	36463.74	Shopping	FALSE	2	Pattern matched fraud
+T0004	21-09-2024 13:55	sita@okupi	deepak@oksbi	16959.2	Food order	TRUE		
+T0005	26-08-2024 13:07	karan@oksbi	karan@okupi	4864.53	Payment	FALSE		
+T0006	27-02-2024 09:52	vijay@okaxis	rahul@okyesbank	39272.88	Groceries	TRUE		
+T0007	16-02-2024 16:48	riya@oksbi	neha@okhdfc	1461.15	Transfer	TRUE		
+T0008	08-05-2024 19:35	rohan@oksbi	riya@okyesbank	31704.21	Groceries	FALSE		
+T0009	16-08-2024 12:11	kiran@okupi	sana@okhdfc	41732.15	Groceries	FALSE		
+T0010	07-08-2024 09:44	meena@okhdfc	kiran@okhdfc	18616.65	Bill payment	FALSE		
+T0011	16-02-2024 15:19	jatin@okaxis	karan@okaxis	48142.77	Groceries	TRUE		
+T0012	03-12-2024 06:37	dev@okaxis	vijay@oksbi	27377.42	Shopping	TRUE		
+T0013	14-05-2024 22:02	jatin@okicici	yash@okhdfc	28396.19	Recharge	FALSE		
+T0014	21-04-2024 20:03	sita@okaxis	amit@okyesbank	30859.01	Loan repayment	FALSE		
+T0015	12-02-2024 11:25	neha@okupi	karan@okhdfc	12931.63	Misc	FALSE		
+T0016	05-03-2024 07:42	tina@okupi	vijay@oksbi	14090.94	Loan repayment	TRUE		
+T0017	11-06-2024 03:38	dev@okhdfc	tina@okyesbank	9385.01	Misc	FALSE	5	Suspicious amount
+T0018	23-04-2024 15:09	deepak@okaxis	arun@okupi	46994.01	Recharge	FALSE		
+T0019	11-08-2024 22:18	rohan@okupi	arun@okhdfc	49578.53	Transfer	FALSE		
+T0020	04-06-2024 15:52	sita@okkotak	jatin@okyesbank	11218.42	Misc	FALSE		
+T0021	24-11-2024 14:07	rohan@okupi	kiran@okyesbank	46170.87	Loan repayment	TRUE	5	Abnormal frequency
+T0022	01-11-2024 10:39	rahul@okupi	sana@oksbi	17662.88	Food order	TRUE	4	Pattern matched fraud
+T0023	06-02-2024 08:08	vijay@okhdfc	amit@okkotak	37756.49	Groceries	FALSE		
+T0024	14-09-2024 15:02	riya@okkotak	meena@okaxis	13959.29	Transfer	FALSE		
+T0025	31-07-2024 13:20	rohan@okaxis	jatin@okaxis	41964.86	Bill payment	FALSE		
+T0026	26-02-2024 18:10	rahul@okaxis	vijay@okyesbank	37464.52	Transfer	TRUE		
+T0027	03-05-2024 14:35	amit@okhdfc	yash@okkotak	49400.09	Food order	FALSE		
+T0028	27-02-2024 02:57	neha@okaxis	arun@okicici	41681.05	Groceries	TRUE		
+T0029	11-02-2024 19:09	karan@oksbi	rahul@okupi	22684.23	Loan repayment	TRUE		
+T0030	17-12-2024 23:17	amit@okaxis	mohan@okicici	13134.8	Shopping	FALSE	4	New payee with high value
+T0031	19-09-2024 07:47	mohan@okkotak	sana@okyesbank	44358.55	Groceries	TRUE		
+T0032	05-04-2024 02:36	deepak@okyesbank	meena@okupi	15912.6	Shopping	FALSE		
+T0033	31-08-2024 20:00	ramesh@okicici	dev@oksbi	15773.92	Shopping	TRUE		
+T0034	09-02-2024 12:29	sana@okaxis	meena@okyesbank	26259.52	Misc	FALSE		
+T0035	20-02-2024 23:11	yash@okaxis	rohan@okyesbank	29918.15	Food order	FALSE		
+T0036	27-07-2024 07:24	rohan@okicici	farhan@okicici	26660.23	Groceries	TRUE		
+T0037	02-08-2024 03:13	karan@okaxis	yash@okyesbank	37697.41	Recharge	FALSE		
+T0038	19-10-2024 01:25	vijay@okhdfc	jatin@okicici	17210.64	Shopping	FALSE		
+T0039	01-10-2024 07:02	neha@oksbi	deepak@okkotak	40877.44	Shopping	TRUE		
+T0040	23-03-2024 15:52	amit@okkotak	vijay@okhdfc	11126.94	Misc	TRUE		
+T0041	27-05-2024 11:50	sana@oksbi	kiran@okupi	10404.02	Cashback	FALSE		
+T0042	13-07-2024 12:28	karan@okyesbank	farhan@okaxis	44098.44	Transfer	TRUE	3	Unusual time
+T0043	22-07-2024 13:39	deepak@okyesbank	vijay@okyesbank	20869.57	Cashback	FALSE		
+T0044	09-09-2024 01:39	ramesh@okaxis	mohan@okhdfc	10209.55	Recharge	TRUE		
+T0045	15-10-2024 07:51	meena@okkotak	rohan@okaxis	3688.54	Transfer	FALSE		
+T0046	24-06-2024 15:00	mohan@okkotak	riya@okupi	8550.45	Shopping	FALSE	4	New payee with high value
+T0047	26-06-2024 12:14	karan@okupi	karan@okaxis	1742.36	Groceries	TRUE		
+T0048	25-10-2024 04:21	rohan@okhdfc	yash@okhdfc	40071.96	Food order	TRUE	2	Device anomaly
+T0049	20-01-2024 16:31	yash@okkotak	dev@okyesbank	7222.82	Shopping	FALSE		
+T0050	12-12-2024 17:12	deepak@okupi	kiran@okaxis	37881.71	Misc	TRUE	5	New payee with high value
+T0051	21-03-2024 20:18	meena@okhdfc	rohan@oksbi	24886.51	Food order	TRUE		
+T0052	09-12-2024 20:03	amit@okupi	rahul@okyesbank	18981.76	Transfer	FALSE		
+T0053	13-03-2024 22:14	karan@okupi	yash@okkotak	613.84	Bill payment	FALSE		
+T0054	01-08-2024 13:12	sana@okyesbank	tina@okyesbank	34499.51	Groceries	FALSE		
+T0055	22-07-2024 02:42	karan@okaxis	tina@okupi	23155.75	Food order	TRUE		
+T0056	09-06-2024 17:46	mohan@okyesbank	deepak@okhdfc	45589.17	Shopping	TRUE		
+T0057	02-10-2024 04:22	deepak@okhdfc	farhan@oksbi	12820.08	Shopping	FALSE		
+T0058	17-12-2024 17:39	ramesh@okaxis	neha@okupi	45676.64	Food order	FALSE		
+T0059	14-08-2024 03:35	kiran@okyesbank	rohan@okhdfc	19110.14	Groceries	FALSE		
+T0060	30-10-2024 13:13	rohan@okyesbank	mohan@okkotak	7824.33	Payment	TRUE		
+T0061	15-08-2024 23:38	riya@okupi	kiran@oksbi	9295.13	Payment	TRUE		
+T0062	09-12-2024 18:17	amit@okhdfc	dev@okupi	19499.83	Loan repayment	FALSE		
+T0063	26-09-2024 02:39	meena@okupi	sita@okupi	33032.63	Cashback	FALSE		
+T0064	13-12-2024 10:14	farhan@okicici	meena@okyesbank	2512.65	Transfer	TRUE		
+T0065	04-05-2024 06:36	rahul@okicici	mohan@oksbi	46709.06	Groceries	TRUE		
+T0066	12-07-2024 00:02	dev@okkotak	dev@okkotak	49071.43	Recharge	FALSE		
+T0067	21-12-2024 10:46	amit@okkotak	karan@okkotak	13050.83	Bill payment	TRUE		
+T0068	01-07-2024 21:41	deepak@okaxis	vijay@okyesbank	21328.8	Payment	TRUE		
+T0069	24-01-2024 11:16	vijay@okicici	jatin@okyesbank	26500.63	Loan repayment	FALSE		
+T0070	05-11-2024 13:18	amit@oksbi	kiran@okupi	5457.5	Bill payment	FALSE	4	Abnormal frequency
+T0071	04-05-2024 16:56	meena@okkotak	sana@okaxis	32735.39	Cashback	FALSE		
+T0072	14-02-2024 19:14	arun@okaxis	deepak@oksbi	24886.39	Loan repayment	TRUE	3	Unusual time
+T0073	08-01-2024 09:24	farhan@okaxis	jatin@okupi	38464.28	Payment	FALSE		
+T0074	08-01-2024 16:18	dev@oksbi	ramesh@okupi	10081.3	Groceries	FALSE		
+T0075	27-07-2024 19:10	ramesh@oksbi	farhan@oksbi	8926.24	Food order	FALSE		
+T0076	07-06-2024 02:55	sana@okyesbank	dev@oksbi	38761.78	Cashback	FALSE		
+T0077	16-11-2024 00:44	farhan@okkotak	riya@okyesbank	30334.12	Payment	FALSE		
+T0078	24-01-2024 21:07	sana@okhdfc	karan@oksbi	6288.56	Bill payment	TRUE		
+T0079	28-08-2024 20:37	dev@okaxis	tina@oksbi	32855.77	Loan repayment	TRUE	2	Pattern matched fraud
+T0080	31-01-2024 03:08	meena@okupi	sana@okyesbank	15174.39	Groceries	FALSE		
+T0081	30-04-2024 10:31	amit@okhdfc	riya@okhdfc	25299.87	Shopping	FALSE		
+T0082	02-02-2024 21:33	meena@okyesbank	meena@okaxis	37641.43	Transfer	FALSE	1	Suspicious amount
+T0083	18-03-2024 03:56	neha@oksbi	meena@okupi	49807.91	Bill payment	FALSE		
+T0084	27-01-2024 04:57	ramesh@okhdfc	deepak@okkotak	41060.36	Transfer	TRUE	2	New payee with high value
+T0085	17-08-2024 18:18	dev@okupi	dev@oksbi	44643.83	Cashback	FALSE	2	Unusual time
+T0086	08-07-2024 20:53	sana@oksbi	sita@oksbi	6697.08	Food order	TRUE	1	New payee with high value
+T0087	14-09-2024 17:10	arun@okkotak	rahul@okhdfc	42922.96	Shopping	FALSE		
+T0088	28-06-2024 13:58	meena@oksbi	kiran@okaxis	33719.81	Payment	TRUE		
+T0089	24-07-2024 13:44	farhan@okaxis	deepak@okaxis	35922.79	Loan repayment	TRUE	3	Suspicious amount
+T0090	16-07-2024 12:14	rahul@okaxis	neha@okyesbank	12296.07	Cashback	FALSE	4	New payee with high value
+T0091	16-02-2024 19:15	kiran@okupi	rahul@oksbi	10700.93	Food order	TRUE	3	Pattern matched fraud
+T0092	21-08-2024 00:33	arun@oksbi	riya@okyesbank	15901.21	Recharge	TRUE	5	Pattern matched fraud
+T0093	14-12-2024 01:21	deepak@okkotak	yash@okaxis	45471.52	Misc	FALSE		
+T0094	13-08-2024 07:47	farhan@okicici	jatin@okyesbank	37179.32	Shopping	TRUE		
+T0095	15-05-2024 17:38	tina@okicici	kiran@okyesbank	45476.41	Groceries	TRUE		
+T0096	09-09-2024 03:32	neha@okkotak	rohan@okaxis	41670.96	Bill payment	FALSE		
+T0097	03-05-2024 07:10	farhan@oksbi	deepak@okicici	19653.1	Food order	FALSE		
+T0098	22-06-2024 17:32	rahul@okkotak	dev@oksbi	4246.66	Misc	FALSE		
+T0099	06-11-2024 10:13	deepak@oksbi	arun@okupi	38806.81	Transfer	FALSE	4	Pattern matched fraud
+T0100	24-10-2024 19:54	neha@okhdfc	meena@okkotak	8025.82	Bill payment	TRUE		
+T0101	29-07-2024 12:55	sana@okupi	tina@okkotak	37817.84	Food order	FALSE		
+T0102	07-07-2024 01:49	meena@okicici	arun@okkotak	16285.43	Shopping	TRUE		
+T0103	15-10-2024 06:14	arun@okupi	jatin@okkotak	35024.04	Loan repayment	TRUE		
+T0104	06-10-2024 17:15	rahul@okhdfc	ramesh@okhdfc	21339.73	Loan repayment	FALSE	1	Pattern matched fraud
+T0105	16-12-2024 01:41	rahul@oksbi	meena@oksbi	28017.14	Food order	FALSE		
+T0106	04-10-2024 20:31	rahul@okicici	ramesh@okicici	31593.41	Cashback	FALSE		
+T0107	16-08-2024 04:16	riya@okaxis	sana@okkotak	8936.8	Food order	FALSE		
+T0108	26-03-2024 18:51	jatin@oksbi	rahul@okhdfc	38406.88	Cashback	FALSE	4	New payee with high value
+T0109	16-08-2024 16:22	sita@okaxis	yash@okyesbank	12113.54	Bill payment	FALSE		
+T0110	27-01-2024 19:30	kiran@okyesbank	vijay@okaxis	38011.31	Shopping	TRUE	3	Abnormal frequency
+T0111	04-11-2024 06:32	sita@okupi	kiran@okyesbank	1317	Payment	FALSE		
+T0112	16-02-2024 05:14	ramesh@okaxis	jatin@okicici	36062.6	Loan repayment	FALSE	3	Pattern matched fraud
+T0113	28-02-2024 17:45	amit@okaxis	tina@okhdfc	21671.66	Payment	TRUE		
+T0114	19-06-2024 20:30	tina@okaxis	amit@okupi	17366.84	Groceries	FALSE	5	Suspicious amount
+T0115	07-07-2024 18:18	ramesh@okicici	riya@okkotak	45560.75	Food order	FALSE		
+T0116	22-08-2024 03:04	arun@okicici	tina@okhdfc	6564.8	Food order	TRUE		
+T0117	02-03-2024 13:51	jatin@okhdfc	sita@okkotak	47108.16	Cashback	FALSE		
+T0118	16-06-2024 11:50	jatin@okicici	neha@okhdfc	24068.88	Misc	TRUE	1	Suspicious amount
+T0119	29-02-2024 08:48	ramesh@okhdfc	rahul@okicici	14295.34	Cashback	FALSE	4	Pattern matched fraud
+T0120	02-12-2024 10:52	riya@okaxis	vijay@oksbi	8483.32	Transfer	FALSE	2	Device anomaly
+T0121	02-11-2024 09:45	karan@okupi	riya@okkotak	42142.92	Loan repayment	FALSE		
+T0122	10-03-2024 00:20	meena@okupi	karan@okkotak	33046.43	Cashback	FALSE		
+T0123	11-06-2024 20:41	karan@okaxis	farhan@okkotak	26791.08	Shopping	FALSE		
+T0124	22-02-2024 01:59	yash@okkotak	yash@okkotak	30287.13	Loan repayment	FALSE	4	New payee with high value
+T0125	19-05-2024 22:26	amit@oksbi	deepak@oksbi	39984.85	Bill payment	TRUE	3	New payee with high value
+T0126	23-02-2024 22:28	dev@okaxis	rohan@oksbi	20360.74	Bill payment	FALSE	4	New payee with high value
+T0127	15-11-2024 11:06	neha@oksbi	deepak@okaxis	33972.2	Groceries	TRUE		
+T0128	12-12-2024 05:44	jatin@oksbi	jatin@okkotak	27484.14	Transfer	TRUE		
+T0129	02-03-2024 20:38	vijay@okaxis	rahul@okupi	15881.91	Loan repayment	TRUE		
+T0130	15-06-2024 02:00	vijay@oksbi	rohan@okkotak	44842.86	Recharge	FALSE	4	Unusual time
+T0131	14-12-2024 00:32	arun@okyesbank	riya@okkotak	42327.12	Food order	FALSE	5	Pattern matched fraud
+T0132	02-03-2024 15:26	karan@okupi	rohan@okyesbank	17030.86	Recharge	TRUE		
+T0133	18-06-2024 19:36	riya@okhdfc	neha@okupi	5212.86	Loan repayment	FALSE		
+T0134	11-04-2024 10:07	rohan@oksbi	mohan@okhdfc	39770.03	Food order	TRUE	4	Device anomaly
+T0135	14-02-2024 10:44	karan@oksbi	rohan@okicici	24049.5	Transfer	TRUE		
+T0136	01-09-2024 12:37	vijay@okhdfc	tina@okkotak	38781.25	Food order	TRUE		
+T0137	05-10-2024 23:36	rahul@okupi	sana@okaxis	17031.3	Shopping	FALSE	1	Device anomaly
+T0138	11-10-2024 16:26	karan@okupi	ramesh@okyesbank	25983.82	Groceries	TRUE		
+T0139	30-06-2024 01:23	sita@okhdfc	yash@okaxis	42281.47	Misc	FALSE		
+T0140	27-01-2024 11:00	neha@okicici	neha@okupi	40206.84	Cashback	FALSE		
+T0141	20-04-2024 11:08	riya@okupi	yash@okkotak	42617.25	Cashback	FALSE		
+T0142	04-06-2024 15:49	sana@okyesbank	meena@okkotak	18981.75	Bill payment	TRUE		
+T0143	11-06-2024 10:17	vijay@oksbi	tina@okaxis	49838.38	Recharge	TRUE		
+T0144	02-04-2024 00:50	amit@okupi	arun@okkotak	45578.02	Payment	TRUE	4	New payee with high value
+T0145	04-03-2024 08:26	jatin@okupi	mohan@okyesbank	7300.55	Payment	FALSE		
+T0146	16-01-2024 03:36	arun@oksbi	jatin@okhdfc	1058.16	Groceries	FALSE	2	Abnormal frequency
+T0147	03-05-2024 12:21	jatin@okkotak	rohan@okupi	49116.3	Cashback	FALSE		
+T0148	11-08-2024 15:04	dev@okkotak	mohan@okaxis	14576.7	Recharge	FALSE	2	Unusual time
+T0149	13-01-2024 18:10	sita@okaxis	yash@okkotak	47919.03	Payment	TRUE		
+T0150	01-11-2024 10:30	meena@okhdfc	rohan@okaxis	20270.54	Groceries	FALSE	3	New payee with high value
+T0151	19-10-2024 06:19	mohan@okaxis	rohan@okyesbank	3833.61	Shopping	TRUE		
+T0152	28-10-2024 06:12	karan@okupi	arun@okhdfc	15074.47	Payment	TRUE	4	Pattern matched fraud
+T0153	14-03-2024 06:05	rahul@oksbi	dev@okaxis	24515.94	Cashback	TRUE		
+T0154	20-06-2024 20:31	farhan@okupi	neha@okupi	49154.44	Loan repayment	FALSE		
+T0155	11-03-2024 22:31	rahul@okhdfc	neha@okkotak	5037.59	Shopping	TRUE		
+T0156	10-06-2024 17:55	deepak@okhdfc	farhan@okaxis	45690.72	Transfer	FALSE		
+T0157	28-11-2024 01:15	tina@okkotak	rahul@okkotak	33341.81	Food order	TRUE		
+T0158	23-07-2024 04:46	deepak@okyesbank	tina@oksbi	4639.07	Groceries	TRUE		
+T0159	21-09-2024 19:39	meena@okaxis	riya@okkotak	19263.72	Misc	TRUE		
+T0160	26-06-2024 16:20	jatin@oksbi	tina@okupi	11596.78	Recharge	TRUE	1	Abnormal frequency
+T0161	28-02-2024 10:30	farhan@okaxis	amit@okaxis	41256.97	Cashback	FALSE	2	Unusual time
+T0162	08-08-2024 20:55	yash@oksbi	neha@okkotak	32807.21	Recharge	FALSE		
+T0163	17-12-2024 21:22	karan@okyesbank	amit@okhdfc	8180.81	Recharge	FALSE		
+T0164	04-06-2024 21:56	kiran@okyesbank	vijay@okaxis	26349.15	Recharge	TRUE		
+T0165	06-03-2024 04:22	jatin@okicici	rahul@okupi	37992.73	Shopping	FALSE		
+T0166	07-10-2024 10:57	kiran@okyesbank	kiran@okyesbank	11927.06	Bill payment	FALSE		
+T0167	17-10-2024 02:03	amit@okhdfc	yash@okupi	14107.92	Loan repayment	FALSE		
+T0168	25-02-2024 23:31	sana@okicici	neha@okhdfc	8034.75	Bill payment	TRUE		
+T0169	05-12-2024 02:49	vijay@okyesbank	rohan@okupi	25391.03	Bill payment	FALSE	3	Pattern matched fraud
+T0170	04-05-2024 07:51	rahul@okkotak	jatin@okaxis	13275.57	Recharge	FALSE		
+T0171	23-04-2024 19:13	riya@okupi	yash@okyesbank	6386.51	Loan repayment	TRUE		
+T0172	24-11-2024 06:40	neha@okkotak	karan@oksbi	19470.36	Recharge	FALSE		
+T0173	22-12-2024 09:26	dev@okaxis	neha@okkotak	921.44	Misc	TRUE		
+T0174	10-06-2024 15:41	arun@okaxis	neha@okhdfc	10320.02	Food order	TRUE		
+T0175	12-07-2024 22:51	ramesh@okhdfc	arun@okaxis	15249.39	Misc	FALSE	1	Abnormal frequency
+T0176	27-11-2024 21:58	jatin@okyesbank	dev@okkotak	25989.78	Loan repayment	FALSE		
+T0177	15-12-2024 14:08	rohan@okhdfc	ramesh@okaxis	29656.43	Payment	TRUE		
+T0178	18-05-2024 09:08	vijay@okicici	karan@okkotak	44009.68	Food order	TRUE	3	Device anomaly
+T0179	27-04-2024 10:31	kiran@okhdfc	mohan@oksbi	24107.73	Recharge	FALSE		
+T0180	24-10-2024 03:05	tina@okupi	neha@okupi	42673.87	Bill payment	FALSE		
+T0181	31-01-2024 15:14	sita@okaxis	riya@okyesbank	42783.54	Loan repayment	FALSE	2	Abnormal frequency
+T0182	05-09-2024 07:12	riya@okicici	sana@oksbi	19735.91	Bill payment	TRUE	5	New payee with high value
+T0183	11-08-2024 01:26	karan@okaxis	arun@okyesbank	28372.32	Loan repayment	FALSE	1	Suspicious amount
+T0184	01-04-2024 13:43	sita@okaxis	amit@oksbi	18001.33	Loan repayment	FALSE		
+T0185	22-03-2024 08:45	kiran@okicici	mohan@okupi	40071.56	Transfer	TRUE		
+T0186	24-01-2024 18:02	sana@okhdfc	kiran@okhdfc	15973.89	Groceries	TRUE		
+T0187	27-11-2024 01:35	rahul@oksbi	dev@okaxis	26311.16	Shopping	FALSE		
+T0188	23-09-2024 12:13	amit@okyesbank	amit@okaxis	24800.16	Loan repayment	TRUE		
+T0189	08-08-2024 07:40	ramesh@okupi	kiran@okkotak	31738.72	Shopping	FALSE	4	New payee with high value
+T0190	26-09-2024 02:50	sita@oksbi	neha@oksbi	27166.56	Bill payment	TRUE		
+T0191	17-04-2024 02:07	meena@oksbi	farhan@okhdfc	2338.18	Payment	FALSE		
+T0192	26-10-2024 07:38	ramesh@okaxis	meena@okkotak	28933.36	Payment	TRUE	4	Abnormal frequency
+T0193	01-06-2024 22:26	karan@okupi	rohan@okhdfc	44839.74	Cashback	FALSE		
+T0194	25-02-2024 14:09	sana@okicici	karan@okicici	34329.69	Food order	TRUE		
+T0195	29-05-2024 07:42	ramesh@okaxis	farhan@okupi	25050.8	Groceries	TRUE	3	New payee with high value
+T0196	15-07-2024 02:27	amit@okaxis	arun@okicici	47428.95	Loan repayment	FALSE		
+T0197	13-03-2024 16:18	deepak@okkotak	amit@okhdfc	47613.99	Food order	TRUE	1	Suspicious amount
+T0198	08-07-2024 21:38	tina@okyesbank	meena@okupi	10571.32	Payment	TRUE		
+T0199	04-06-2024 00:46	rohan@okicici	arun@okhdfc	31531.79	Cashback	FALSE		
+T0200	02-01-2024 20:13	arun@okhdfc	yash@okicici	23259	Groceries	TRUE		
+T0201	09-12-2024 18:35	deepak@okupi	meena@okicici	40030.73	Transfer	TRUE	3	Abnormal frequency
+T0202	22-03-2024 03:34	riya@okaxis	tina@oksbi	48120.39	Groceries	TRUE	3	Abnormal frequency
+T0203	27-01-2024 15:29	rohan@okhdfc	ramesh@okhdfc	17325.38	Recharge	TRUE		
+T0204	16-05-2024 09:58	rahul@okkotak	dev@okaxis	20894.07	Transfer	FALSE		
+T0205	21-03-2024 09:52	meena@okaxis	jatin@okicici	31404.35	Recharge	FALSE		
+T0206	14-01-2024 19:15	ramesh@okhdfc	farhan@okkotak	23009.4	Payment	FALSE		
+T0207	17-06-2024 12:03	mohan@okicici	vijay@oksbi	44182.8	Cashback	FALSE		
+T0208	02-09-2024 16:42	deepak@okicici	karan@okyesbank	37703.84	Cashback	TRUE	3	Pattern matched fraud
+T0209	29-07-2024 09:03	yash@okyesbank	rohan@okupi	11651.57	Bill payment	FALSE	2	Abnormal frequency
+T0210	14-06-2024 11:54	sita@okkotak	karan@okaxis	20715.84	Food order	TRUE		
+T0211	31-05-2024 02:53	deepak@okicici	deepak@okhdfc	919.93	Loan repayment	TRUE	1	Device anomaly
+T0212	18-01-2024 04:28	yash@oksbi	rahul@okaxis	16822.06	Recharge	TRUE		
+T0213	17-12-2024 11:48	tina@okicici	jatin@okaxis	37754.04	Payment	TRUE		
+T0214	16-04-2024 07:12	rohan@okaxis	vijay@okicici	23709.8	Cashback	FALSE	1	Device anomaly
+T0215	14-08-2024 04:50	riya@okyesbank	arun@okaxis	41269.11	Transfer	TRUE		
+T0216	16-07-2024 20:41	sana@okhdfc	sita@oksbi	8087.94	Payment	TRUE		
+T0217	20-02-2024 22:13	jatin@okkotak	sana@okaxis	21855.96	Payment	TRUE	5	Device anomaly
+T0218	05-06-2024 16:38	yash@okyesbank	neha@oksbi	47998.91	Bill payment	FALSE		
+T0219	29-11-2024 16:44	rahul@okaxis	rahul@okhdfc	23827.22	Food order	TRUE	1	Abnormal frequency
+T0220	21-02-2024 07:12	rohan@okyesbank	ramesh@okupi	6198.65	Cashback	FALSE		
+T0221	26-10-2024 12:25	farhan@okkotak	ramesh@okaxis	19472.66	Transfer	FALSE		
+T0222	14-03-2024 11:43	farhan@okkotak	yash@okkotak	27337.15	Loan repayment	FALSE	5	New payee with high value
+T0223	31-10-2024 14:27	meena@okkotak	vijay@okicici	21609.82	Recharge	TRUE	5	Device anomaly
+T0224	02-10-2024 19:10	sana@okkotak	deepak@okkotak	28344.2	Payment	FALSE		
+T0225	09-12-2024 00:34	meena@okicici	arun@okupi	23467.3	Loan repayment	TRUE		
+T0226	17-02-2024 14:23	dev@okicici	rohan@okicici	4858.56	Food order	TRUE		
+T0227	28-02-2024 23:56	jatin@okhdfc	amit@okupi	18466.35	Transfer	FALSE		
+T0228	19-02-2024 23:56	ramesh@okupi	meena@okupi	9089.44	Loan repayment	FALSE		
+T0229	17-08-2024 15:18	deepak@oksbi	vijay@okupi	38489.69	Recharge	FALSE		
+T0230	17-07-2024 00:50	deepak@okkotak	sana@okicici	6439.67	Shopping	TRUE		
+T0231	10-12-2024 14:47	tina@okkotak	amit@okhdfc	9888.09	Food order	TRUE	5	Pattern matched fraud
+T0232	05-12-2024 20:25	rohan@okicici	rahul@okicici	43487.99	Recharge	FALSE		
+T0233	13-11-2024 11:31	amit@okaxis	mohan@okaxis	48225.7	Food order	TRUE	5	Pattern matched fraud
+T0234	03-07-2024 11:34	karan@oksbi	farhan@okupi	20511.13	Loan repayment	TRUE		
+T0235	17-10-2024 03:49	rahul@okicici	kiran@okaxis	41730.63	Payment	FALSE		
+T0236	22-11-2024 14:11	deepak@okicici	arun@okupi	41147.76	Misc	TRUE		
+T0237	20-07-2024 21:00	amit@okaxis	sana@okyesbank	24191.78	Recharge	FALSE		
+T0238	21-06-2024 14:12	farhan@okyesbank	rohan@okaxis	2142.65	Bill payment	TRUE		
+T0239	13-09-2024 10:19	dev@okaxis	sana@oksbi	6174.96	Food order	FALSE		
+T0240	13-10-2024 12:33	meena@okaxis	karan@okkotak	43977.32	Recharge	FALSE	5	Device anomaly
+T0241	31-01-2024 16:33	rahul@okaxis	deepak@okupi	38021.4	Misc	FALSE		
+T0242	05-01-2024 14:20	rahul@oksbi	farhan@okupi	47691.95	Payment	TRUE		
+T0243	28-06-2024 02:47	farhan@okicici	neha@okyesbank	20360.54	Payment	TRUE	5	New payee with high value
+T0244	24-12-2024 03:22	farhan@okicici	kiran@okyesbank	18960.97	Cashback	TRUE		
+T0245	19-01-2024 17:22	jatin@okyesbank	karan@okaxis	1335.5	Misc	TRUE		
+T0246	30-12-2024 22:09	yash@okaxis	meena@okyesbank	10947.63	Transfer	TRUE		
+T0247	02-11-2024 08:37	sita@okhdfc	rahul@okyesbank	11841.4	Misc	FALSE		
+T0248	30-03-2024 19:31	ramesh@okupi	kiran@oksbi	32254.1	Shopping	TRUE		
+T0249	31-05-2024 22:18	tina@okicici	sita@okhdfc	13032.2	Transfer	TRUE		
+T0250	31-03-2024 23:49	arun@okhdfc	neha@okicici	33725.49	Payment	FALSE	3	New payee with high value
+T0251	01-10-2024 19:56	mohan@oksbi	arun@okyesbank	42884.13	Cashback	FALSE		
+T0252	12-01-2024 21:51	meena@okupi	deepak@okyesbank	43826.59	Misc	FALSE		
+T0253	23-06-2024 23:34	karan@okaxis	sita@okyesbank	8885.26	Cashback	TRUE		
+T0254	29-12-2024 02:35	yash@okhdfc	deepak@oksbi	25107.36	Bill payment	FALSE		
+T0255	15-09-2024 13:55	sita@okaxis	farhan@okyesbank	9147.96	Transfer	TRUE	5	Abnormal frequency
+T0256	19-10-2024 17:40	sana@oksbi	yash@okyesbank	20825.13	Loan repayment	FALSE	1	Pattern matched fraud
+T0257	24-10-2024 19:55	dev@oksbi	neha@okupi	5839.26	Cashback	FALSE		
+T0258	19-10-2024 16:44	deepak@oksbi	arun@okhdfc	1813.95	Groceries	FALSE		
+T0259	18-10-2024 01:51	neha@okhdfc	rahul@okhdfc	2992.32	Loan repayment	FALSE		
+T0260	11-03-2024 12:16	kiran@oksbi	ramesh@okicici	38343.77	Groceries	TRUE		
+T0261	20-09-2024 03:19	rohan@okaxis	deepak@okhdfc	29908.76	Payment	TRUE		
+T0262	02-09-2024 10:59	meena@okyesbank	rahul@okupi	12470.49	Cashback	TRUE	5	New payee with high value
+T0263	06-11-2024 14:32	sita@okhdfc	farhan@okhdfc	17036.5	Bill payment	FALSE		
+T0264	20-08-2024 04:06	amit@okhdfc	neha@okkotak	30336.52	Loan repayment	TRUE		
+T0265	26-04-2024 04:50	jatin@okaxis	rahul@okyesbank	29747.88	Transfer	FALSE		
+T0266	19-11-2024 12:11	neha@okkotak	ramesh@okaxis	11997.62	Recharge	FALSE		
+T0267	11-05-2024 14:48	neha@okhdfc	jatin@okkotak	12817.94	Payment	TRUE	2	Device anomaly
+T0268	02-04-2024 01:56	vijay@okkotak	tina@okupi	35012.01	Misc	FALSE		
+T0269	27-04-2024 14:00	yash@okyesbank	riya@okupi	29185.97	Transfer	FALSE		
+T0270	20-04-2024 03:10	karan@okhdfc	sita@okyesbank	9077.25	Groceries	FALSE		
+T0271	15-04-2024 12:15	jatin@okyesbank	mohan@okkotak	20845.61	Food order	FALSE		
+T0272	06-05-2024 22:02	ramesh@okhdfc	tina@oksbi	46629.77	Cashback	FALSE	5	Abnormal frequency
+T0273	02-03-2024 14:04	farhan@okhdfc	farhan@okupi	28907.1	Payment	FALSE		
+T0274	09-04-2024 02:12	jatin@okhdfc	vijay@okicici	5795.77	Loan repayment	TRUE		
+T0275	03-12-2024 19:51	rahul@okhdfc	rahul@okaxis	44226.37	Misc	FALSE		
+T0276	24-03-2024 06:58	tina@okaxis	rahul@oksbi	30551.6	Transfer	FALSE	5	Pattern matched fraud
+T0277	02-04-2024 07:20	sita@okyesbank	neha@okyesbank	2520.6	Food order	TRUE	4	Abnormal frequency
+T0278	04-03-2024 05:27	riya@okicici	deepak@okicici	32444.13	Food order	FALSE		
+T0279	27-02-2024 02:16	meena@okhdfc	rahul@oksbi	40529.03	Food order	FALSE		
+T0280	30-10-2024 03:46	sana@okaxis	sana@okupi	34536.62	Loan repayment	TRUE		
+T0281	05-09-2024 18:19	farhan@oksbi	neha@okupi	44034.13	Recharge	FALSE		
+T0282	19-06-2024 23:13	deepak@okupi	yash@oksbi	9974.96	Cashback	FALSE		
+T0283	05-05-2024 12:47	dev@okicici	vijay@okupi	4959.1	Groceries	TRUE	2	Pattern matched fraud
+T0284	02-07-2024 07:35	dev@okkotak	mohan@okyesbank	43630.83	Loan repayment	TRUE	2	Abnormal frequency
+T0285	28-12-2024 05:25	mohan@okupi	vijay@oksbi	40972.85	Shopping	FALSE		
+T0286	09-10-2024 22:21	jatin@okhdfc	sana@okaxis	37171.37	Loan repayment	TRUE		
+T0287	02-10-2024 06:32	deepak@okaxis	rahul@okyesbank	38734.62	Bill payment	FALSE		
+T0288	12-07-2024 06:36	karan@okhdfc	sana@okkotak	7310.64	Shopping	FALSE		
+T0289	08-11-2024 10:31	mohan@okkotak	sita@okicici	11747.57	Loan repayment	FALSE	5	Device anomaly
+T0290	28-10-2024 11:26	kiran@okaxis	dev@okhdfc	25579.69	Groceries	TRUE	2	Pattern matched fraud
+T0291	29-04-2024 12:25	neha@okyesbank	sita@okaxis	27830.8	Bill payment	FALSE		
+T0292	05-04-2024 00:10	dev@okupi	vijay@okupi	41627.9	Cashback	TRUE		
+T0293	26-08-2024 02:07	farhan@okyesbank	ramesh@okkotak	158.15	Groceries	FALSE		
+T0294	25-07-2024 12:41	mohan@okicici	rahul@okupi	39436.48	Misc	FALSE		
+T0295	01-04-2024 11:05	jatin@oksbi	sana@okkotak	44848.68	Loan repayment	FALSE	2	Abnormal frequency
+T0296	23-04-2024 23:03	dev@okaxis	neha@okicici	23645.43	Cashback	FALSE		
+T0297	23-01-2024 04:39	kiran@okkotak	tina@okupi	9797.41	Bill payment	TRUE	3	New payee with high value
+T0298	16-10-2024 07:17	jatin@okkotak	yash@okkotak	24622.17	Groceries	TRUE		
+T0299	26-06-2024 03:26	farhan@okkotak	amit@okupi	26527.85	Misc	TRUE		
+T0300	11-11-2024 14:08	riya@okyesbank	riya@okyesbank	42497.16	Transfer	FALSE		
+T0301	10-12-2024 22:05	yash@okaxis	rahul@okkotak	49742.35	Cashback	TRUE	1	New payee with high value
+T0302	13-06-2024 18:57	sita@okhdfc	farhan@okyesbank	30294.41	Payment	FALSE		
+T0303	20-11-2024 10:02	ramesh@oksbi	kiran@okupi	22153.92	Bill payment	TRUE		
+T0304	18-01-2024 19:04	arun@okicici	jatin@okyesbank	13408.91	Groceries	TRUE		
+T0305	14-06-2024 20:30	farhan@oksbi	rohan@okyesbank	9255.13	Payment	FALSE		
+T0306	11-04-2024 19:01	meena@oksbi	sita@okyesbank	11174.69	Payment	TRUE	5	Suspicious amount
+T0307	07-04-2024 03:35	jatin@okupi	rahul@oksbi	10135.35	Groceries	FALSE		
+T0308	29-04-2024 09:19	rohan@oksbi	rohan@okicici	10074.25	Transfer	FALSE	3	Suspicious amount
+T0309	30-07-2024 18:19	kiran@okyesbank	farhan@okhdfc	31715.42	Recharge	FALSE		
+T0310	28-12-2024 01:20	rahul@okaxis	meena@okyesbank	14598.14	Groceries	TRUE	5	Pattern matched fraud
+T0311	29-06-2024 12:08	deepak@okupi	rohan@okaxis	22597.68	Misc	TRUE		
+T0312	01-12-2024 08:51	jatin@okyesbank	kiran@okyesbank	41494.41	Cashback	TRUE	2	Unusual time
+T0313	03-11-2024 12:51	sita@oksbi	kiran@okupi	7986.83	Cashback	TRUE	1	Suspicious amount
+T0314	01-03-2024 16:30	tina@oksbi	meena@oksbi	35585.98	Recharge	TRUE		
+T0315	26-01-2024 01:37	dev@okkotak	karan@okkotak	18969.34	Bill payment	FALSE		
+T0316	26-03-2024 02:17	sita@okaxis	kiran@oksbi	4350.34	Cashback	TRUE		
+T0317	25-07-2024 13:15	amit@okyesbank	kiran@okaxis	23101.48	Transfer	FALSE	3	New payee with high value
+T0318	22-04-2024 09:24	meena@okkotak	meena@okupi	40008.75	Misc	TRUE		
+T0319	24-11-2024 12:59	yash@okyesbank	rohan@okaxis	46769.78	Shopping	TRUE		
+T0320	04-10-2024 18:04	meena@okkotak	dev@okicici	37340.21	Loan repayment	TRUE		
+T0321	03-03-2024 08:55	amit@okkotak	kiran@okicici	10173.41	Cashback	TRUE		
+T0322	27-03-2024 00:07	sita@oksbi	sita@okkotak	40519.36	Recharge	TRUE		
+T0323	10-06-2024 19:32	mohan@okhdfc	neha@okupi	41862.01	Cashback	TRUE	2	New payee with high value
+T0324	18-08-2024 09:28	ramesh@okaxis	dev@okaxis	15472.84	Loan repayment	FALSE		
+T0325	24-06-2024 07:34	deepak@okicici	rahul@okupi	37342.03	Groceries	TRUE		
+T0326	01-04-2024 14:46	mohan@okupi	karan@okicici	32320.95	Transfer	FALSE		
+T0327	04-05-2024 09:15	tina@okupi	farhan@okupi	42010.64	Groceries	FALSE		
+T0328	19-09-2024 21:25	riya@okicici	amit@okkotak	21265.58	Bill payment	FALSE		
+T0329	19-07-2024 02:42	kiran@okaxis	meena@oksbi	24361.9	Payment	FALSE		
+T0330	11-05-2024 11:14	tina@okupi	neha@oksbi	32518.01	Shopping	FALSE		
+T0331	17-07-2024 14:37	meena@oksbi	meena@okaxis	13923.36	Recharge	TRUE		
+T0332	18-07-2024 16:11	mohan@okhdfc	mohan@okkotak	35015.1	Transfer	FALSE		
+T0333	04-02-2024 06:14	mohan@okhdfc	arun@okaxis	1395.7	Payment	FALSE	3	Device anomaly
+T0334	13-07-2024 22:46	arun@oksbi	yash@okhdfc	16316.29	Misc	FALSE	5	Pattern matched fraud
+T0335	12-02-2024 18:16	jatin@okyesbank	karan@okaxis	12187.67	Groceries	TRUE	4	Unusual time
+T0336	19-03-2024 23:15	rahul@okyesbank	jatin@okupi	22237.38	Shopping	FALSE	1	Suspicious amount
+T0337	26-01-2024 03:54	vijay@okupi	farhan@okupi	41778.99	Payment	FALSE	1	Device anomaly
+T0338	13-02-2024 19:28	kiran@oksbi	tina@okupi	23445.87	Misc	FALSE		
+T0339	13-02-2024 15:45	ramesh@oksbi	farhan@okicici	8513.4	Groceries	TRUE		
+T0340	21-10-2024 06:05	arun@oksbi	mohan@okupi	821.67	Loan repayment	TRUE		
+T0341	24-07-2024 02:29	amit@oksbi	amit@okupi	8320.14	Groceries	FALSE		
+T0342	15-01-2024 06:30	amit@okhdfc	deepak@okkotak	12144.79	Misc	TRUE		
+T0343	04-03-2024 18:30	jatin@okicici	yash@okhdfc	11654.26	Loan repayment	FALSE		
+T0344	11-09-2024 23:19	tina@okupi	kiran@okicici	28448.56	Recharge	FALSE		
+T0345	19-08-2024 02:40	arun@okyesbank	karan@okicici	2845.81	Payment	TRUE	4	Abnormal frequency
+T0346	12-01-2024 10:02	meena@okyesbank	ramesh@okyesbank	5099.69	Misc	FALSE		
+T0347	27-11-2024 13:51	mohan@okyesbank	neha@okicici	47665.54	Groceries	TRUE		
+T0348	02-04-2024 10:08	sita@okkotak	deepak@okkotak	49915.15	Loan repayment	FALSE		
+T0349	26-11-2024 09:46	mohan@okhdfc	riya@okaxis	26818.93	Payment	TRUE		
+T0350	01-03-2024 05:52	tina@okicici	sana@oksbi	43856.33	Cashback	FALSE		
+T0351	04-07-2024 12:35	kiran@okupi	farhan@okyesbank	20395.48	Groceries	FALSE		
+T0352	01-04-2024 16:08	rohan@okkotak	rohan@okaxis	38149.81	Misc	FALSE		
+T0353	19-04-2024 17:45	karan@okaxis	vijay@okicici	1232.72	Loan repayment	TRUE		
+T0354	25-12-2024 23:57	neha@okaxis	sana@okkotak	35731.89	Cashback	TRUE		
+T0355	12-10-2024 16:04	arun@okaxis	rohan@okyesbank	31172.72	Groceries	FALSE	5	Device anomaly
+T0356	08-01-2024 13:08	karan@oksbi	mohan@oksbi	695.55	Cashback	FALSE		
+T0357	24-10-2024 20:12	kiran@okaxis	ramesh@okicici	927.37	Shopping	FALSE		
+T0358	31-05-2024 02:19	rohan@okicici	ramesh@okkotak	8602.39	Groceries	FALSE		
+T0359	02-08-2024 09:32	farhan@okyesbank	vijay@okicici	17662.57	Shopping	FALSE		
+T0360	06-09-2024 00:05	deepak@okicici	dev@okicici	5767.75	Food order	FALSE		
+T0361	24-03-2024 18:57	kiran@okkotak	deepak@okaxis	41693.14	Transfer	TRUE		
+T0362	01-08-2024 03:38	jatin@okupi	kiran@okupi	43100.44	Cashback	TRUE		
+T0363	30-08-2024 02:10	rohan@okyesbank	dev@oksbi	22128.99	Groceries	FALSE		
+T0364	14-02-2024 02:24	sana@okyesbank	amit@okkotak	33708.97	Loan repayment	TRUE		
+T0365	08-06-2024 13:46	jatin@oksbi	sana@okupi	16603.34	Groceries	TRUE		
+T0366	10-03-2024 15:49	sana@okupi	meena@okupi	46062.54	Shopping	TRUE		
+T0367	06-07-2024 07:22	meena@okyesbank	arun@okupi	20910.56	Transfer	TRUE	2	Suspicious amount
+T0368	07-11-2024 07:06	farhan@okkotak	kiran@oksbi	44809.53	Bill payment	TRUE		
+T0369	04-03-2024 00:26	rohan@okupi	jatin@okkotak	37721.09	Cashback	TRUE	5	Pattern matched fraud
+T0370	24-02-2024 12:58	yash@okicici	rahul@okyesbank	22353.1	Loan repayment	FALSE		
+T0371	13-09-2024 13:40	dev@okupi	neha@okupi	49951.05	Loan repayment	TRUE		
+T0372	09-11-2024 18:56	kiran@okaxis	sana@okupi	11023.17	Food order	TRUE		
+T0373	26-02-2024 08:15	tina@oksbi	karan@okkotak	19606.57	Transfer	FALSE	1	Abnormal frequency
+T0374	31-10-2024 10:45	sana@okaxis	amit@okicici	11386.83	Recharge	TRUE	3	New payee with high value
+T0375	23-02-2024 07:43	amit@okaxis	rahul@okyesbank	15465.36	Recharge	FALSE		
+T0376	27-03-2024 01:52	rohan@okyesbank	kiran@okkotak	14935.15	Misc	FALSE		
+T0377	04-06-2024 06:39	vijay@okkotak	tina@okkotak	47609.43	Payment	FALSE		
+T0378	25-02-2024 02:39	farhan@oksbi	mohan@okicici	31845.65	Food order	TRUE	2	Pattern matched fraud
+T0379	22-09-2024 21:42	dev@okyesbank	yash@oksbi	32514.01	Cashback	FALSE	5	Abnormal frequency
+T0380	26-06-2024 06:14	dev@okupi	karan@okkotak	713.91	Payment	TRUE	1	Unusual time
+T0381	26-02-2024 00:15	riya@okkotak	sita@okkotak	4540.23	Payment	TRUE		
+T0382	19-07-2024 02:09	vijay@okkotak	mohan@okupi	11173	Food order	TRUE		
+T0383	25-08-2024 14:59	mohan@okhdfc	rahul@okyesbank	33745.82	Payment	FALSE		
+T0384	07-03-2024 00:58	tina@okyesbank	neha@oksbi	1045.1	Recharge	FALSE		
+T0385	12-11-2024 01:30	rahul@oksbi	mohan@oksbi	21812.27	Transfer	TRUE		
+T0386	16-08-2024 22:25	mohan@okkotak	dev@oksbi	8307.72	Payment	FALSE	5	New payee with high value
+T0387	15-03-2024 16:56	riya@okhdfc	vijay@okicici	31075.69	Loan repayment	FALSE		
+T0388	26-06-2024 00:21	rahul@okicici	neha@okupi	22900.6	Cashback	TRUE		
+T0389	08-09-2024 21:27	kiran@okupi	tina@okaxis	1789.46	Recharge	FALSE		
+T0390	28-12-2024 05:31	rohan@oksbi	farhan@okicici	24743.35	Shopping	TRUE		
+T0391	20-09-2024 19:33	mohan@oksbi	deepak@okupi	22263.1	Food order	FALSE		
+T0392	15-10-2024 06:09	yash@okicici	arun@okhdfc	34628.78	Misc	FALSE		
+T0393	23-05-2024 06:43	neha@oksbi	amit@okkotak	7474.31	Cashback	FALSE		
+T0394	02-07-2024 08:09	arun@okhdfc	rohan@okyesbank	38869.09	Shopping	TRUE	4	Device anomaly
+T0395	05-03-2024 01:01	arun@okhdfc	riya@okicici	46028.45	Shopping	TRUE		
+T0396	22-07-2024 10:50	meena@okupi	kiran@okicici	17418.44	Misc	TRUE		
+T0397	25-10-2024 00:24	karan@okkotak	karan@okhdfc	16476.72	Recharge	TRUE		
+T0398	10-02-2024 17:04	deepak@okupi	mohan@okyesbank	44788.16	Food order	TRUE	3	New payee with high value
+T0399	04-02-2024 02:14	sita@okupi	dev@oksbi	42578.72	Recharge	FALSE	5	Pattern matched fraud
+T0400	03-11-2024 14:13	yash@okyesbank	sana@okyesbank	9493.23	Payment	FALSE		
+T0401	08-04-2024 06:56	sana@okyesbank	arun@okupi	13650.92	Shopping	TRUE		
+T0402	12-06-2024 06:18	neha@okhdfc	rahul@okyesbank	30940.29	Bill payment	FALSE		
+T0403	28-02-2024 21:16	rahul@okaxis	amit@okkotak	24423.44	Payment	FALSE		
+T0404	18-03-2024 13:26	neha@okhdfc	meena@okaxis	22086.18	Cashback	FALSE		
+T0405	29-01-2024 19:47	tina@okhdfc	deepak@okaxis	38060.19	Shopping	TRUE		
+T0406	04-07-2024 16:11	mohan@okaxis	dev@okaxis	914	Loan repayment	TRUE		
+T0407	26-05-2024 02:37	mohan@okicici	sita@oksbi	25269.88	Shopping	FALSE		
+T0408	04-10-2024 11:59	sita@okkotak	farhan@okupi	43116.51	Misc	FALSE		
+T0409	06-01-2024 07:14	farhan@okyesbank	farhan@okicici	33747.43	Recharge	FALSE		
+T0410	07-03-2024 05:11	ramesh@okkotak	vijay@okyesbank	6179.22	Cashback	TRUE		
+T0411	25-08-2024 05:21	riya@okicici	meena@okaxis	49551.94	Cashback	FALSE		
+T0412	04-09-2024 15:05	rahul@okhdfc	kiran@oksbi	14093.97	Groceries	TRUE		
+T0413	08-02-2024 06:32	deepak@okkotak	rohan@okkotak	20394.38	Misc	TRUE	4	Device anomaly
+T0414	17-09-2024 11:47	amit@oksbi	farhan@okhdfc	48289.83	Cashback	TRUE		
+T0415	04-09-2024 22:45	sita@oksbi	sana@okupi	21557.51	Payment	FALSE	4	Suspicious amount
+T0416	07-08-2024 07:32	karan@oksbi	amit@okicici	34519.47	Recharge	FALSE		
+T0417	24-12-2024 01:28	tina@okyesbank	mohan@okyesbank	39274.03	Cashback	FALSE		
+T0418	26-07-2024 07:26	farhan@okkotak	rahul@okhdfc	18642.24	Loan repayment	TRUE		
+T0419	20-08-2024 14:57	karan@okkotak	sana@okkotak	7541.47	Transfer	FALSE		
+T0420	23-03-2024 21:45	kiran@okicici	sana@okupi	30525.8	Food order	TRUE	1	Unusual time
+T0421	15-05-2024 14:48	mohan@okicici	amit@okhdfc	36625.14	Payment	TRUE		
+T0422	20-11-2024 05:29	mohan@okupi	deepak@okaxis	4669.72	Transfer	TRUE		
+T0423	12-09-2024 08:23	sana@okhdfc	dev@oksbi	18011.11	Misc	TRUE		
+T0424	16-03-2024 23:56	sana@okyesbank	yash@okyesbank	21938.28	Cashback	TRUE	4	Unusual time
+T0425	03-04-2024 19:16	sita@okaxis	sana@okaxis	13429.32	Groceries	TRUE	5	Pattern matched fraud
+T0426	10-10-2024 03:49	kiran@oksbi	jatin@okyesbank	42295.75	Cashback	TRUE		
+T0427	08-11-2024 08:51	vijay@okhdfc	sana@okupi	8355.3	Groceries	TRUE	4	Abnormal frequency
+T0428	16-01-2024 10:26	sita@okicici	jatin@okkotak	3861.93	Payment	FALSE	4	Device anomaly
+T0429	06-11-2024 12:49	sita@okicici	yash@okupi	5956.01	Misc	FALSE		
+T0430	03-10-2024 07:57	arun@okyesbank	amit@okhdfc	18535.52	Groceries	FALSE	4	Device anomaly
+T0431	04-05-2024 03:21	riya@oksbi	yash@okkotak	1086.39	Food order	FALSE	1	Pattern matched fraud
+T0432	25-11-2024 23:51	sita@okicici	rahul@okicici	33634.81	Bill payment	FALSE		
+T0433	29-11-2024 08:32	mohan@oksbi	neha@oksbi	19457.43	Bill payment	TRUE	3	New payee with high value
+T0434	05-05-2024 21:33	karan@okhdfc	yash@okyesbank	46060.18	Cashback	TRUE		
+T0435	18-11-2024 18:57	farhan@oksbi	mohan@okicici	34043.92	Misc	TRUE		
+T0436	09-10-2024 13:57	dev@okaxis	arun@okkotak	33486.5	Recharge	TRUE	3	Pattern matched fraud
+T0437	29-12-2024 20:47	meena@okicici	riya@okhdfc	35838.36	Recharge	FALSE		
+T0438	16-10-2024 02:50	dev@oksbi	kiran@okhdfc	33954.13	Recharge	FALSE	4	Suspicious amount
+T0439	19-03-2024 17:04	sana@okupi	neha@okaxis	1172.71	Loan repayment	FALSE		
+T0440	10-07-2024 08:08	amit@okupi	tina@okhdfc	44464.85	Transfer	FALSE		
+T0441	03-06-2024 23:12	arun@okaxis	arun@okicici	6366.79	Shopping	FALSE		
+T0442	20-01-2024 17:13	dev@okaxis	mohan@okyesbank	36889.12	Misc	TRUE		
+T0443	01-10-2024 02:10	meena@okaxis	dev@oksbi	21142.49	Transfer	FALSE		
+T0444	25-01-2024 16:26	mohan@okyesbank	vijay@oksbi	14736.53	Payment	TRUE		
+T0445	23-01-2024 22:40	amit@okupi	meena@oksbi	43373.72	Transfer	TRUE		
+T0446	04-03-2024 17:18	rahul@okupi	sita@okicici	7754.26	Groceries	TRUE	3	Abnormal frequency
+T0447	25-02-2024 07:13	meena@okicici	vijay@okicici	43175.56	Transfer	TRUE		
+T0448	01-05-2024 04:01	dev@okaxis	vijay@okaxis	21577.33	Transfer	FALSE		
+T0449	01-08-2024 00:24	jatin@okkotak	tina@okhdfc	31357.78	Shopping	TRUE		
+T0450	15-03-2024 15:31	mohan@okaxis	vijay@okaxis	28915.98	Cashback	TRUE	5	Abnormal frequency
+T0451	16-06-2024 06:33	dev@okyesbank	meena@okaxis	48599.64	Recharge	FALSE	5	Unusual time
+T0452	15-06-2024 09:23	ramesh@okicici	karan@okicici	801.9	Payment	TRUE	5	Unusual time
+T0453	29-10-2024 15:25	tina@okaxis	rohan@okupi	13759	Misc	FALSE	4	Suspicious amount
+T0454	28-07-2024 20:05	amit@okkotak	deepak@okyesbank	12389.17	Payment	FALSE		
+T0455	30-09-2024 10:40	amit@oksbi	amit@okkotak	46780.8	Cashback	TRUE		
+T0456	04-02-2024 19:03	neha@okupi	rahul@okaxis	43650.71	Shopping	TRUE	2	Pattern matched fraud
+T0457	12-10-2024 19:14	amit@okkotak	yash@okupi	1280.52	Misc	FALSE		
+T0458	12-12-2024 23:03	yash@okyesbank	ramesh@okupi	12264.95	Shopping	TRUE		
+T0459	28-03-2024 09:03	karan@oksbi	sita@okupi	42189.31	Food order	FALSE	1	Unusual time
+T0460	05-10-2024 09:41	yash@oksbi	deepak@okkotak	47721.26	Recharge	FALSE		
+T0461	15-04-2024 03:55	sita@okicici	dev@okicici	6497.12	Cashback	FALSE		
+T0462	18-11-2024 01:03	tina@okaxis	ramesh@okupi	17970.57	Payment	TRUE		
+T0463	25-09-2024 02:13	riya@okaxis	tina@okkotak	22896.99	Misc	TRUE		
+T0464	17-03-2024 22:56	farhan@oksbi	meena@okkotak	45402.82	Transfer	FALSE		
+T0465	09-11-2024 07:12	vijay@okkotak	mohan@okicici	43737.59	Cashback	FALSE		
+T0466	21-03-2024 19:50	jatin@okicici	ramesh@okkotak	44120.56	Groceries	FALSE		
+T0467	08-07-2024 14:40	arun@okaxis	mohan@okyesbank	49591.85	Food order	TRUE		
+T0468	16-04-2024 15:58	farhan@okaxis	sita@okkotak	7072.26	Food order	FALSE		
+T0469	14-01-2024 18:18	amit@okkotak	dev@okkotak	1985.43	Cashback	TRUE	5	Device anomaly
+T0470	13-02-2024 00:51	arun@okupi	ramesh@okyesbank	21544.65	Food order	FALSE		
+T0471	19-08-2024 11:12	neha@okhdfc	mohan@okyesbank	23095.47	Loan repayment	FALSE		
+T0472	27-01-2024 11:44	farhan@okyesbank	farhan@okkotak	21360.48	Payment	FALSE		
+T0473	29-05-2024 02:31	kiran@okyesbank	deepak@oksbi	25757.92	Loan repayment	FALSE	4	Unusual time
+T0474	12-06-2024 13:49	dev@okkotak	kiran@okaxis	26834.11	Cashback	TRUE	4	New payee with high value
+T0475	12-01-2024 08:59	mohan@okaxis	yash@okupi	3466.24	Cashback	FALSE	1	Suspicious amount
+T0476	10-05-2024 04:44	arun@okaxis	karan@oksbi	6417.94	Recharge	TRUE		
+T0477	28-02-2024 17:21	deepak@okkotak	deepak@okhdfc	29227.06	Transfer	TRUE		
+T0478	13-05-2024 00:40	deepak@okyesbank	sita@okhdfc	33485.98	Recharge	FALSE		
+T0479	23-09-2024 22:40	karan@okaxis	vijay@okkotak	32147.88	Transfer	TRUE		
+T0480	20-09-2024 15:55	rahul@okaxis	sana@okyesbank	11568.28	Cashback	TRUE	3	Suspicious amount
+T0481	26-02-2024 10:18	kiran@okhdfc	rahul@okicici	24558.8	Misc	TRUE		
+T0482	11-06-2024 20:26	riya@okicici	neha@okyesbank	20006.9	Groceries	TRUE	5	Unusual time
+T0483	27-05-2024 19:44	rahul@okkotak	arun@okicici	37281.94	Food order	FALSE		
+T0484	01-12-2024 08:11	deepak@okupi	ramesh@oksbi	16291.04	Food order	TRUE	3	Suspicious amount
+T0485	31-08-2024 21:34	rohan@okkotak	rohan@oksbi	16996.57	Food order	TRUE		
+T0486	21-12-2024 02:09	rahul@okicici	sana@okhdfc	4473.39	Loan repayment	TRUE	3	Unusual time
+T0487	09-05-2024 10:27	karan@okicici	sita@oksbi	6858.81	Payment	TRUE		
+T0488	06-10-2024 16:42	farhan@okicici	arun@oksbi	14417.87	Misc	TRUE		
+T0489	26-08-2024 00:34	amit@okicici	arun@okicici	14522.12	Misc	TRUE		
+T0490	24-06-2024 12:43	yash@okkotak	sita@okyesbank	29587.06	Loan repayment	FALSE		
+T0491	12-12-2024 11:47	farhan@okupi	sana@okicici	21816.36	Loan repayment	FALSE		
+T0492	05-09-2024 22:02	amit@okaxis	rohan@okkotak	9235.27	Groceries	FALSE		
+T0493	13-07-2024 06:51	karan@okkotak	ramesh@oksbi	5645.86	Groceries	TRUE	5	Abnormal frequency
+T0494	31-10-2024 02:16	yash@okkotak	karan@okicici	29083.14	Shopping	FALSE	4	Suspicious amount
+T0495	03-07-2024 17:04	rohan@okupi	tina@okupi	8430.73	Groceries	TRUE		
+T0496	07-09-2024 08:35	arun@okhdfc	meena@okhdfc	38000.82	Groceries	TRUE	3	Unusual time
+T0497	16-04-2024 23:56	mohan@okkotak	deepak@okicici	13506.17	Shopping	TRUE		
+T0498	28-05-2024 17:05	kiran@okaxis	meena@okhdfc	38299.49	Bill payment	FALSE	3	Abnormal frequency
+T0499	21-12-2024 18:28	arun@okkotak	riya@okkotak	13814.84	Transfer	FALSE		
+T0500	21-09-2024 03:24	rohan@oksbi	rohan@okupi	32026.13	Groceries	FALSE		
+T0501	14-06-2024 20:12	amit@okkotak	jatin@okaxis	485.29	Shopping	TRUE		
+T0502	24-06-2024 14:13	jatin@okhdfc	arun@okicici	16698.31	Food order	FALSE		
+T0503	27-02-2024 12:05	yash@oksbi	sana@okicici	38315.3	Recharge	TRUE		
+T0504	26-12-2024 20:59	kiran@oksbi	meena@okaxis	38150.79	Bill payment	TRUE		
+T0505	15-11-2024 08:01	jatin@okkotak	sita@okhdfc	36884.35	Shopping	FALSE		
+T0506	05-09-2024 19:19	neha@okyesbank	neha@okhdfc	11131.78	Shopping	TRUE		
+T0507	23-02-2024 07:16	arun@okyesbank	karan@okyesbank	29727.56	Groceries	FALSE	3	Pattern matched fraud
+T0508	12-12-2024 05:41	vijay@okupi	rahul@okhdfc	14639.31	Shopping	TRUE		
+T0509	21-09-2024 04:39	amit@okkotak	amit@okhdfc	13181.09	Misc	TRUE		
+T0510	15-09-2024 02:40	yash@okicici	dev@okyesbank	26797.46	Loan repayment	FALSE		
+T0511	14-03-2024 02:13	arun@okkotak	yash@oksbi	24080.17	Groceries	TRUE		
+T0512	27-06-2024 18:02	sita@okupi	sita@okupi	140.62	Cashback	TRUE		
+T0513	08-12-2024 15:35	yash@okyesbank	riya@okicici	10025.04	Cashback	FALSE		
+T0514	03-02-2024 04:04	rahul@oksbi	mohan@okicici	46382.49	Recharge	TRUE	3	Abnormal frequency
+T0515	04-10-2024 14:54	rahul@okyesbank	karan@oksbi	42094.68	Groceries	FALSE	2	Pattern matched fraud
+T0516	06-10-2024 17:07	yash@oksbi	dev@okupi	39407.78	Transfer	FALSE		
+T0517	10-02-2024 12:15	farhan@okicici	sana@okaxis	33522.79	Shopping	FALSE		
+T0518	12-05-2024 14:26	kiran@okupi	karan@okkotak	14793.49	Loan repayment	TRUE		
+T0519	09-07-2024 02:34	rahul@oksbi	yash@oksbi	186.43	Food order	TRUE		
+T0520	13-01-2024 17:30	farhan@okicici	neha@okyesbank	31030.8	Recharge	FALSE		
+T0521	27-07-2024 05:49	jatin@okaxis	jatin@oksbi	16731.98	Cashback	FALSE	5	Unusual time
+T0522	14-05-2024 18:45	meena@oksbi	karan@okhdfc	35832.08	Transfer	TRUE	5	Suspicious amount
+T0523	14-02-2024 00:17	vijay@okhdfc	sana@okaxis	9105.28	Misc	FALSE		
+T0524	04-09-2024 00:46	rahul@okkotak	riya@okaxis	28873.67	Payment	FALSE		
+T0525	09-03-2024 08:36	riya@okyesbank	sana@okaxis	11130.51	Food order	TRUE		
+T0526	25-03-2024 22:38	ramesh@okhdfc	jatin@oksbi	45510.4	Transfer	TRUE		
+T0527	22-08-2024 03:34	tina@okyesbank	jatin@okkotak	29465.51	Food order	FALSE		
+T0528	22-01-2024 23:58	rahul@okaxis	rohan@okhdfc	48485.59	Shopping	TRUE		
+T0529	13-04-2024 06:37	karan@okupi	karan@okicici	1318.68	Food order	TRUE		
+T0530	08-04-2024 07:30	meena@oksbi	tina@okkotak	28799.57	Payment	FALSE		
+T0531	16-09-2024 21:25	arun@okyesbank	mohan@okupi	18463.44	Payment	TRUE		
+T0532	28-04-2024 10:06	tina@okyesbank	meena@okhdfc	17963.5	Food order	FALSE	2	Suspicious amount
+T0533	02-02-2024 19:07	rahul@okaxis	vijay@oksbi	38520.99	Bill payment	TRUE		
+T0534	28-08-2024 03:31	meena@okupi	riya@okhdfc	32707.97	Misc	FALSE	3	New payee with high value
+T0535	16-02-2024 22:47	karan@okaxis	vijay@okhdfc	25737.65	Shopping	FALSE		
+T0536	11-03-2024 22:51	neha@okaxis	karan@okaxis	22674.16	Misc	FALSE		
+T0537	20-08-2024 01:01	neha@okkotak	rohan@okhdfc	32297.43	Bill payment	FALSE		
+T0538	16-09-2024 04:18	rohan@oksbi	amit@oksbi	26741.32	Transfer	TRUE		
+T0539	18-03-2024 20:43	deepak@okicici	rahul@okkotak	3524.81	Recharge	TRUE		
+T0540	15-04-2024 09:25	mohan@okicici	neha@okaxis	45694.5	Cashback	TRUE		
+T0541	30-01-2024 10:18	mohan@okyesbank	farhan@okaxis	41357.7	Misc	FALSE		
+T0542	04-06-2024 13:24	riya@oksbi	deepak@okicici	40056.44	Payment	FALSE		
+T0543	13-04-2024 18:56	yash@okaxis	meena@oksbi	14928.56	Recharge	FALSE		
+T0544	19-05-2024 10:35	sita@okyesbank	yash@okyesbank	1956.84	Food order	FALSE		
+T0545	30-06-2024 23:54	kiran@okhdfc	riya@okhdfc	24214.38	Bill payment	TRUE		
+T0546	23-01-2024 02:44	sita@okyesbank	amit@okaxis	30956.76	Misc	TRUE		
+T0547	13-07-2024 15:15	rahul@okyesbank	dev@oksbi	33260.4	Bill payment	FALSE		
+T0548	01-07-2024 16:49	rohan@okhdfc	arun@okicici	1144.54	Cashback	TRUE	5	New payee with high value
+T0549	13-06-2024 07:49	rohan@okkotak	dev@oksbi	42373.68	Misc	TRUE		
+T0550	22-04-2024 19:53	sana@okkotak	rohan@okicici	13255.8	Loan repayment	TRUE		
+T0551	26-12-2024 16:52	neha@okaxis	ramesh@okaxis	716.52	Transfer	FALSE		
+T0552	18-09-2024 15:05	rahul@okicici	farhan@okyesbank	24216.99	Recharge	FALSE	1	Unusual time
+T0553	12-07-2024 18:54	jatin@okupi	yash@okupi	34161.3	Groceries	TRUE		
+T0554	04-04-2024 06:05	arun@oksbi	rahul@okyesbank	38900.99	Bill payment	TRUE		
+T0555	24-07-2024 06:57	neha@okupi	jatin@oksbi	29526.89	Misc	TRUE		
+T0556	08-05-2024 18:08	karan@okupi	rahul@oksbi	12134.96	Bill payment	TRUE		
+T0557	14-07-2024 19:56	rohan@okicici	riya@okyesbank	33146.5	Shopping	TRUE		
+T0558	23-03-2024 10:21	kiran@okhdfc	kiran@oksbi	3480.58	Payment	TRUE	4	New payee with high value
+T0559	04-12-2024 03:56	yash@oksbi	mohan@okkotak	12709.26	Cashback	TRUE		
+T0560	07-02-2024 21:28	jatin@okkotak	meena@okupi	12587.05	Misc	FALSE		
+T0561	14-07-2024 05:18	neha@okhdfc	dev@okupi	41124.28	Bill payment	FALSE		
+T0562	20-02-2024 03:46	deepak@okaxis	farhan@okicici	5379.04	Groceries	FALSE	4	Unusual time
+T0563	04-02-2024 19:43	kiran@okhdfc	tina@okkotak	37662.18	Transfer	FALSE		
+T0564	14-11-2024 01:29	riya@okicici	dev@okupi	44435.02	Recharge	TRUE	2	Abnormal frequency
+T0565	22-09-2024 15:13	neha@okkotak	riya@oksbi	24234.93	Shopping	FALSE		
+T0566	02-08-2024 22:54	farhan@okkotak	amit@okhdfc	43152.79	Cashback	TRUE		
+T0567	19-05-2024 12:02	yash@oksbi	vijay@okupi	47223.85	Bill payment	FALSE	3	Pattern matched fraud
+T0568	30-05-2024 08:23	karan@okupi	yash@okupi	42578.17	Misc	FALSE		
+T0569	14-07-2024 13:23	tina@okaxis	rahul@okyesbank	15371.25	Payment	TRUE		
+T0570	04-07-2024 01:04	dev@okupi	ramesh@okaxis	28662.84	Food order	FALSE		
+T0571	24-04-2024 01:21	yash@okicici	tina@okaxis	1838.77	Loan repayment	TRUE	5	Device anomaly
+T0572	17-02-2024 00:16	riya@okicici	jatin@okupi	33541.11	Recharge	FALSE		
+T0573	09-06-2024 10:39	farhan@okupi	rahul@okupi	4250.55	Food order	FALSE	4	Pattern matched fraud
+T0574	30-11-2024 13:56	kiran@oksbi	meena@oksbi	34458.83	Shopping	TRUE		
+T0575	03-11-2024 14:47	mohan@okaxis	deepak@okyesbank	39915.8	Food order	TRUE		
+T0576	17-01-2024 02:17	tina@okhdfc	vijay@okaxis	20775.51	Bill payment	TRUE		
+T0577	16-07-2024 19:23	riya@oksbi	deepak@okkotak	6940.79	Bill payment	FALSE	5	Suspicious amount
+T0578	06-11-2024 17:55	deepak@okicici	yash@oksbi	7015.76	Recharge	FALSE	1	Device anomaly
+T0579	17-11-2024 08:04	riya@okkotak	rohan@oksbi	32270.73	Food order	TRUE		
+T0580	21-08-2024 07:00	farhan@okicici	sita@okicici	18529.15	Loan repayment	TRUE		
+T0581	04-06-2024 19:48	mohan@okyesbank	meena@okicici	10865.17	Payment	FALSE		
+T0582	28-06-2024 16:38	jatin@okyesbank	meena@okicici	1634.41	Cashback	FALSE	2	Unusual time
+T0583	13-12-2024 22:31	neha@okaxis	rohan@okyesbank	49711.06	Loan repayment	TRUE		
+T0584	29-11-2024 07:46	jatin@okaxis	yash@okyesbank	456.54	Cashback	TRUE		
+T0585	10-03-2024 18:53	arun@okicici	farhan@okyesbank	28522.81	Shopping	FALSE	1	Pattern matched fraud
+T0586	04-03-2024 07:04	farhan@okaxis	rohan@okkotak	29600.54	Shopping	FALSE		
+T0587	08-09-2024 12:05	neha@oksbi	meena@okyesbank	15106.9	Transfer	FALSE		
+T0588	07-11-2024 14:01	kiran@oksbi	arun@okaxis	34504.74	Bill payment	FALSE		
+T0589	02-03-2024 12:30	dev@okkotak	amit@okhdfc	31970.86	Payment	TRUE	2	Pattern matched fraud
+T0590	10-11-2024 18:26	vijay@okkotak	ramesh@okhdfc	36704.2	Loan repayment	FALSE	3	Unusual time
+T0591	02-11-2024 19:51	mohan@okhdfc	yash@okkotak	2253.11	Bill payment	TRUE		
+T0592	25-11-2024 00:26	amit@okicici	neha@okyesbank	13971.3	Shopping	FALSE		
+T0593	08-08-2024 03:53	neha@okyesbank	neha@okyesbank	39389.23	Payment	TRUE		
+T0594	12-02-2024 01:23	mohan@okupi	meena@okkotak	49335.69	Payment	TRUE		
+T0595	08-01-2024 23:02	rohan@okkotak	neha@okyesbank	37444.78	Payment	TRUE		
+T0596	22-01-2024 18:37	sana@oksbi	arun@okaxis	4886.99	Cashback	TRUE		
+T0597	02-06-2024 11:55	neha@okkotak	yash@okhdfc	3953.53	Food order	TRUE		
+T0598	05-08-2024 12:02	tina@okicici	tina@okyesbank	1155.38	Recharge	TRUE		
+T0599	27-04-2024 13:00	rohan@okaxis	sita@okyesbank	22348.42	Shopping	TRUE	4	Abnormal frequency
+T0600	30-09-2024 16:46	vijay@okhdfc	farhan@oksbi	15886.64	Groceries	TRUE		
+T0601	14-09-2024 05:05	farhan@okicici	rahul@okyesbank	34606.28	Groceries	TRUE		
+T0602	22-01-2024 19:06	tina@okaxis	amit@oksbi	4781.21	Transfer	FALSE		
+T0603	28-02-2024 07:03	deepak@okhdfc	mohan@okicici	46696.56	Cashback	TRUE		
+T0604	18-10-2024 08:09	karan@okupi	vijay@okyesbank	40664.98	Misc	TRUE	1	Abnormal frequency
+T0605	22-03-2024 11:55	farhan@okupi	farhan@okupi	16852.17	Loan repayment	TRUE		
+T0606	25-04-2024 03:18	jatin@okaxis	amit@okkotak	41841.95	Bill payment	TRUE		
+T0607	09-10-2024 13:35	rohan@okyesbank	vijay@oksbi	14391.16	Misc	TRUE		
+T0608	02-10-2024 06:54	karan@okicici	deepak@okyesbank	28031.45	Cashback	TRUE	5	Abnormal frequency
+T0609	19-03-2024 11:58	kiran@okyesbank	neha@okkotak	1099.86	Recharge	TRUE		
+T0610	29-04-2024 09:05	dev@okaxis	ramesh@okaxis	38183.96	Cashback	FALSE		
+T0611	14-12-2024 18:02	sita@okhdfc	ramesh@oksbi	26625.58	Transfer	FALSE		
+T0612	22-10-2024 10:46	rohan@okaxis	tina@oksbi	24316.76	Recharge	TRUE	5	Suspicious amount
+T0613	17-07-2024 15:59	deepak@okyesbank	riya@oksbi	32326.78	Shopping	TRUE		
+T0614	18-03-2024 08:42	yash@okicici	arun@okaxis	47414.56	Payment	TRUE	5	Pattern matched fraud
+T0615	20-04-2024 05:04	sana@okupi	karan@okicici	17214.9	Misc	FALSE		
+T0616	05-07-2024 23:28	kiran@okyesbank	sita@okicici	44830.28	Groceries	FALSE		
+T0617	19-08-2024 15:25	kiran@okaxis	amit@okupi	44284.38	Bill payment	FALSE		
+T0618	12-04-2024 06:17	rahul@okaxis	arun@okicici	39946.74	Recharge	FALSE		
+T0619	12-12-2024 20:40	rahul@okaxis	vijay@okicici	15938.33	Recharge	FALSE		
+T0620	17-10-2024 17:14	riya@okyesbank	dev@okaxis	20168.58	Cashback	FALSE		
+T0621	26-06-2024 06:36	dev@okhdfc	vijay@oksbi	34435.21	Recharge	TRUE		
+T0622	20-06-2024 05:11	vijay@okaxis	tina@okyesbank	21106.12	Transfer	TRUE		
+T0623	18-12-2024 22:01	karan@okhdfc	rohan@oksbi	44539.13	Cashback	TRUE		
+T0624	30-03-2024 10:53	sita@okicici	meena@oksbi	44692.31	Payment	FALSE	3	Unusual time
+T0625	16-04-2024 03:28	riya@okicici	meena@okkotak	49709.69	Transfer	TRUE		
+T0626	20-03-2024 00:47	farhan@okupi	kiran@okupi	42177.3	Groceries	FALSE	1	Abnormal frequency
+T0627	03-08-2024 09:57	riya@okyesbank	kiran@okyesbank	4485	Food order	TRUE		
+T0628	22-05-2024 07:27	rahul@okyesbank	arun@okyesbank	34079.07	Payment	TRUE		
+T0629	06-08-2024 13:56	dev@okupi	karan@okyesbank	23677.98	Cashback	TRUE		
+T0630	13-12-2024 20:23	farhan@okaxis	farhan@okhdfc	24120.01	Loan repayment	TRUE		
+T0631	24-08-2024 02:29	tina@okyesbank	sana@oksbi	42710.61	Recharge	TRUE		
+T0632	01-03-2024 03:56	sana@oksbi	rohan@okupi	6945.48	Payment	TRUE		
+T0633	16-01-2024 01:05	dev@okicici	vijay@okyesbank	11647.71	Cashback	FALSE		
+T0634	21-07-2024 19:26	deepak@okyesbank	deepak@okhdfc	27770.73	Cashback	TRUE		
+T0635	06-08-2024 10:41	neha@okicici	dev@okicici	12842.51	Bill payment	TRUE	3	Pattern matched fraud
+T0636	08-04-2024 10:54	arun@okkotak	dev@okupi	12173	Food order	TRUE		
+T0637	13-12-2024 11:44	rahul@okkotak	farhan@okupi	36498.96	Bill payment	FALSE		
+T0638	20-06-2024 11:19	arun@okkotak	vijay@oksbi	44276.83	Payment	FALSE	4	Device anomaly
+T0639	22-09-2024 01:07	karan@okupi	yash@okicici	13882.38	Misc	TRUE	4	New payee with high value
+T0640	30-05-2024 15:48	yash@okyesbank	karan@oksbi	2604.16	Loan repayment	TRUE	1	Unusual time
+T0641	17-04-2024 01:39	karan@okupi	tina@okupi	17374.6	Recharge	TRUE	5	Unusual time
+T0642	19-12-2024 15:21	farhan@okhdfc	meena@okicici	7225.52	Payment	TRUE	5	Suspicious amount
+T0643	05-01-2024 12:57	neha@okhdfc	deepak@okupi	30296.24	Payment	TRUE	3	Suspicious amount
+T0644	23-07-2024 04:07	vijay@okhdfc	mohan@okupi	26304.28	Cashback	TRUE		
+T0645	06-07-2024 13:04	mohan@okhdfc	dev@oksbi	1702	Groceries	FALSE		
+T0646	07-03-2024 13:14	meena@okkotak	yash@okkotak	44245.01	Food order	FALSE	4	Unusual time
+T0647	05-09-2024 21:04	karan@okaxis	neha@okkotak	6102.26	Shopping	TRUE	1	New payee with high value
+T0648	05-05-2024 19:14	dev@okkotak	karan@okkotak	925.99	Transfer	TRUE		
+T0649	23-11-2024 17:08	farhan@okaxis	yash@okkotak	38426.35	Recharge	TRUE	1	Suspicious amount
+T0650	18-03-2024 10:01	karan@okyesbank	deepak@okyesbank	22723.14	Food order	FALSE	5	Pattern matched fraud
+T0651	01-06-2024 10:12	karan@okyesbank	tina@okkotak	24586.86	Cashback	TRUE	4	Abnormal frequency
+T0652	20-12-2024 04:15	yash@okyesbank	rohan@okupi	1621.23	Bill payment	FALSE	4	Suspicious amount
+T0653	15-06-2024 06:21	yash@okkotak	rohan@okicici	41053.05	Transfer	TRUE		
+T0654	28-10-2024 13:08	rohan@okyesbank	amit@okaxis	41969.08	Bill payment	FALSE		
+T0655	05-03-2024 07:48	tina@okaxis	kiran@okkotak	22788.77	Loan repayment	TRUE		
+T0656	16-12-2024 12:56	karan@okicici	ramesh@oksbi	23375.17	Food order	FALSE	2	Unusual time
+T0657	09-05-2024 19:23	jatin@okkotak	yash@okyesbank	35820.11	Recharge	TRUE		
+T0658	08-09-2024 15:01	meena@oksbi	sana@okaxis	23715.35	Loan repayment	FALSE		
+T0659	27-10-2024 20:37	ramesh@okupi	yash@oksbi	20562.37	Groceries	FALSE		
+T0660	07-09-2024 20:10	ramesh@okaxis	neha@okyesbank	43970.79	Shopping	TRUE	5	Abnormal frequency
+T0661	18-05-2024 12:01	deepak@okupi	arun@okkotak	33158.82	Transfer	FALSE		
+T0662	18-12-2024 14:12	meena@okicici	mohan@okicici	20314.38	Recharge	TRUE	3	Device anomaly
+T0663	26-07-2024 21:21	vijay@okaxis	ramesh@okicici	33047.08	Transfer	FALSE	1	Unusual time
+T0664	15-09-2024 08:39	deepak@oksbi	neha@okhdfc	15546.12	Loan repayment	FALSE		
+T0665	08-02-2024 06:42	karan@okyesbank	amit@okyesbank	13183.49	Food order	TRUE		
+T0666	24-06-2024 06:59	tina@okyesbank	meena@okkotak	26531.75	Recharge	FALSE		
+T0667	14-09-2024 00:22	farhan@okkotak	mohan@okhdfc	14940.19	Transfer	TRUE		
+T0668	09-04-2024 03:29	sita@okhdfc	rohan@oksbi	35184.56	Misc	TRUE	4	Abnormal frequency
+T0669	26-08-2024 06:35	rohan@okaxis	meena@oksbi	9741.53	Food order	TRUE		
+T0670	12-06-2024 01:43	meena@okhdfc	sita@okicici	22441.35	Cashback	TRUE		
+T0671	20-06-2024 09:01	deepak@okkotak	jatin@okhdfc	33455.45	Groceries	TRUE		
+T0672	23-03-2024 20:53	mohan@okupi	yash@okupi	42698.78	Bill payment	FALSE		
+T0673	10-07-2024 05:50	tina@okicici	neha@okhdfc	18292.43	Food order	TRUE	5	New payee with high value
+T0674	23-05-2024 08:18	ramesh@okyesbank	meena@okyesbank	20575.19	Loan repayment	FALSE		
+T0675	23-01-2024 10:41	vijay@okupi	tina@okhdfc	33813.55	Transfer	TRUE	2	Abnormal frequency
+T0676	05-07-2024 12:16	ramesh@okicici	amit@okkotak	6896.05	Misc	TRUE	5	Unusual time
+T0677	16-04-2024 13:06	vijay@okaxis	dev@okyesbank	36547.45	Transfer	FALSE		
+T0678	26-01-2024 09:30	arun@oksbi	rahul@oksbi	42943.29	Shopping	TRUE		
+T0679	13-05-2024 22:48	jatin@okupi	neha@okhdfc	16639.84	Loan repayment	TRUE	1	Pattern matched fraud
+T0680	07-01-2024 19:29	rahul@okupi	mohan@okyesbank	19616.24	Recharge	TRUE		
+T0681	14-02-2024 12:18	dev@okhdfc	yash@okyesbank	47343.99	Loan repayment	FALSE		
+T0682	20-10-2024 22:26	kiran@okupi	dev@okicici	35552.84	Shopping	TRUE		
+T0683	07-12-2024 05:26	riya@okicici	sana@oksbi	19149.64	Loan repayment	TRUE		
+T0684	07-09-2024 20:09	sana@okkotak	karan@okyesbank	2409.38	Recharge	FALSE	4	Pattern matched fraud
+T0685	04-09-2024 01:27	riya@okaxis	amit@okhdfc	20788.49	Transfer	TRUE	4	Device anomaly
+T0686	03-06-2024 01:40	sana@okaxis	sita@okaxis	15290.54	Cashback	FALSE		
+T0687	10-05-2024 02:40	jatin@okyesbank	yash@okyesbank	49802.67	Food order	FALSE		
+T0688	26-12-2024 01:57	sita@okkotak	neha@okhdfc	12798.97	Shopping	TRUE	4	Suspicious amount
+T0689	27-08-2024 07:40	vijay@okyesbank	jatin@okaxis	38167.19	Recharge	FALSE		
+T0690	20-04-2024 11:51	riya@okaxis	riya@okaxis	32085.17	Payment	FALSE		
+T0691	05-12-2024 07:03	karan@okkotak	ramesh@okyesbank	13380.68	Groceries	TRUE	5	Suspicious amount
+T0692	04-05-2024 23:05	arun@okicici	sita@okkotak	40266.26	Cashback	FALSE		
+T0693	07-12-2024 13:38	farhan@oksbi	rohan@oksbi	8636.7	Bill payment	TRUE		
+T0694	13-01-2024 00:42	vijay@okaxis	mohan@okhdfc	22166.03	Shopping	FALSE		
+T0695	08-07-2024 05:08	amit@okicici	amit@okupi	42033.56	Payment	TRUE		
+T0696	25-05-2024 00:28	jatin@okyesbank	amit@okupi	31275.82	Bill payment	FALSE		
+T0697	27-12-2024 06:24	arun@okyesbank	sita@okyesbank	32181.16	Shopping	TRUE		
+T0698	02-12-2024 01:52	karan@okkotak	mohan@okyesbank	25938.68	Food order	TRUE		
+T0699	11-09-2024 00:55	yash@okkotak	ramesh@okyesbank	24279.8	Bill payment	TRUE	4	Device anomaly
+T0700	24-04-2024 07:34	meena@okaxis	jatin@okhdfc	30738.5	Cashback	TRUE	1	Device anomaly
+T0701	11-11-2024 04:06	farhan@okaxis	dev@okupi	9010.54	Misc	TRUE		
+T0702	28-04-2024 07:53	sita@okkotak	ramesh@okupi	7200.19	Loan repayment	FALSE		
+T0703	07-04-2024 01:18	rohan@oksbi	riya@oksbi	20186.38	Groceries	TRUE		
+T0704	17-07-2024 10:10	riya@okupi	vijay@okyesbank	29747.59	Loan repayment	TRUE		
+T0705	06-02-2024 11:03	mohan@okicici	rohan@okhdfc	47997.27	Payment	FALSE		
+T0706	23-12-2024 15:56	neha@okhdfc	tina@okhdfc	8678.31	Payment	TRUE		
+T0707	15-03-2024 21:44	kiran@okhdfc	farhan@okhdfc	21911.03	Misc	TRUE		
+T0708	10-03-2024 16:15	neha@okhdfc	yash@okyesbank	32164.84	Bill payment	TRUE		
+T0709	29-04-2024 11:06	amit@oksbi	kiran@okkotak	35603.03	Misc	TRUE		
+T0710	02-07-2024 08:54	sita@okicici	kiran@okyesbank	8219.87	Transfer	TRUE	1	Abnormal frequency
+T0711	30-11-2024 04:30	sana@okhdfc	sana@oksbi	38383.19	Payment	FALSE		
+T0712	21-07-2024 03:59	rahul@okyesbank	ramesh@okhdfc	9014.13	Shopping	TRUE		
+T0713	22-01-2024 15:43	meena@okicici	deepak@okyesbank	23351.03	Groceries	FALSE		
+T0714	25-11-2024 07:22	vijay@okaxis	farhan@okaxis	9675.74	Recharge	TRUE		
+T0715	27-04-2024 09:03	jatin@oksbi	ramesh@okkotak	19206.13	Cashback	TRUE		
+T0716	01-07-2024 20:01	farhan@okkotak	arun@okhdfc	41551.03	Groceries	FALSE		
+T0717	05-04-2024 11:52	amit@okaxis	jatin@okicici	44802.5	Transfer	TRUE		
+T0718	01-05-2024 07:44	kiran@okupi	sana@okkotak	48240.67	Shopping	TRUE		
+T0719	05-10-2024 10:17	sana@okupi	riya@okupi	848.29	Misc	FALSE		
+T0720	30-06-2024 17:46	riya@okyesbank	rohan@okhdfc	23788.2	Loan repayment	TRUE		
+T0721	17-12-2024 12:34	deepak@okupi	arun@okhdfc	8956.14	Loan repayment	TRUE	3	Unusual time
+T0722	07-04-2024 20:12	meena@okyesbank	dev@okaxis	39218.22	Loan repayment	FALSE	2	New payee with high value
+T0723	01-09-2024 13:46	sita@okhdfc	karan@okkotak	22563.3	Payment	FALSE		
+T0724	27-08-2024 19:45	kiran@oksbi	tina@okupi	1172.25	Groceries	TRUE		
+T0725	16-01-2024 00:25	yash@okhdfc	amit@okaxis	37086.15	Food order	TRUE	1	Device anomaly
+T0726	23-07-2024 18:03	farhan@oksbi	rahul@oksbi	38710.68	Misc	TRUE		
+T0727	29-09-2024 20:36	rahul@okicici	sana@okkotak	45232.45	Recharge	TRUE		
+T0728	17-08-2024 21:11	deepak@okkotak	farhan@okaxis	3716.99	Bill payment	FALSE		
+T0729	27-09-2024 20:47	tina@okaxis	mohan@oksbi	11900.66	Cashback	FALSE		
+T0730	25-04-2024 00:24	arun@okaxis	rahul@okyesbank	7060.49	Cashback	TRUE		
+T0731	03-10-2024 00:44	sana@okupi	meena@okaxis	37220.6	Recharge	TRUE		
+T0732	18-10-2024 16:31	sana@okupi	dev@okkotak	1874.24	Cashback	FALSE		
+T0733	24-05-2024 10:52	arun@oksbi	karan@okkotak	2064.46	Bill payment	FALSE		
+T0734	08-06-2024 08:14	rohan@okkotak	neha@okkotak	38652.04	Recharge	TRUE		
+T0735	13-09-2024 02:20	dev@okhdfc	yash@okhdfc	26684.97	Bill payment	FALSE		
+T0736	17-07-2024 11:22	arun@okyesbank	farhan@okkotak	5878.62	Groceries	FALSE		
+T0737	04-11-2024 20:32	yash@okicici	neha@okicici	898.36	Food order	TRUE		
+T0738	14-07-2024 21:31	yash@okkotak	arun@okaxis	19185.51	Cashback	FALSE	1	Abnormal frequency
+T0739	07-11-2024 15:12	tina@okyesbank	tina@okaxis	41387.49	Loan repayment	FALSE	3	New payee with high value
+T0740	27-06-2024 01:44	farhan@okaxis	sita@okkotak	44180.23	Loan repayment	TRUE		
+T0741	03-02-2024 03:32	mohan@okkotak	arun@okhdfc	49095.57	Shopping	TRUE	4	New payee with high value
+T0742	30-03-2024 11:24	kiran@okhdfc	sita@oksbi	32855.51	Recharge	FALSE		
+T0743	01-10-2024 05:19	amit@okyesbank	dev@okkotak	31761.12	Shopping	TRUE	3	Pattern matched fraud
+T0744	05-12-2024 01:46	sita@okupi	neha@okicici	24252.79	Loan repayment	FALSE		
+T0745	08-12-2024 05:32	neha@oksbi	mohan@oksbi	7621.44	Bill payment	TRUE		
+T0746	05-08-2024 15:52	amit@okaxis	rohan@okicici	12974.65	Misc	TRUE		
+T0747	18-05-2024 03:53	rohan@oksbi	karan@okhdfc	17999.98	Bill payment	FALSE		
+T0748	09-11-2024 10:58	vijay@oksbi	yash@oksbi	30992.52	Loan repayment	FALSE		
+T0749	30-12-2024 13:18	tina@okupi	kiran@oksbi	2773.86	Bill payment	FALSE	5	Pattern matched fraud
+T0750	17-11-2024 13:12	amit@okkotak	sita@okyesbank	49895.91	Transfer	FALSE		
+T0751	17-02-2024 17:49	ramesh@okhdfc	neha@okicici	13413.19	Shopping	TRUE		
+T0752	23-02-2024 05:39	karan@okhdfc	dev@okhdfc	28132.83	Loan repayment	TRUE		
+T0753	23-12-2024 14:38	riya@oksbi	vijay@okhdfc	6930.67	Transfer	FALSE	4	Device anomaly
+T0754	29-12-2024 03:59	jatin@oksbi	rahul@okicici	5796.27	Bill payment	FALSE		
+T0755	28-06-2024 14:56	tina@okaxis	tina@okhdfc	17497.53	Shopping	FALSE		
+T0756	13-04-2024 20:33	neha@okhdfc	deepak@okicici	34318.43	Loan repayment	TRUE		
+T0757	15-03-2024 14:32	arun@okyesbank	deepak@okyesbank	36835.96	Food order	FALSE		
+T0758	27-08-2024 12:06	amit@okupi	amit@okyesbank	4597.13	Cashback	TRUE		
+T0759	10-05-2024 05:03	farhan@okaxis	riya@okhdfc	31171.61	Transfer	TRUE	3	Pattern matched fraud
+T0760	31-05-2024 13:50	karan@okyesbank	vijay@okyesbank	14281.82	Loan repayment	FALSE		
+T0761	14-01-2024 21:52	kiran@okhdfc	vijay@okyesbank	34424.44	Recharge	FALSE	1	Device anomaly
+T0762	27-12-2024 14:52	jatin@okupi	meena@okkotak	18615.31	Food order	FALSE		
+T0763	14-01-2024 17:27	karan@okkotak	karan@okaxis	44722.32	Food order	TRUE	2	Device anomaly
+T0764	12-02-2024 14:21	rohan@okkotak	amit@okhdfc	9950.7	Groceries	FALSE		
+T0765	15-05-2024 00:28	yash@okhdfc	mohan@okicici	37000.68	Recharge	TRUE	5	Suspicious amount
+T0766	07-04-2024 07:46	kiran@okkotak	yash@okaxis	43301.22	Cashback	TRUE		
+T0767	30-11-2024 01:11	rohan@okkotak	neha@okaxis	37986.35	Bill payment	TRUE		
+T0768	23-12-2024 03:19	karan@okhdfc	amit@okaxis	11331.51	Groceries	FALSE		
+T0769	09-04-2024 12:43	mohan@okicici	vijay@okhdfc	977.43	Cashback	TRUE		
+T0770	06-11-2024 21:13	neha@okhdfc	farhan@okkotak	18358.18	Recharge	FALSE		
+T0771	13-01-2024 10:58	meena@okkotak	meena@okkotak	15501.93	Groceries	FALSE	4	Unusual time
+T0772	07-08-2024 00:09	rohan@okhdfc	neha@okkotak	22030.26	Shopping	FALSE		
+T0773	05-06-2024 01:44	sita@okicici	mohan@oksbi	6280.92	Groceries	FALSE	5	Pattern matched fraud
+T0774	13-02-2024 18:05	deepak@okkotak	mohan@oksbi	3945.47	Groceries	FALSE		
+T0775	18-07-2024 20:22	ramesh@okaxis	arun@oksbi	3642.16	Recharge	FALSE		
+T0776	19-09-2024 03:19	tina@okaxis	karan@okaxis	16262.31	Shopping	FALSE		
+T0777	14-12-2024 05:23	karan@okyesbank	rahul@okyesbank	5039.95	Groceries	TRUE		
+T0778	24-02-2024 22:41	yash@okkotak	karan@okupi	30895.34	Groceries	FALSE		
+T0779	27-08-2024 21:15	karan@okkotak	arun@okkotak	8429.15	Groceries	TRUE		
+T0780	09-03-2024 10:16	jatin@okicici	amit@okupi	15218.6	Transfer	FALSE		
+T0781	30-08-2024 07:53	farhan@okyesbank	neha@okicici	19402.16	Transfer	TRUE		
+T0782	16-05-2024 05:12	kiran@okaxis	jatin@okyesbank	23565.92	Transfer	TRUE		
+T0783	02-05-2024 13:18	kiran@okupi	sita@okaxis	34333.37	Transfer	TRUE		
+T0784	30-10-2024 17:31	jatin@oksbi	deepak@oksbi	33255.65	Groceries	FALSE		
+T0785	26-06-2024 02:19	sita@oksbi	riya@okaxis	25831.63	Shopping	TRUE		
+T0786	27-03-2024 13:15	arun@okyesbank	rohan@okicici	8013.96	Misc	TRUE		
+T0787	07-11-2024 07:05	riya@okkotak	rahul@okupi	32350.51	Bill payment	FALSE		
+T0788	04-06-2024 14:25	kiran@okupi	kiran@oksbi	17885.58	Bill payment	TRUE		
+T0789	30-01-2024 05:40	neha@okicici	tina@okyesbank	26926.19	Recharge	TRUE		
+T0790	11-09-2024 18:27	amit@okaxis	sana@oksbi	13611.56	Groceries	FALSE	4	Device anomaly
+T0791	28-08-2024 03:54	meena@okaxis	deepak@okkotak	38584.13	Loan repayment	FALSE		
+T0792	18-08-2024 12:21	ramesh@okyesbank	kiran@oksbi	38229.06	Payment	FALSE	1	New payee with high value
+T0793	24-09-2024 21:15	sita@okaxis	karan@okupi	46628.51	Misc	TRUE		
+T0794	18-01-2024 08:45	kiran@okicici	amit@okupi	44378.69	Shopping	FALSE	1	Abnormal frequency
+T0795	15-04-2024 04:49	farhan@okhdfc	jatin@okupi	4675.32	Shopping	FALSE	3	New payee with high value
+T0796	07-06-2024 16:34	riya@okkotak	rohan@okupi	37432.36	Loan repayment	FALSE		
+T0797	21-08-2024 00:25	mohan@okkotak	rohan@okicici	14560.09	Bill payment	FALSE		
+T0798	15-08-2024 10:38	sana@okhdfc	yash@okhdfc	38240.89	Cashback	FALSE		
+T0799	20-10-2024 07:26	karan@okaxis	riya@okupi	6947.48	Misc	TRUE		
+T0800	21-08-2024 21:30	neha@okicici	meena@oksbi	26602.95	Groceries	TRUE		
+T0801	11-07-2024 11:28	arun@okaxis	dev@okkotak	33282.74	Groceries	TRUE		
+T0802	07-04-2024 12:48	tina@okupi	ramesh@okupi	8676.43	Misc	FALSE		
+T0803	17-09-2024 10:36	rohan@okicici	vijay@okaxis	39577.47	Loan repayment	FALSE		
+T0804	27-03-2024 19:21	rohan@okhdfc	ramesh@okicici	2444.66	Cashback	FALSE		
+T0805	07-05-2024 18:17	mohan@okyesbank	riya@okyesbank	31583.71	Bill payment	FALSE		
+T0806	20-11-2024 02:29	deepak@okhdfc	vijay@okicici	47052.32	Transfer	FALSE		
+T0807	26-04-2024 07:53	yash@okyesbank	sita@okhdfc	26252.75	Shopping	FALSE		
+T0808	29-03-2024 21:56	neha@okkotak	dev@oksbi	4658.25	Loan repayment	FALSE		
+T0809	02-11-2024 04:12	jatin@okhdfc	karan@okhdfc	20155.63	Recharge	FALSE	3	Suspicious amount
+T0810	22-01-2024 10:06	vijay@okyesbank	deepak@okicici	17125.75	Bill payment	FALSE		
+T0811	28-09-2024 06:57	tina@okkotak	yash@oksbi	18274.43	Bill payment	TRUE	3	Device anomaly
+T0812	24-02-2024 22:21	sana@okkotak	riya@okupi	44441.39	Groceries	TRUE		
+T0813	01-03-2024 10:28	yash@okkotak	kiran@okupi	10292.85	Food order	FALSE		
+T0814	23-12-2024 20:45	kiran@okkotak	sana@okaxis	19300.22	Food order	FALSE		
+T0815	14-09-2024 01:33	jatin@okaxis	rahul@okhdfc	43145.46	Food order	TRUE		
+T0816	08-08-2024 11:44	kiran@okhdfc	ramesh@okupi	12725.67	Loan repayment	TRUE	5	Unusual time
+T0817	07-04-2024 13:03	riya@okhdfc	rahul@okhdfc	39010.92	Payment	FALSE		
+T0818	08-05-2024 22:48	kiran@okupi	tina@okupi	10653.57	Bill payment	TRUE		
+T0819	03-03-2024 10:20	ramesh@okyesbank	yash@okupi	34379.49	Shopping	FALSE		
+T0820	19-03-2024 14:49	deepak@okaxis	rohan@okkotak	33611.62	Groceries	FALSE	4	Device anomaly
+T0821	24-08-2024 16:53	dev@okupi	vijay@okyesbank	34848.85	Transfer	FALSE		
+T0822	11-12-2024 02:47	arun@okhdfc	kiran@okicici	21732.05	Payment	FALSE	2	Unusual time
+T0823	22-05-2024 20:12	mohan@okupi	jatin@okkotak	40285.92	Transfer	FALSE		
+T0824	28-12-2024 07:37	ramesh@okaxis	rahul@okyesbank	14063.32	Loan repayment	TRUE	3	New payee with high value
+T0825	11-12-2024 22:35	sita@okupi	rohan@oksbi	31943.5	Shopping	TRUE	4	Suspicious amount
+T0826	04-09-2024 13:28	riya@okkotak	sana@okhdfc	13179.48	Transfer	FALSE		
+T0827	02-03-2024 05:31	riya@okaxis	rohan@okupi	31453.68	Shopping	FALSE		
+T0828	19-05-2024 21:42	ramesh@okyesbank	kiran@okaxis	45552.68	Groceries	FALSE		
+T0829	30-05-2024 15:49	farhan@okupi	mohan@okaxis	31691.27	Misc	FALSE		
+T0830	07-05-2024 21:38	yash@okyesbank	ramesh@okkotak	38326.26	Cashback	TRUE		
+T0831	15-12-2024 20:27	kiran@okhdfc	farhan@okaxis	29434.87	Shopping	TRUE		
+T0832	20-12-2024 06:21	rohan@okicici	neha@okyesbank	49011.86	Recharge	TRUE		
+T0833	02-12-2024 01:57	arun@okhdfc	farhan@okupi	26690.97	Misc	TRUE		
+T0834	20-08-2024 18:09	dev@okupi	neha@okaxis	21154.44	Food order	FALSE		
+T0835	18-10-2024 18:28	kiran@okhdfc	riya@okaxis	28067.24	Bill payment	FALSE	4	Unusual time
+T0836	11-12-2024 10:18	jatin@okkotak	riya@okicici	31034.1	Cashback	FALSE	3	Suspicious amount
+T0837	08-01-2024 04:52	farhan@okhdfc	rahul@okyesbank	11818.19	Cashback	FALSE		
+T0838	09-06-2024 16:02	rohan@okkotak	arun@oksbi	369.25	Recharge	FALSE		
+T0839	25-07-2024 22:56	arun@okicici	kiran@okupi	735.2	Transfer	TRUE		
+T0840	02-01-2024 17:02	sana@okicici	neha@okaxis	4456.2	Shopping	TRUE		
+T0841	30-12-2024 11:49	vijay@okupi	sana@okicici	49982.63	Loan repayment	TRUE	3	Suspicious amount
+T0842	29-05-2024 19:58	riya@okyesbank	arun@okyesbank	45772.24	Transfer	TRUE	5	Suspicious amount
+T0843	04-11-2024 14:27	amit@oksbi	sana@okyesbank	31252.87	Groceries	FALSE	5	Unusual time
+T0844	27-02-2024 13:39	kiran@okicici	rohan@okyesbank	9404.92	Groceries	TRUE		
+T0845	01-05-2024 23:58	kiran@okkotak	mohan@okaxis	21805.71	Transfer	FALSE		
+T0846	31-07-2024 07:57	vijay@okicici	arun@okhdfc	18079.04	Shopping	FALSE		
+T0847	10-01-2024 10:22	neha@okyesbank	kiran@okyesbank	20710.12	Bill payment	TRUE	5	New payee with high value
+T0848	22-04-2024 01:57	rohan@okupi	farhan@okyesbank	21496.64	Loan repayment	TRUE	2	Suspicious amount
+T0849	16-06-2024 11:13	tina@oksbi	sita@okhdfc	29549.63	Groceries	FALSE		
+T0850	26-02-2024 08:26	sana@okupi	mohan@okkotak	39293.77	Food order	TRUE	2	Suspicious amount
+T0851	03-09-2024 03:28	sita@oksbi	sita@okicici	24208.57	Loan repayment	FALSE		
+T0852	19-07-2024 17:11	rahul@okupi	sita@oksbi	39450.64	Transfer	FALSE	4	New payee with high value
+T0853	06-10-2024 02:53	neha@okupi	deepak@okhdfc	22462.49	Misc	TRUE	4	Abnormal frequency
+T0854	26-05-2024 07:23	deepak@okyesbank	sita@okkotak	39501.14	Cashback	FALSE		
+T0855	02-10-2024 23:57	riya@okupi	rohan@okhdfc	40100.19	Misc	FALSE		
+T0856	27-09-2024 19:27	yash@okicici	amit@okupi	40992.74	Recharge	TRUE		
+T0857	08-11-2024 18:54	neha@oksbi	rohan@oksbi	19064.39	Food order	FALSE		
+T0858	21-05-2024 09:53	ramesh@oksbi	sana@okupi	49846.69	Recharge	FALSE		
+T0859	29-10-2024 22:58	arun@okupi	rahul@okicici	41985.56	Food order	FALSE	2	Abnormal frequency
+T0860	08-10-2024 15:31	neha@okaxis	tina@okicici	1557.32	Bill payment	FALSE		
+T0861	05-04-2024 06:31	sana@okhdfc	neha@okaxis	34650.58	Recharge	FALSE		
+T0862	12-08-2024 16:16	arun@okupi	deepak@okkotak	14247.77	Payment	TRUE	3	Device anomaly
+T0863	23-03-2024 17:54	tina@okkotak	rohan@okupi	10421.04	Cashback	TRUE		
+T0864	06-09-2024 10:06	farhan@okaxis	neha@okyesbank	27191.69	Shopping	FALSE		
+T0865	28-10-2024 08:37	arun@okupi	mohan@okkotak	33010.51	Bill payment	FALSE	1	Unusual time
+T0866	29-03-2024 05:10	ramesh@okupi	kiran@oksbi	48695.99	Misc	FALSE	1	Suspicious amount
+T0867	08-09-2024 01:52	dev@okyesbank	deepak@okaxis	45941.59	Groceries	FALSE		
+T0868	18-05-2024 00:47	deepak@okaxis	rahul@okupi	20152.82	Misc	FALSE		
+T0869	28-09-2024 17:25	sita@okhdfc	yash@oksbi	15261.35	Groceries	TRUE		
+T0870	15-03-2024 20:07	amit@okicici	rahul@okhdfc	27012.03	Misc	FALSE		
+T0871	23-03-2024 12:30	sita@okkotak	rahul@okaxis	34831.25	Transfer	TRUE		
+T0872	18-05-2024 15:40	sita@okicici	amit@okkotak	38504.72	Payment	FALSE		
+T0873	16-08-2024 18:58	vijay@oksbi	kiran@okaxis	12966.18	Groceries	TRUE		
+T0874	22-02-2024 08:09	vijay@okkotak	karan@okicici	12440.36	Groceries	FALSE		
+T0875	14-11-2024 05:39	dev@okicici	sana@okaxis	47028.68	Cashback	FALSE	1	New payee with high value
+T0876	21-10-2024 20:55	jatin@oksbi	vijay@okicici	48138.11	Groceries	TRUE		
+T0877	12-01-2024 04:27	yash@okkotak	yash@okaxis	32792.39	Bill payment	TRUE		
+T0878	14-06-2024 13:08	riya@okyesbank	vijay@oksbi	42797.96	Bill payment	TRUE		
+T0879	04-08-2024 00:09	yash@oksbi	sana@okhdfc	13260.13	Misc	FALSE		
+T0880	24-03-2024 00:05	meena@okicici	riya@okupi	48564.58	Payment	TRUE		
+T0881	26-12-2024 07:23	tina@okkotak	riya@okicici	20485.42	Groceries	FALSE		
+T0882	20-11-2024 13:05	meena@okyesbank	karan@okkotak	39405.18	Food order	TRUE		
+T0883	16-06-2024 11:57	ramesh@okkotak	amit@okicici	4309.13	Transfer	FALSE		
+T0884	25-05-2024 01:25	jatin@okicici	dev@okicici	31007.31	Bill payment	FALSE	2	Abnormal frequency
+T0885	07-02-2024 05:48	deepak@okkotak	sana@oksbi	16087.25	Shopping	TRUE		
+T0886	10-12-2024 07:41	jatin@okhdfc	riya@okicici	21140.72	Transfer	TRUE		
+T0887	09-11-2024 11:04	rohan@okhdfc	rahul@oksbi	30453.17	Food order	TRUE		
+T0888	27-03-2024 06:38	farhan@okaxis	ramesh@okhdfc	46492.25	Food order	FALSE		
+T0889	03-10-2024 16:01	rahul@okkotak	rohan@okaxis	2707.41	Groceries	FALSE		
+T0890	28-10-2024 00:29	dev@oksbi	yash@okhdfc	7998.87	Misc	TRUE	1	Unusual time
+T0891	31-03-2024 07:35	rahul@okkotak	kiran@okyesbank	7425.93	Transfer	FALSE	5	Suspicious amount
+T0892	05-08-2024 03:35	neha@okyesbank	amit@okhdfc	12544.92	Payment	TRUE		
+T0893	03-05-2024 04:07	jatin@okicici	dev@okhdfc	35456.1	Shopping	FALSE		
+T0894	23-02-2024 21:32	ramesh@oksbi	riya@okhdfc	14681.14	Loan repayment	TRUE		
+T0895	11-04-2024 06:40	deepak@okaxis	jatin@okicici	3820.14	Bill payment	TRUE		
+T0896	08-01-2024 15:34	jatin@okicici	ramesh@okaxis	21826.12	Shopping	TRUE		
+T0897	23-02-2024 08:13	arun@okkotak	ramesh@okicici	36235.89	Shopping	FALSE		
+T0898	28-09-2024 05:10	sana@okaxis	arun@okkotak	2987.86	Loan repayment	TRUE		
+T0899	19-08-2024 05:41	deepak@okyesbank	mohan@oksbi	17659.36	Cashback	TRUE		
+T0900	22-09-2024 15:37	neha@okkotak	deepak@oksbi	27402.82	Misc	FALSE		
+T0901	09-10-2024 00:46	jatin@okkotak	riya@okupi	39570.35	Misc	TRUE	4	Suspicious amount
+T0902	21-07-2024 18:52	riya@okaxis	rahul@oksbi	105.72	Groceries	TRUE		
+T0903	06-08-2024 07:02	neha@okyesbank	yash@okhdfc	19685.58	Groceries	TRUE		
+T0904	15-11-2024 09:54	tina@okicici	kiran@okicici	44581.5	Food order	TRUE		
+T0905	24-10-2024 21:39	rohan@oksbi	sana@okicici	34849.03	Misc	FALSE		
+T0906	01-02-2024 21:53	neha@okhdfc	neha@oksbi	35748.54	Recharge	TRUE		
+T0907	09-10-2024 03:07	mohan@okkotak	deepak@okicici	12799.31	Cashback	TRUE		
+T0908	12-12-2024 14:45	farhan@okyesbank	arun@okicici	10083.89	Recharge	TRUE		
+T0909	10-09-2024 16:28	rohan@okhdfc	mohan@okyesbank	3421.32	Cashback	FALSE		
+T0910	08-08-2024 18:09	amit@okupi	rohan@okyesbank	21362.16	Shopping	TRUE		
+T0911	17-09-2024 10:28	mohan@okyesbank	jatin@okupi	22303.48	Transfer	TRUE		
+T0912	16-08-2024 23:18	sana@oksbi	kiran@okicici	17034.03	Loan repayment	FALSE	3	Device anomaly
+T0913	15-11-2024 23:40	arun@oksbi	arun@okicici	37965.26	Transfer	FALSE		
+T0914	28-01-2024 20:16	farhan@oksbi	vijay@okaxis	21483.02	Transfer	TRUE		
+T0915	27-03-2024 09:38	arun@okyesbank	deepak@okicici	18840.7	Recharge	FALSE	4	Unusual time
+T0916	16-10-2024 01:30	sana@okkotak	jatin@okhdfc	18859.4	Recharge	FALSE		
+T0917	21-01-2024 12:37	amit@okkotak	yash@oksbi	48255.75	Misc	FALSE		
+T0918	05-10-2024 10:20	amit@okkotak	vijay@okicici	46567.36	Misc	FALSE	5	New payee with high value
+T0919	25-07-2024 04:05	rahul@okkotak	kiran@okkotak	39164.28	Payment	TRUE		
+T0920	05-07-2024 18:44	sana@okupi	ramesh@oksbi	38437.9	Recharge	TRUE		
+T0921	09-08-2024 18:44	neha@okkotak	rohan@okicici	20662.45	Misc	TRUE	4	Suspicious amount
+T0922	15-11-2024 12:04	rohan@okyesbank	ramesh@okyesbank	21042.44	Payment	TRUE		
+T0923	22-04-2024 16:11	meena@okupi	dev@okhdfc	39114.29	Transfer	TRUE		
+T0924	01-04-2024 20:26	vijay@oksbi	dev@okhdfc	26361.15	Cashback	TRUE		
+T0925	19-08-2024 22:24	rohan@okaxis	farhan@okhdfc	22576.68	Loan repayment	FALSE		
+T0926	07-09-2024 13:06	deepak@okkotak	deepak@okupi	32872.9	Misc	TRUE	5	Abnormal frequency
+T0927	21-01-2024 23:40	farhan@okicici	yash@okhdfc	14990.06	Shopping	TRUE		
+T0928	18-10-2024 19:26	mohan@okkotak	meena@oksbi	45815.85	Shopping	TRUE		
+T0929	17-06-2024 10:12	farhan@okupi	meena@okupi	19008.07	Payment	TRUE		
+T0930	23-03-2024 07:13	kiran@okupi	sana@okaxis	13433.23	Food order	FALSE		
+T0931	08-06-2024 05:45	vijay@oksbi	amit@okyesbank	31875.01	Food order	TRUE		
+T0932	16-08-2024 06:28	arun@okicici	vijay@okkotak	38866.77	Food order	FALSE	5	Suspicious amount
+T0933	15-06-2024 21:24	jatin@okupi	mohan@okkotak	42641.32	Shopping	FALSE		
+T0934	29-11-2024 04:52	rohan@okhdfc	sana@oksbi	28079.61	Loan repayment	TRUE		
+T0935	07-03-2024 23:17	sana@okaxis	yash@okkotak	23785.25	Food order	FALSE		
+T0936	19-11-2024 19:10	amit@okicici	mohan@okhdfc	34241.94	Food order	TRUE		
+T0937	03-12-2024 11:29	ramesh@oksbi	arun@okicici	22796.95	Payment	TRUE		
+T0938	10-09-2024 00:02	vijay@oksbi	mohan@oksbi	19126.49	Bill payment	TRUE		
+T0939	11-05-2024 00:01	karan@okaxis	arun@okyesbank	38049.14	Food order	FALSE	3	Abnormal frequency
+T0940	17-02-2024 21:17	farhan@okyesbank	rahul@okkotak	39061.73	Loan repayment	TRUE		
+T0941	25-11-2024 16:36	arun@okaxis	riya@okkotak	24704.18	Transfer	TRUE	3	Device anomaly
+T0942	17-12-2024 17:48	neha@okyesbank	neha@okkotak	29069.11	Bill payment	TRUE		
+T0943	14-11-2024 00:17	ramesh@okaxis	sita@okaxis	10926.89	Food order	FALSE		
+T0944	28-05-2024 21:07	meena@okkotak	amit@okaxis	29463.22	Payment	TRUE		
+T0945	21-12-2024 04:44	ramesh@okyesbank	amit@okicici	15392.92	Food order	FALSE		
+T0946	19-05-2024 00:04	neha@okkotak	rahul@okupi	31037.01	Misc	TRUE		
+T0947	14-02-2024 14:52	deepak@okupi	rohan@okyesbank	10989.88	Misc	FALSE	5	New payee with high value
+T0948	18-05-2024 18:38	arun@okicici	mohan@okyesbank	12280.78	Payment	FALSE		
+T0949	08-01-2024 13:36	tina@okupi	kiran@okkotak	18968.4	Food order	FALSE	2	Pattern matched fraud
+T0950	06-08-2024 01:01	jatin@okaxis	rohan@okyesbank	26340.72	Shopping	FALSE	1	Suspicious amount
+T0951	10-05-2024 13:06	arun@okhdfc	deepak@okupi	28385.76	Cashback	FALSE	3	Device anomaly
+T0952	23-11-2024 05:36	arun@okaxis	farhan@okupi	25630.89	Shopping	TRUE		
+T0953	17-08-2024 11:19	farhan@okhdfc	tina@okicici	26706.37	Shopping	FALSE		
+T0954	26-06-2024 17:56	vijay@okyesbank	karan@okyesbank	14395.95	Recharge	TRUE		
+T0955	31-07-2024 15:18	dev@okupi	karan@okaxis	39984.77	Cashback	TRUE		
+T0956	29-11-2024 17:53	rahul@okyesbank	jatin@okyesbank	23591.92	Shopping	FALSE		
+T0957	30-09-2024 15:39	yash@okkotak	jatin@okyesbank	20085.97	Bill payment	FALSE		
+T0958	16-02-2024 21:03	karan@okaxis	farhan@okyesbank	2739.24	Cashback	TRUE		
+T0959	29-05-2024 14:19	rahul@okhdfc	rohan@okupi	33982.41	Shopping	TRUE		
+T0960	06-11-2024 02:20	vijay@okupi	karan@okupi	39624.09	Payment	FALSE		
+T0961	02-06-2024 15:38	karan@okyesbank	mohan@okaxis	3223.64	Transfer	FALSE		
+T0962	03-12-2024 18:57	meena@okicici	tina@okupi	37789.95	Shopping	TRUE		
+T0963	23-06-2024 08:29	kiran@okkotak	farhan@okhdfc	22799.46	Transfer	FALSE	4	Unusual time
+T0964	25-09-2024 10:01	ramesh@oksbi	jatin@okyesbank	33937.99	Food order	FALSE		
+T0965	27-08-2024 04:51	amit@oksbi	arun@okyesbank	9241.9	Misc	FALSE		
+T0966	08-01-2024 08:15	meena@okyesbank	riya@okupi	20631.64	Transfer	TRUE	5	Pattern matched fraud
+T0967	07-10-2024 02:10	amit@okyesbank	farhan@oksbi	49230.21	Misc	TRUE		
+T0968	22-02-2024 08:54	rahul@oksbi	arun@okkotak	24629.45	Groceries	FALSE		
+T0969	31-01-2024 18:25	sana@okkotak	yash@okkotak	48318.82	Bill payment	FALSE		
+T0970	20-01-2024 05:22	amit@oksbi	amit@okyesbank	42262.45	Misc	TRUE	3	Unusual time
+T0971	28-08-2024 23:03	yash@oksbi	tina@oksbi	17691.18	Misc	FALSE	5	Device anomaly
+T0972	15-10-2024 12:08	kiran@okaxis	jatin@okkotak	34461.48	Shopping	TRUE	2	Abnormal frequency
+T0973	25-02-2024 20:55	ramesh@okicici	riya@oksbi	12193.8	Payment	TRUE		
+T0974	14-08-2024 03:45	karan@okhdfc	dev@okicici	8858.65	Misc	TRUE		
+T0975	10-03-2024 09:54	mohan@oksbi	amit@okicici	45726.4	Bill payment	FALSE		
+T0976	06-08-2024 01:03	jatin@okyesbank	riya@okupi	30754.58	Misc	TRUE	2	Suspicious amount
+T0977	03-12-2024 23:58	deepak@okaxis	tina@okicici	9605.23	Loan repayment	TRUE		
+T0978	08-11-2024 10:42	meena@okyesbank	sana@okicici	44814.23	Groceries	FALSE	3	Abnormal frequency
+T0979	21-01-2024 13:41	meena@okhdfc	deepak@okupi	43199.33	Groceries	TRUE		
+T0980	20-11-2024 03:27	dev@okyesbank	riya@okyesbank	7229.26	Recharge	FALSE	5	Pattern matched fraud
+T0981	18-06-2024 20:39	sita@okupi	neha@okupi	8066.05	Cashback	TRUE		
+T0982	07-07-2024 03:32	meena@okyesbank	karan@okupi	43081.23	Shopping	TRUE		
+T0983	25-05-2024 20:18	rahul@okicici	mohan@okicici	6356.78	Payment	TRUE		
+T0984	01-10-2024 09:52	ramesh@okupi	tina@okyesbank	24646.65	Shopping	TRUE		
+T0985	28-02-2024 09:38	arun@okupi	tina@okhdfc	31405.16	Payment	FALSE		
+T0986	31-05-2024 08:18	karan@oksbi	rohan@okkotak	9822.39	Recharge	TRUE		
+T0987	12-04-2024 18:59	dev@okyesbank	riya@okicici	43209.41	Misc	TRUE		
+T0988	26-08-2024 01:51	amit@okyesbank	ramesh@okhdfc	33902.87	Payment	TRUE	3	Pattern matched fraud
+T0989	25-12-2024 15:50	rahul@okaxis	rohan@okaxis	17447.58	Groceries	TRUE		
+T0990	14-07-2024 16:13	dev@okkotak	farhan@oksbi	25238.71	Food order	FALSE	3	New payee with high value
+T0991	16-11-2024 06:55	jatin@oksbi	sana@oksbi	23238.51	Recharge	TRUE		
+T0992	22-08-2024 02:27	rohan@okyesbank	jatin@okicici	10384.54	Bill payment	TRUE		
+T0993	30-09-2024 12:09	karan@okicici	neha@okhdfc	41840.91	Cashback	TRUE		
+T0994	12-01-2024 01:08	rahul@oksbi	ramesh@okaxis	14896.85	Recharge	FALSE		
+T0995	20-05-2024 03:24	ramesh@okkotak	dev@okaxis	42777.6	Recharge	FALSE	2	Device anomaly
+T0996	25-09-2024 00:23	mohan@okyesbank	jatin@okupi	42818.63	Groceries	TRUE		
+T0997	22-03-2024 20:56	jatin@okaxis	dev@okupi	24264.84	Loan repayment	TRUE	4	New payee with high value
+T0998	07-02-2024 05:55	ramesh@okaxis	yash@okupi	46809.94	Recharge	FALSE		
+T0999	20-01-2024 05:23	deepak@okupi	jatin@okhdfc	27702.82	Bill payment	TRUE		
+T1000	07-12-2024 20:58	deepak@okhdfc	rohan@okupi	41881.23	Transfer	TRUE		
